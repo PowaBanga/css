@@ -1,91 +1,98 @@
 /*
-  DarkMonoAlt - Modifié par HBO pour HDF
-  Puis modifié par EVOTk pour HDF ^^
-  -----------------------------------------------------
+DarkMonoAlt - Modifié par HBO pour HDF
+Puis modifié par EVOTk pour HDF ^^
+-----------------------------------------------------
 
-  Original DarkMono v2 by htrd (a.hatred@gmail.com)
-  Modified by beats for Redacted
-  Original terms of use / license information:
+Original DarkMono v2 by htrd (a.hatred@gmail.com)
+Modified by beats for Redacted
+Original terms of use / license information:
 
-  Everything is copyright 2012 htrd.
-  Distributed under the Creative Commons BY-NC-ND 3.0 License:
-    * You may copy, distribute and transmit this stylesheet and it's associated elements, unaltered and in their entirety, so long as you
-      give proper credit for the creation and design of these elements to htrd and include this written notice of such credit.
-    * You may not use any aspect of this stylesheet or it's design elements for any commercial or public purposes.
-    * You may not alter, transform, or build upon this stylesheet for public use.
-    * By using this stylesheet and it's associated elements, you agree to these Terms of Use and also that these Terms of Use may change at any time, with or without notice.
-  Made exclusively for use on What.CD in 2012.
-*/
+Everything is copyright 2012 htrd.
+Distributed under the Creative Commons BY-NC-ND 3.0 License:
+ * You may copy, distribute and transmit this stylesheet and it's associated elements, unaltered and in their entirety, so long as you
+ give proper credit for the creation and design of these elements to htrd and include this written notice of such credit.
+ * You may not use any aspect of this stylesheet or it's design elements for any commercial or public purposes.
+ * You may not alter, transform, or build upon this stylesheet for public use.
+ * By using this stylesheet and it's associated elements, you agree to these Terms of Use and also that these Terms of Use may change at any time, with or without notice.
+ Made exclusively for use on What.CD in 2012.
+ */
 :root{
-  --background1: #222;
-  --background2: rgba(42, 68, 93, 0.1);
-  --light-grey: #9A9A9A;
-  --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
-  --blue1:  #528ba3;
-  --light-blue: #456478;
+    --background1: #222;
+    --background2: rgba(42, 68, 93, 0.1);
+    --light-grey: #9A9A9A;
+    --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+    --blue1:  #528ba3;
+    --light-blue: #456478;
 }
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
 }
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
-  background:  var(--background1);
-  color: var(--light-grey);
-  text-shadow: var(--text-shadow);
-  font: 0.95em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  var(--background1);
+    color: var(--light-grey);
+    text-shadow: var(--text-shadow);
+    font: 0.95em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 div#userinfo {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 div#menu ul {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 div#searchbars ul {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 .box {
-  /* font-size: 10pt; */
-  font-size: 0.95em !important;
+    /* font-size: 10pt; */
+    font-size: 0.95em !important;
 }
 
 
 
 /*Accueil body*/
 body#index div#wrapper div#content div.thin {
-  position: ;
-  display: flex;
+    position: ;
+    display: flex;
 }
 
 .sidebar {
-  position: relative;
-  width: 10%;
-  left: 88%;
+    position: relative;
+    width: 10%;
+    left: 88%;
 }
 
 .main_column {
-  /* left: 0px; */
-  position: relative;
-  width: 80%;
-  left: -5%;
+    /* left: 0px; */
+    position: relative;
+    width: 80%;
+    left: -5%;
 }
 
-
+#content {
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.group_torrent span, .torrent span {
+    font-size: 0.94em !important;
+}
