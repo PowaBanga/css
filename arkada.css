@@ -67,7 +67,9 @@ div#searchbars ul {
     font-size: 0.95em !important;
 }
 
-
+.header, .linkbox, .search_form {
+width: 100%;
+}
 
 /*Accueil body*/
 /*body#index div#wrapper div#content */
@@ -75,6 +77,7 @@ div.thin {
     position: ;
     display: flex;
     width: 100% !important;
+    flex-wrap: wrap;
 }
 
 .sidebar {
