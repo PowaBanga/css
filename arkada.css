@@ -16,6 +16,11 @@
     * By using this stylesheet and it's associated elements, you agree to these Terms of Use and also that these Terms of Use may change at any time, with or without notice.
   Made exclusively for use on What.CD in 2012.
 */
+:root{
+  --background1: #222;
+  --light-grey: #9A9A9A;
+  --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -37,7 +42,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #222;
+  background:  var(--background1);
   color: #9A9A9A;
   text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
   font: 13px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
@@ -277,7 +282,7 @@ input#pollquestionfield,
   display: none;
 }
 .stats strong {
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #coverart.box ul.collage_images img {
   width: calc(100% - 4px) !important;
@@ -484,7 +489,7 @@ canvas#similarArtistsCanvas {
   background-color: rgba(100, 100, 100, 0.15);
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 .filter_torrents {
   margin-bottom: 15px !important;
@@ -492,14 +497,14 @@ canvas#similarArtistsCanvas {
   background-color: rgba(100, 100, 100, 0.15);
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #forums .colhead_dark strong > a {
   text-transform: none;
 }
 #forums #searchforum .search_form {
   width: 970px;
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #forums #searchforum.center {
   margin-top: 10px;
@@ -712,7 +717,7 @@ canvas#similarArtistsCanvas {
 #userinfo_stats a,
 .tags a:hover,
 .search_form {
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #menu .active a {
   color: #F9A440 !important;
@@ -1354,7 +1359,7 @@ textarea {
   background: rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
-  color: #9A9A9A;
+  color: var(--light-grey);
   transition: 0.25s ease-in-out;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
@@ -1658,7 +1663,7 @@ li.graph .center_poll {
   padding: 10px !important;
   background-color: rgba(100, 100, 100, 0.15);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 .cats_col td.center:nth-child(2) {
   width: 25px;
@@ -2128,7 +2133,7 @@ a[title="Delete Alias"],
   background-color: rgba(45, 45, 45, 0.95);
   border-color: rgba(0, 0, 0, 0.95);
   border-width: 1px;
-  color: #9A9A9A;
+  color: var(--light-grey);
   -webkit-box-shadow: 0 2px 3px black;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
@@ -2141,7 +2146,7 @@ a[title="Delete Alias"],
 #noty_bottomRight_layout_container > li {
   background-color: rgba(45, 45, 45, 0.85) !important;
   border-color: rgba(0, 0, 0, 0.95) !important;
-  color: #9A9A9A !important;
+  color: var(--light-grey) !important;
 }
 .noty_bar div {
   background-color: inherit !important;
@@ -2183,7 +2188,7 @@ a[title="Delete Alias"],
   margin-bottom: 10px;
   background-color: rgba(100, 100, 100, 0.15);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 .snatches img {
   width: 15px;
@@ -2282,7 +2287,7 @@ tr.group_torrent td.edition_info {
   padding: 10px !important;
   background-color: rgba(100, 100, 100, 0.15);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #reply_box > .box.pad {
   background-color: transparent!important;
@@ -2291,7 +2296,7 @@ tr.group_torrent td.edition_info {
 .user_online > table > tbody {
   background-color: rgba(100, 100, 100, 0.15);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 .user_online > table {
   margin-bottom: 10px;
@@ -2330,19 +2335,19 @@ tr.group_torrent td.edition_info {
 }
 /* POPUP EDITION SHOUTBOX */
 .simplemodal-container {
-  background-color: #222 !important;
+  background-color:  var(--background1) !important;
 }
 .label {
-  color: #9A9A9A !important;
+  color: var(--light-grey) !important;
 }
 #login > p {
-  color: #9A9A9A !important;
+  color: var(--light-grey) !important;
 }
 .box_addtorrent {
   display: grid;
 }
 select {
-  color: #9A9A9A;
+  color: var(--light-grey);
   padding: 3px 30px 3px 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2361,7 +2366,7 @@ select:hover {
   transition: 0.25s ease-in-out;
 }
 select > optgroup {
-  background-color: #222222;
+  background-color:  var(--background1);
 }
 /* FIN DROPDOWN */
 /*DETAILS TORRENTS, MASQUAGE HOVER TORRENT VALIDE*/
@@ -2374,7 +2379,7 @@ select > optgroup {
 }
 /*TABLEAU TORRENTS*/
 table.layout:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td > label {
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 #torrent_table > tbody > tr > td.big_info > div.group_info.clear > img {
   display: none;
@@ -2402,7 +2407,7 @@ html body#chat div#wrapper div#content div.head.center {
   font-weight: bold;
 }
 .edition_info {
-  color: #9A9A9A;
+  color: var(--light-grey);
 }
 .news_header a {
   color: #a33a3a !important;
