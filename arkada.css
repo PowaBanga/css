@@ -104,7 +104,7 @@ div.thin {
 .thin {
   width: 80%;
   position: relative;
-  left: 10%;
+  /*left: 10%;*/
   border: dotted;
 }
 
