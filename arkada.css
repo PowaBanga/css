@@ -67,8 +67,25 @@ div#searchbars ul {
   font-size: 0.95em !important;
 }
 
-/*#noty_613641747812852900 > div:nth-child(1) {*/
-  /* font-size: 13px; */
-  /*font-size: 0.95em;*/
-/*}*/
+
+
+/*Accueil body*/
+body#index div#wrapper div#content div.thin {
+  position: ;
+  display: flex;
+}
+
+.sidebar {
+  position: relative;
+  width: 10%;
+  left: 88%;
+}
+
+.main_column {
+  /* left: 0px; */
+  position: relative;
+  width: 80%;
+  left: -5%;
+}
+
 
