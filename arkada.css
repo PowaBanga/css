@@ -48,6 +48,27 @@ body {
   background:  var(--background1);
   color: var(--light-grey);
   text-shadow: var(--text-shadow);
-  font: 13px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+  font: 0.95em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
+div#userinfo {
+  display: flex;
+  justify-content: space-around;
+}
+div#menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+div#searchbars ul {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  /* font-size: 10pt; */
+  font-size: 0.95em !important;
+}
+
+/*#noty_613641747812852900 > div:nth-child(1) {*/
+  /* font-size: 13px; */
+  /*font-size: 0.95em;*/
+/*}*/
 
