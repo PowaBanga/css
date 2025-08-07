@@ -96,3 +96,31 @@ body#index div#wrapper div#content div.thin {
 .group_torrent span, .torrent span {
     font-size: 0.94em !important;
 }
+
+/*Le forum*/
+
+
+body#forums div#wrapper div#content div.thin {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  border: dotted;
+}
+
+.thin {
+}
+
+.rowb {
+  background: ;
+  background-color: #303030;
+}
+
+/* .thin { */
+.rowa {
+  background-color: #434343;
+}
+
+.forum_index {
+  width: 100%;
+}
+
