@@ -21,6 +21,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --background2: rgba(42, 68, 93, 0.1);
     --light-grey: #9A9A9A;
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+    --box-shadow: 0em 0em 1em black;
     --blue1:  #528ba3;
     --light-blue: #456478;
 }
@@ -80,11 +81,8 @@ div.thin {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-div.thin div {
-    width: 100%;
-}
-div.thin strong {
-    width: 100%;
+.thin strong {
+    width: 99%;
 }
 
 .sidebar {
@@ -117,7 +115,7 @@ div.thin strong {
     width: 80%;
     position: relative;
     /*left: 10%;*/
-    border: dotted;
+    box-shadow: var(--box-shadow)
 }
 
 .forum_list {
