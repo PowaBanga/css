@@ -68,7 +68,7 @@ div#searchbars ul {
 }
 
 .header, .linkbox, .search_form {
-width: 100%;
+    width: 100%;
 }
 
 /*Accueil body*/
@@ -78,12 +78,20 @@ div.thin {
     display: flex;
     width: 100% !important;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.thin div {
+    width: 100%;
+}
+div.thin strong {
+    width: 100%;
 }
 
 .sidebar {
     position: relative;
-    width: 10%;
     left: 88%;
+    width: 18%;
+    order: 2;
 }
 
 .main_column {
@@ -91,6 +99,7 @@ div.thin {
     position: relative;
     width: 80%;
     left: -5%;
+    order: 1;
 }
 
 #content {
@@ -105,48 +114,48 @@ div.thin {
 /*Le forum*/
 /*#body#forums div#wrapper div#content div.thin */
 .thin {
-  width: 80%;
-  position: relative;
-  /*left: 10%;*/
-  border: dotted;
+    width: 80%;
+    position: relative;
+    /*left: 10%;*/
+    border: dotted;
 }
 
 .forum_list {
-width: 100%;
+    width: 100%;
 }
 
 .rowb {
-  background: ;
-  background-color: #303030;
+    background: ;
+    background-color: #303030;
 }
 
 /* .thin { */
 .rowa {
-  background-color: #434343;
+    background-color: #434343;
 }
 
 .forum_index {
-  width: 100%;
+    width: 100%;
 }
 /* ca c'est pour le top 10 uniquement*/
 .torrent_table.cats.numbering.border {
-width: 100%;
+    width: 100%;
 }
 
 
 /*Page des règles (ho punaise c'est la cata ici, c'est quoi tous ces styles directement écrit dans le html tout à coup ???*/
 .box.pad.rule_table {
-background: var(--background2) !important;
-border-radius: 0px !important;
-color: var(--light-grey) !important;
-margin-bottom: 0px !important;
-padding: 0px !important;
+    background: var(--background2) !important;
+    border-radius: 0px !important;
+    color: var(--light-grey) !important;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
 }
 
 /*cette section concerne la page IRC*/
 .box.pad.irc_container {
-  width: 100%;
+    width: 100%;
 }
 div#app div#viewport div#connect.window {
-  background: #222 !important;
+    background: #222 !important;
 }
