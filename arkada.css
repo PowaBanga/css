@@ -144,6 +144,9 @@ padding: 0px !important;
 }
 
 /*cette section concerne la page IRC*/
+.box.pad.irc_container {
+  width: 100%;
+}
 div#app div#viewport div#connect.window {
-  background: var(--background1) ;
+  background: #222 ;
 }
