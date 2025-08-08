@@ -111,7 +111,8 @@ div.thin {
   border: dotted;
 }
 
-.thin {
+.forum_list {
+width: 100%;
 }
 
 .rowb {
@@ -140,4 +141,9 @@ border-radius: 0px !important;
 color: var(--light-grey) !important;
 margin-bottom: 0px !important;
 padding: 0px !important;
+}
+
+/*cette section concerne la page IRC*/
+div#app div#viewport div#connect.window {
+  background: var(--background1) ;
 }
