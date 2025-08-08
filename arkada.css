@@ -73,9 +73,17 @@ body {
     text-shadow: var(--text-shadow);
     font: 0.95em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
+#header {
+width: 80%;
+margin: 0em auto 2em auto;
+box-shadow: var(--box-shadow);
+}
+#footer {
+text-align: center;
+}
 div#userinfo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 div#menu ul {
     display: flex;
