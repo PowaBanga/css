@@ -21,6 +21,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --background2: rgba(42, 68, 93, 0.1);
     --light-grey: #9A9A9A;
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+    --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
     --blue1:  #528ba3;
     --light-blue: #456478;
@@ -43,23 +44,20 @@ a:link {
   color: #4CC5F8;
   text-decoration: none;
 }
-
-/* visited link */
 a:visited {
   color: #70E3FF;
   text-decoration: none;
 }
-
-/* mouse over link */
 a:hover {
   color: #7EF0FF    ;
   text-decoration: none;
 }
-
-/* selected link */
 a:active {
   color: #A2FFFF;
   text-decoration: none;
+}
+ul {
+list-style-type: none;
 }
 * {
     margin: 0;
@@ -71,7 +69,7 @@ body {
     background:  var(--background1);
     color: var(--light-grey);
     text-shadow: var(--text-shadow);
-    font: 0.95em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+    font: 1em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 #header {
 width: 80%;
@@ -99,7 +97,7 @@ div#searchbars ul {
 }
 .box {
     /* font-size: 10pt; */
-    font-size: 0.95em !important;
+    font-size: 1em !important;
 }
 
 .header, .linkbox, .search_form {
@@ -108,12 +106,13 @@ div#searchbars ul {
 
 /*Accueil body*/
 /*body#index div#wrapper div#content */
-div.thin {
+.thin {
     position: ;
     display: flex;
     width: 100% !important;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto auto 2em auto;
 }
 .thin strong {
     width: 99%;
@@ -121,8 +120,10 @@ div.thin {
 
 .sidebar {
     position: relative;
-    width: 18%;
+    width: 16%;
     order: 2;
+    box-shadow: var(--box-shadow-inset);
+        margin: 1em 1em 1em 1em;
 }
 
 .main_column {
@@ -130,12 +131,16 @@ div.thin {
     position: relative;
     width: 80%;
     order: 1;
+    box-shadow: var(--box-shadow-inset);
+    margin: 1em 1em 1em 1em;
 }
 
 #content {
     position: relative;
     width: 80%;
     left: 10%;
+    box-shadow: var(--box-shadow);
+    margin: 0em 0em 2em 0em;
 }
 .group_torrent span, .torrent span {
     font-size: 0.94em !important;
