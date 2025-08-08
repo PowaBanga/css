@@ -87,7 +87,6 @@ div.thin {
 
 .sidebar {
     position: relative;
-    left: 88%;
     width: 18%;
     order: 2;
 }
@@ -96,7 +95,6 @@ div.thin {
     /* left: 0px; */
     position: relative;
     width: 80%;
-    left: -5%;
     order: 1;
 }
 
@@ -111,7 +109,7 @@ div.thin {
 
 /*Le forum*/
 /*#body#forums div#wrapper div#content div.thin */
-.thin {
+.thin, .content{
     width: 80%;
     position: relative;
     /*left: 10%;*/
