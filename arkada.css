@@ -77,6 +77,10 @@ body {
 width: 80%;
 margin: 0em auto 2em auto;
 box-shadow: var(--box-shadow);
+background-image: url("https://powabanga.github.io/css/logo_transparent.webp") ;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center;
 }
 #footer {
 text-align: center;
