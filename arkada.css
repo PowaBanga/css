@@ -129,7 +129,7 @@ div#searchbars ul {
 .main_column {
     /* left: 0px; */
     position: relative;
-    width: 80%;
+    width: 79%;
     order: 1;
     box-shadow: var(--box-shadow-inset);
     margin: 1em 1em 1em 1em;
