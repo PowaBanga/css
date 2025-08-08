@@ -39,6 +39,28 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     font-stretch: normal;
     src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
 }
+a:link {
+  color: #4CC5F8;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #70E3FF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #7EF0FF    ;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #A2FFFF;
+  text-decoration: none;
+}
 * {
     margin: 0;
     padding: 0;
