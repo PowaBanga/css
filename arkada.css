@@ -71,7 +71,8 @@ body {
     text-shadow: var(--text-shadow);
     font: 1em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
-/*Tout ce qui concernet l'entête*/
+/*START HEADER*/
+/*Donc l'entete ici, testé à 1080 de large c'est ok faut une autre config pour ecran moin large*/
 #header {
 width: 80%;
 margin: 0em auto 2em auto;
@@ -81,20 +82,7 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: center;
 }
-#searchbars ul li {
-width: 15%;
-}
-form.search_form input {
-  width: 100%;
-  background-color: var(--background2);
-  border: none;
-  box-shadow: var(--box-shadow-inset);
-  color: var(--light-grey);
-  text-align: center;
-  margin: 1em 0em 0.1em 0em;
-  padding: 0.5em 0em;
-  /*! width: 15; */
-}
+/*START USERINFO*/
 div#userinfo {
     display: grid;
 grid-template-columns: auto auto auto;
@@ -131,7 +119,38 @@ order: 3;
 position: relative;
 right: 0.5em;
 }
-/*----------------*/
+/*END USERINFO*/
+/*START MENUBAR*/
+
+div#menu ul li {
+  flex: 1;
+  margin: 0em 0.6em 0em 0.6em;
+}
+div#menu ul li a {
+  width: 100%;
+  display: flex;
+  box-shadow: var(--box-shadow);
+  height: 2em;
+  align-items: center;
+  justify-content: space-around;
+}
+/*END MENUBAR*/
+#searchbars ul li {
+width: 15%;
+}
+form.search_form input {
+  width: 100%;
+  background-color: var(--background2);
+  border: none;
+  box-shadow: var(--box-shadow-inset);
+  color: var(--light-grey);
+  text-align: center;
+  margin: 1em 0em 0.1em 0em;
+  padding: 0.5em 0em;
+  /*! width: 15; */
+}
+
+/*END HEADER*/
 #footer {
 text-align: center;
 }
