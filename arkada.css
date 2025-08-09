@@ -111,11 +111,11 @@ margin: 0em;
 display: inline;
 }
 #userinfo_stats {
-top: -10.3em;
 margin-top: 2em;
-margin-left: -187em;
 left: 0.3em;
 order: 4;
+top: -0.5em;
+margin-left: 0.3em;
 }
 #userinfo_major {
 order: 2;
@@ -128,8 +128,8 @@ margin: 0em 1em 0em 1em;
 }
 #userinfo_minor {
 order: 3;
-right: -1em;
 position: relative;
+right: 0.5em;
 }
 /*----------------*/
 #footer {
