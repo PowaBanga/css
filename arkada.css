@@ -122,13 +122,14 @@ order: 2;
 position: relative;
 display: block ruby;
 right: 6em;
+}
 #userinfo_major li {
 margin: 0em 1em 0em 1em;
 }
 #userinfo_minor {
 order: 3;
 right: -1em;
-position: initial;
+position: relative;
 }
 /*----------------*/
 #footer {
@@ -161,7 +162,7 @@ tr.torrent td {
 }
 
 /*Accueil body*/
-/*body#index div#wrapper div#content */
+/*body#index div#wrapper diAv#content */
 .thin {
     position: ;
     display: flex;
