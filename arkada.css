@@ -122,6 +122,10 @@ right: 0.5em;
 /*END USERINFO*/
 /*START MENUBAR*/
 
+div#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
 div#menu ul li {
   flex: 1;
   margin: 0em 0.6em 0em 0.6em;
@@ -149,19 +153,31 @@ form.search_form input {
   padding: 0.5em 0em;
   /*! width: 15; */
 }
-
-/*END HEADER*/
-#footer {
-text-align: center;
-}
-div#menu ul {
-    display: flex;
-    justify-content: space-around;
-}
 div#searchbars ul {
     display: flex;
     justify-content: space-around;
 }
+/*END HEADER*/
+/*START FOOTER*/
+#footer {
+text-align: center;
+}
+/*END FOOTER*/
+/*START NOTIFY AREA*/
+#noty_bottomRight_layout_container > li {
+  background: var(--background1) !important;
+  border: var(--light-grey) !important;
+  font-size: 1em !important;
+  color: var(--light-grey) !important;
+  box-shadow: var(--box-shadow) !important;
+}
+.noty_bar div {
+  background-color: inherit !important;
+  border: 0 !important;
+  color: inherit !important;
+  font-size: 1em !important;
+}i
+/*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
     font-size: 1em !important;
