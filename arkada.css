@@ -96,7 +96,7 @@ form.search_form input {
   /*! width: 15; */
 }
 div#userinfo {
-    grid
+    display: grid;
 column-gap: 20%;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto 0em;
@@ -111,11 +111,11 @@ margin: 0em;
 display: inline;
 }
 #userinfo_stats {
+position:relative;
 margin-top: 2em;
-left: 0.3em;
 order: 4;
-top: -0.5em;
 margin-left: 0.3em;
+top: -10.3em;
 }
 #userinfo_major {
 order: 2;
