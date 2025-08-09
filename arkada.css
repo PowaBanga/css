@@ -71,6 +71,7 @@ body {
     text-shadow: var(--text-shadow);
     font: 1em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
+/*Tout ce qui concernet l'entête*/
 #header {
 width: 80%;
 margin: 0em auto 2em auto;
@@ -80,6 +81,21 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: center;
 }
+#searchbars ul li {
+width: 15%;
+}
+form.search_form input {
+  width: 100%;
+  background-color: var(--background2);
+  border: none;
+  box-shadow: var(--box-shadow-inset);
+  color: var(--light-grey);
+  text-align: center;
+  margin: 1em 0em 0.1em 0em;
+  padding: 0.5em 0em;
+  /*! width: 15; */
+}
+/*----------------*/
 #footer {
 text-align: center;
 }
@@ -200,3 +216,5 @@ display: none;
 div#app div#viewport div#connect.window {
     background: #222 !important;
 }
+/*Pages spécifiques au fichiers*/
+/*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
