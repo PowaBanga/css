@@ -92,32 +92,37 @@ justify-content: space-between;
 }
 #userinfo_username {
 order: 1;
-display: block ruby;
-margin: 0em;
+position: relative;
+top: -1.2em;
 }
 #userinfo_username li {
 display: inline;
-}
-#userinfo_stats {
-position:relative;
-margin-top: 2em;
-order: 4;
-margin-left: 0.3em;
-top: -10.3em;
+margin-right: 0.3em;
 }
 #userinfo_major {
-order: 2;
-position: relative;
-display: block ruby;
-/*right: 6em;*/
+  position: relative;
+  top: -1.2em;
+  margin-bottom: -1.2em;
 }
 #userinfo_major li {
-margin: 0em 1em 0em 1em;
+margin-right: 0.4em;
+}#userinfo_stats {
+  position: relative;
+  order: 4;
+  top: -2.5em;
+  float: right;
+}
+ul#userinfo_stats li {
+  display: inline-block;
+  margin-right: 0.3em;
 }
 #userinfo_minor {
-order: 3;
-position: relative;
-right: 0.5em;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: var(--box-shadow-inset);
+  padding: 0.6em 0em;
+  margin-top: 0.6em;
 }
 /*END USERINFO*/
 /*START MENUBAR*/
@@ -180,12 +185,12 @@ text-align: center;
 /*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
-    font-size: 1em !important;
+    font-size: 0.95em !important;
 }
 tr.group_torrent td,
 tr.group td,
 tr.torrent td {
-	font-size: 1em;
+	font-size: 0.95em;
 }
 
 .header, .linkbox, .search_form {
