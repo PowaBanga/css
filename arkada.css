@@ -194,7 +194,7 @@ div#searchbars ul {
 /*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
-    font-size: var(--font-size-small) !important;
+    font-size: var(--font-size-normal) !important;
 }
 tr.group_torrent td,
 tr.group td,
