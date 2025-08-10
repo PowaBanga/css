@@ -238,12 +238,6 @@ tr.torrent td {
     margin: 1em 0.5% 1em 1%;
 }
 
-#content {
-    position: relative;
-    width: 80%;
-    box-shadow: var(--box-shadow);
-    margin: 0em auto;
-}
 .group_torrent span, .torrent span {
     font-size: 0.94em !important;
 }
@@ -273,7 +267,12 @@ body#index div#wrapper div#content br {
     box-shadow: var(--box-shadow);
     margin: 0em auto 1em auto;
 }
-
+/*#content {*/
+    /*position: relative;*/
+    /*width: 80%;*/
+    /*box-shadow: var(--box-shadow);*/
+    /*margin: 0em auto;*/
+/*}*/
 .forum_index {
     width: 100%;
 }
