@@ -194,7 +194,10 @@ div#searchbars ul {
 /*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
-    font-size: var(--font-size-normal) !important;
+    font-size: var(--font-size-small) !important;
+}
+div[id^="news"] {
+  font-size: var(--font-size-normal);
 }
 tr.group_torrent td,
 tr.group td,
