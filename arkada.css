@@ -84,11 +84,11 @@ background-position: center;
 }
 /*START USERINFO*/
 div#userinfo {
-    display: grid;
-grid-template-columns: auto auto auto;
-grid-template-rows: auto 0em;
+    /*display: grid;*/
+/*grid-template-columns: auto auto auto;*/
+/*grid-template-rows: auto 0em;*/
 padding-bottom: 1em;
-justify-content: space-between;
+/*justify-content: space-between;*/
 }
 #userinfo_username {
 order: 1;
@@ -106,11 +106,14 @@ margin-right: 0.3em;
 }
 #userinfo_major li {
 margin-right: 0.4em;
-}#userinfo_stats {
+display: inline-block;
+}
+#userinfo_stats {
   position: relative;
   order: 4;
   top: -2.5em;
   float: right;
+  margin-bottom: -2.5em;
 }
 ul#userinfo_stats li {
   display: inline-block;
