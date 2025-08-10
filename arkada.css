@@ -212,7 +212,6 @@ tr.torrent td {
     width: 100% !important;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: auto auto 2em auto;
 }
 .thin strong {
     width: 99%;
@@ -223,23 +222,22 @@ tr.torrent td {
     width: 16%;
     order: 2;
     box-shadow: var(--box-shadow-inset);
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1% 1em 0.5%;
 }
 
 .main_column {
     /* left: 0px; */
     position: relative;
-    width: 79%;
+    width: 78%;
     order: 1;
     box-shadow: var(--box-shadow-inset);
-    margin: 1em 1em 1em 1em;
+    margin: 1em 0.5% 1em 1%;
 }
 
 #content {
     position: relative;
     width: 80%;
     box-shadow: var(--box-shadow);
-    margin: 0em auto 2em auto;
 }
 .group_torrent span, .torrent span {
     font-size: 0.94em !important;
