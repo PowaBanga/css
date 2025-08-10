@@ -25,6 +25,8 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --box-shadow: 0em 0em 1em black;
     --blue1:  #528ba3;
     --light-blue: #456478;
+    --font-size-normal: 1em;
+    --font-size-small: 0.95em;
 }
 @font-face {
     font-family: 'Roboto';
@@ -179,7 +181,7 @@ div#searchbars ul {
 #noty_bottomRight_layout_container > li {
     background: var(--background1) !important;
     border: var(--light-grey) !important;
-    font-size: 1em !important;
+    font-size: var(--font-size-normal) !important;
     color: var(--light-grey) !important;
     box-shadow: var(--box-shadow) !important;
 }
@@ -187,17 +189,17 @@ div#searchbars ul {
     background-color: inherit !important;
     border: 0 !important;
     color: inherit !important;
-    font-size: 1em !important;
+    font-size: var(--font-size-normal) !important;
 }i
 /*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
-    font-size: 0.95em !important;
+    font-size: var(--font-size-small) !important;
 }
 tr.group_torrent td,
 tr.group td,
 tr.torrent td {
-    font-size: 0.95em;
+    font-size: var(--font-size-small);
 }
 
 .header, .linkbox, .search_form {
@@ -238,6 +240,7 @@ tr.torrent td {
     position: relative;
     width: 80%;
     box-shadow: var(--box-shadow);
+    margin: 0em auto;
 }
 .group_torrent span, .torrent span {
     font-size: 0.94em !important;
