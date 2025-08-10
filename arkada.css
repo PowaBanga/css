@@ -70,7 +70,7 @@ body {
     padding: 0;
     background:  var(--background1);
     color: var(--light-grey);
-    text-shadow: var(--text-shadow);
+    /*text-shadow: var(--text-shadow);*/
     font: 1em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 /*START HEADER*/
@@ -212,7 +212,6 @@ tr.torrent td {
 /*Accueil body*/
 /*body#index div#wrapper diAv#content */
 .thin {
-    position: ;
     display: flex;
     width: 100% !important;
     flex-wrap: wrap;
@@ -242,7 +241,7 @@ tr.torrent td {
 #content {
     position: relative;
     width: 80%;
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
     margin: 0em auto;
 }
 .group_torrent span, .torrent span {
@@ -253,12 +252,7 @@ body#index div#wrapper div#content br {
 }
 /*Le forum*/
 /*#body#forums div#wrapper div#content div.thin */
-.thin, .content{
-    width: 80%;
-    position: relative;
-    /*left: 10%;*/
-    box-shadow: var(--box-shadow)
-}
+
 
 .forum_list {
     width: 100%;
@@ -269,9 +263,14 @@ body#index div#wrapper div#content br {
     background-color: #303030;
 }
 
-/* .thin { */
 .rowa {
     background-color: #434343;
+}
+.content{
+    width: 80%;
+    position: relative;
+    /*left: 10%;*/
+    box-shadow: var(--box-shadow)
 }
 
 .forum_index {
@@ -300,4 +299,10 @@ div#app div#viewport div#connect.window {
     background: #222 !important;
 }
 /*Pages spécifiques au fichiers*/
+/*START STAFF PAGE*/
+#staff .thin {
+display: grid;
+grid-template-columns: 65%;
+}
+/*END STAFF PAGE*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
