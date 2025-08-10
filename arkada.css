@@ -241,7 +241,7 @@ tr.torrent td {
 #content {
     position: relative;
     width: 80%;
-    /*box-shadow: var(--box-shadow);*/
+    box-shadow: var(--box-shadow);
     margin: 0em auto;
 }
 .group_torrent span, .torrent span {
@@ -301,8 +301,18 @@ div#app div#viewport div#connect.window {
 /*Pages spécifiques au fichiers*/
 /*START STAFF PAGE*/
 #staff .thin {
-display: grid;
-grid-template-columns: 65%;
+/*display: grid;*/
+/*grid-template-columns: 65%;*/
 }
 /*END STAFF PAGE*/
+/*START SETTINGS*/
+#userform .sidebar {
+  box-shadow: none !important;
+  /*! position: sticky; */
+  float: right;
+}
+#settings_sections {
+  width: 9%;
+}
+/*END SETTINGS*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
