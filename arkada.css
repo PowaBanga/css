@@ -266,7 +266,7 @@ body#index div#wrapper div#content br {
 .rowa {
     background-color: #434343;
 }
-.content{
+#content{
     width: 80%;
     position: relative;
     /*left: 10%;*/
