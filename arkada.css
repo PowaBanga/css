@@ -299,14 +299,6 @@ div#app div#viewport div#connect.window {
     background: #222 !important;
 }
 /*Pages spécifiques au fichiers*/
-/*START STAFF PAGE*/
-#staff .thin {
-    width: 80% !important;
-    margin: auto;
-    text-align: left;
-    display: block;
-}
-/*END STAFF PAGE*/
 /*START SETTINGS*/
 #userform .sidebar {
     box-shadow: none !important;
@@ -317,4 +309,25 @@ div#app div#viewport div#connect.window {
     width: 9%;
 }
 /*END SETTINGS*/
+/*SART MAIN PAGE*/
+.sidebar img {
+  max-width: none !important;
+  width: 100%;
+}
+/*END MAIN PAGE*/
+/*START COLLECTIONS*/
+.search_form #categories td div {
+  display: inline-flex;
+  width: 100%;
+}
+/* STOP COLLECTIONS*/
+/**/
+/*START STAFF PAGE*/
+#staff .thin {
+    width: 80% !important;
+    margin: auto;
+    text-align: left;
+    display: block;
+}
+/*END STAFF PAGE*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
