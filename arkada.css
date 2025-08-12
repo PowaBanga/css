@@ -327,7 +327,7 @@ div#app div#viewport div#connect.window {
 .shoutbox_alt{
     background: var(--background-rowa) !important;
   }
-.shoutbox-noalt{
+.shoutbox_noalt{
     background: var(--background-rowb) !important;
   }
   /*END SHOUT*/
