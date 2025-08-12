@@ -19,8 +19,8 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 :root{
     --background1: #222;
     --background2: rgba(42, 68, 93, 0.1);
-    --background-rowa: #00000080 ;
-    --background-rowb: #FFFFFF80 ;
+    --background-rowa: #00000010 ;
+    --background-rowb: #FFFFFF10 ;
     --light-grey: #9A9A9A;
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
     --box-shadow-inset: inset 0em 0em 1em black;
@@ -323,6 +323,14 @@ div#app div#viewport div#connect.window {
   width: 100% !important;
   }
 /*END FORUM*/
+  /*START SHOUT*/
+.shoutbox_alt{
+    background: var(--background-rowa);
+  }
+.shoutbox-noalt{
+    background: var(--background-rowb);
+  }
+  /*END SHOUT*/
 /*START COLLECTIONS*/
 .search_form #categories td div {
   display: inline-flex;
