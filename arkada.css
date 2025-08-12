@@ -44,6 +44,50 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     font-stretch: normal;
     src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
 }
+/*START USER CLASSES*/
+.class_2{
+  color: #444;
+}
+.class_3{
+  color: #96ca2d;
+}
+.class_5{
+  color: #93c47d;
+}
+.class_28{
+  color: rgba(0, 0, 255, 0.75);
+}
+.class_11{
+  color: #1e84cc;
+}
+.class_15{
+  color: rgba(255, 0, 0, 0.75);
+}
+.class_1{
+  color: #980000;
+}
+.class_23{
+  color: rgba(212, 0, 255, 0.75);
+}
+.class_22{
+  color: #38761d;
+}
+.class_20{
+  color: rgba(17, 237, 149, 0.75);
+}
+.class_29{
+  color: #853894;
+}
+.class_30{
+  color: rgba(255, 50, 29, 0.75);
+}
+.class_33{
+  color: #DAA520;
+}
+.class_32{
+  color: #F0E68C;
+}
+/*STOP USER CLASS*/
 a:link {
     color: #4CC5F8;
     text-decoration: none;
