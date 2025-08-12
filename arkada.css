@@ -325,10 +325,10 @@ div#app div#viewport div#connect.window {
 /*END FORUM*/
   /*START SHOUT*/
 .shoutbox_alt{
-    background: var(--background-rowa);
+    background: var(--background-rowa) !important;
   }
 .shoutbox-noalt{
-    background: var(--background-rowb);
+    background: var(--background-rowb) !important;
   }
   /*END SHOUT*/
 /*START COLLECTIONS*/
