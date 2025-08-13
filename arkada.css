@@ -524,7 +524,7 @@ td.body {
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
   background: none !important;
   border: none !important;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow) !important;
 }
 /*END FORUM*/
   /*START SHOUT*/
