@@ -436,8 +436,43 @@ div#app div#viewport div#connect.window {
 }
 /*END MAIN PAGE*/
 /*Start FORUM*/
+#forums {
+display: block;
+}
 .forum_list {
     width: 100%;
+}
+.forum_index {
+    width: 100%;
+}
+#forum .thin {
+  display: block;
+  width: 100% !important;
+}
+.forum_post {
+  width: 100%;
+}
+
+  td.avatar {
+  width: 100px;
+  padding: 0.4em;
+}
+td.avatar {
+  width: 100px;
+  padding: 0.4em;
+}
+.forum_post {
+  width: 100%;
+}
+.colhead_dark {
+  background: linear-gradient(179deg,rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  box-shadow: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset;
+}
+.colhead_dark div {
+  margin: 0.55555em;
+}
+td.body {
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
 }
 .rowb {
     background: ;
@@ -447,13 +482,31 @@ div#app div#viewport div#connect.window {
 .rowa {
     background-color: var(--background-rowb);
 }
-.forum_index {
-    width: 100%;
+.wysibb-text-editor {
+  background: none;
 }
-#forum .thin {
-  display: block;
-  width: 100% !important;
-  }
+.wysibb-body {
+  color: var(--light-grey);
+}
+.wysibb {
+  background: var(--background1);
+  border: none;
+  box-shadow: var(--box-shadow-inset);
+}
+#reply_box {
+  width: 70%;
+  margin: auto;
+}
+.wysibb-toolbar {
+  background: none !important;
+  border: none !important;
+}
+.wysibb-toolbar {
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+  color: #c2bfbf;
+}
+
 /*END FORUM*/
   /*START SHOUT*/
 .shoutbox_alt{
