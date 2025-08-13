@@ -483,14 +483,14 @@ td.body {
     background-color: var(--background-rowb);
 }
 .wysibb-text-editor {
-  background: none;
+  background: none !important;
 }
 .wysibb-body {
-  color: var(--light-grey);
+  color: var(--light-grey) !important;
 }
 .wysibb {
-  background: var(--background1);
-  border: none;
+  background: var(--background1) !important;
+  border: none !important;
   box-shadow: var(--box-shadow-inset);
 }
 #reply_box {
