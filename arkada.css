@@ -504,9 +504,28 @@ td.body {
 .wysibb-toolbar {
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
-  color: #c2bfbf;
+  color: #c2bfbf !important;
 }
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+  color: var(--light-grey) !important;
+  font-size: 1.7em !important;
+  text-shadow: none !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+   /*! color: #333; */
+  /*! font-family: 'WysiBBiconFont'; */
+  /*! font-size: 18px; */
+  line-height: 1.4em;
+  /*! text-shadow: 0px 1px 0px #fff; */
+  text-align: center;
+  /*! speak: none; */
 
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
+  background: none !important;
+  border: none !important;
+  box-shadow: var(--box-shadow);
+}
 /*END FORUM*/
   /*START SHOUT*/
 .shoutbox_alt{
