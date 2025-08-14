@@ -25,6 +25,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
     --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
+    --box-shadow-button-edit-area: 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20, -0.1em -0.1em 0.1em 0.1em inset #00000050;
     --blue1:  #528ba3;
     --light-blue: #456478;
     --font-size-normal: 1em;
@@ -524,7 +525,11 @@ td.body {
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
   background: none !important;
   border: none !important;
-  box-shadow: var(--box-shadow) !important;
+  box-shadow: var(--box-shadow-button-edit-area),  var(--box-shadow) !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-co  ntainer .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
+  background: var(--background1);
+  box-shadow: var(--box-shadow-button-edit-area)  !important;
 }
 /*END FORUM*/
   /*START SHOUT*/
