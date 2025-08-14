@@ -466,7 +466,7 @@ td.avatar {
   width: 100%;
 }
 .colhead_dark {
-  background: linear-gradient(179deg,rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
   box-shadow: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset;
 }
 .colhead_dark div {
@@ -483,6 +483,7 @@ td.body {
 .rowa {
     background-color: var(--background-rowb);
 }
+/*START EDIT AREA*/
 .wysibb-text-editor {
   background: none !important;
 }
@@ -528,9 +529,34 @@ td.body {
   box-shadow: var(--box-shadow-button-edit-area),  var(--box-shadow) !important;
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-co  ntainer .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
-  background: var(--background1);
+  background: var(--background1) !important;
   box-shadow: var(--box-shadow-button-edit-area)  !important;
 }
+.wysibb .modesw, .wysibb .wbb-list, .wysibb .wbb-fontsize {
+  color: var(--light-grey);
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .wbb-list {
+  background-color: var(--background1) !important;
+  box-shadow: var(--box-shadow);
+  border: none !important;
+}
+
+.wbb-select .option:hover {
+  background: none !important;
+  box-shadow: var(--box-shadow-button-edit-area);
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip {
+  border: none !important;
+  box-shadow: var(--box-shadow-button-edit-area);
+  color:var(--light-grey);
+}
+.wbb-list .sc {
+  border-color: var(--light-grey);
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container {
+  border-right: var(--light-grey) !important;
+}
+/*END EDIT AREA*/
 /*END FORUM*/
   /*START SHOUT*/
 .shoutbox_alt{
