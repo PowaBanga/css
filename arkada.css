@@ -19,6 +19,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 :root{
     --background1: #222;
     --background2: rgba(42, 68, 93, 0.1);
+    --background-messages-head: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
     --background-rowa: #00000010 ;
     --background-rowb: #FFFFFF10 ;
     --light-grey: #9A9A9A;
@@ -26,6 +27,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
     --box-shadow-button-edit-area: 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20, -0.1em -0.1em 0.1em 0.1em inset #00000050;
+    --box-shadow-messages-head: box-shadow: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset, 0em 0em 0.3em 0.3em #00000060;
     --blue1:  #528ba3;
     --light-blue: #456478;
     --font-size-normal: 1em;
@@ -118,7 +120,7 @@ body {
     background:  var(--background1);
     color: var(--light-grey);
     /*text-shadow: var(--text-shadow);*/
-    font: 1em 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+    font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 /*!FIXME ok le select est piqué de carbone, il faut l'intégrer correctement au reste de mon code*/
 select {
@@ -176,7 +178,7 @@ input[type="checkbox"]:checked::after {
   left: 1px;
   color: #456478;
   content: '\2714\fe0e';
-  font-size: 12px;
+  font-size: var(--font-size-normal);
 }
 input[type="radio"]:checked {
   border: 1px solid #3b3b3b;
@@ -372,11 +374,11 @@ tr.torrent td {
     order: 1;
     box-shadow: var(--box-shadow-inset);
     margin: 1em 0.5% 1em 1%;
-  padding: 1em;
+  padding: 1em 0.75%;
 }
 
 .group_torrent span, .torrent span {
-    font-size: 0.94em !important;
+    font-size: var(--font-size-small) !important;
 }
 body#index div#wrapper div#content br {
     display: none;
@@ -466,14 +468,28 @@ td.avatar {
   width: 100%;
 }
 .colhead_dark {
-  background: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
-  box-shadow: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset;
+  background: var(--background-messages-head);
+  box-shadow: var(--box-shadow-messsage-head);
 }
 .colhead_dark div {
   margin: 0.55555em;
 }
 td.body {
   background: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
+}
+code {
+  box-shadow: var(--box-shadow-inset);
+  display: block;
+  width: 95%;
+  position: relative;
+  margin: auto;
+  padding: 1em;
+}
+blockquote {
+  box-shadow: var(--box-shadow-button-edit-area), var(--box-shadow);
+  width: 95%;
+  margin: 0.8em auto;
+  padding: 0.5em;
 }
 .rowb {
     background: ;
@@ -556,8 +572,25 @@ td.body {
 .wysibb .wysibb-toolbar .wysibb-toolbar-container {
   border-right: var(--light-grey) !important;
 }
+#wbbmodal .wbbm {
+  background: var(--background1);
+  border: none;
+  box-shadow: var(--box-shadow), var(--box-shadow-button-edit-area);
+}
+#wbbmodal {
+  font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif !important;
+}
 /*END EDIT AREA*/
 /*END FORUM*/
+/*START INBOX*/
+#inbox .thin {
+  display: block;
+}
+#inbox .head {
+  box-shadow: var(--box-shadow-messages-head);
+  padding: 0.3em;
+}
+/*STOP INBOX*/
   /*START SHOUT*/
 .shoutbox_alt{
     background: var(--background-rowa) !important;
