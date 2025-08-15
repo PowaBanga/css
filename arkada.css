@@ -469,7 +469,7 @@ td.avatar {
 }
 .colhead_dark {
   background: var(--background-messages-head);
-  box-shadow: var(--box-shadow-messsage-head);
+  box-shadow: var(--box-shadow-messsages-head);
 }
 .colhead_dark div {
   margin: 0.55555em;
