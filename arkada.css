@@ -221,7 +221,8 @@ input[type="radio"]:checked::after {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
-    background-size: 100%;
+    background-size: 65%;
+    background-position-y: -12em;
 }
 /*START USERINFO*/
 div#userinfo {
