@@ -483,6 +483,18 @@ display: block;
     background-repeat: no-repeat;
     background-position: center;
 }
+.unread_sticky{
+    background-image: url("https://powabanga.github.io/css/icons/info.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.read_sticky{
+    background-image: url("https://powabanga.github.io/css/icons/info.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .unread_locked_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info-new-locked.svg");
     background-size: auto 100%;
