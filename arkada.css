@@ -453,6 +453,13 @@ display: block;
   display: block;
   width: 100% !important;
 }
+.lu{
+    background-image: url("https://powabanga.github.io/css/forum_neutral.svg");
+}
+.non-lu{
+    
+    background-image: url("https://powabanga.github.io/css/forum_new.svg");
+}
 .forum_post {
   width: 100%;
 }
@@ -568,7 +575,7 @@ blockquote {
   color:var(--light-grey);
 }
 .wbb-list .sc {
-  border-color: var(--light-grey);
+  border-color: var(--light-grey) !important ;
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container {
   border-right: var(--light-grey) !important;
