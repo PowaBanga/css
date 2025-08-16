@@ -472,14 +472,30 @@ display: block;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 .read_locked_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info-locked.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-
+}
+.read_locked{
+    background-image: url("https://powabanga.github.io//css/icons/topic-locked.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.read{
+    background-image: url("https://powabanga.github.io//css/icons/topic.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.unread{
+    background-image: url("https://powabanga.github.io//css/icons/topic-new.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .forum_post {
