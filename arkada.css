@@ -454,11 +454,16 @@ display: block;
   width: 100% !important;
 }
 .lu{
-    background-image: url("https://powabanga.github.io/css/forum_neutral.svg");
+    background-image: url("https://powabanga.github.io/css/forum_read.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .non-lu{
-    
-    background-image: url("https://powabanga.github.io/css/forum_new.svg");
+    background-image: url("https://powabanga.github.io/css/forum_unread.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .forum_post {
   width: 100%;
