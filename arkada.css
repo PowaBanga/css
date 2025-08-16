@@ -453,13 +453,13 @@ display: block;
   display: block;
   width: 100% !important;
 }
-.lu{
+.lu, .read{
     background-image: url("https://powabanga.github.io/css/forum_read.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
-.non-lu{
+.non-lu, .unread{
     background-image: url("https://powabanga.github.io/css/forum_unread.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
