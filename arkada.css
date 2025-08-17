@@ -124,6 +124,19 @@ body {
     font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 /*!FIXME ok le select est piqué de carbone, il faut l'intégrer correctement au reste de mon code*/
+/*START INPUTS*/
+form.search_form input {
+  width: 100%;
+  background-color: none;
+  border: none;
+  box-shadow: var(--box-shadow-inset);
+  color: var(--light-grey);
+  text-align: center;
+  margin: 1em 0em 0.1em 0em;
+  padding: 0.5em 0em;
+  /*! width: 15; */
+}
+
 select {
   color: #9A9A9A;
   padding: 3px 30px 3px 3px;
@@ -136,7 +149,7 @@ select {
   background-repeat: no-repeat;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.24), inset 0 2px 6px rgba(0, 0, 0, 0.12);
   border: 1px solid #3B3B3B;
-  width: 100%;
+  /*width: 100%;*/
   overflow: auto;
 }
 input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="url"], textarea {
@@ -211,6 +224,49 @@ input[type="radio"]:checked::after {
   content: ' ';
   text-shadow: 0 0 black;
 }
+.submit.ft_submit input {
+  box-shadow: var(--box-shadow-button-edit-area);
+  cursor: pointer;
+  width: auto;
+  padding: 0.4rem;
+  background: var(--background-messages-head);
+}
+/*START SEARCHBOX*/
+.submit.ft_submit input {
+  box-shadow: var(--box-shadow-button-edit-area);
+  cursor: pointer;
+  width: auto;
+  padding: 0.4rem;
+  background: var(--background-messages-head);
+}
+input#group_results, .layout.cat_list.ft_cat_list input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-left: 0.1rem;
+}
+.nobr select, .ft_order select {
+  width: auto;
+}
+td.label {
+}
+.layout .inputtext {
+  margin: 0em;
+  /*! width: auto; */
+}
+.filter_torrents .head div {
+  position: relative;
+  margin: auto;
+  right: 50%;
+  top: 100%;
+}
+.filter_torrents .head div font, .filter_torrents .head div span #ft_toggle {
+  background: var(--background-messages-head) !important;
+  box-shadow: var(--box-shadow-button-edit-area) !important;
+  cursor: pointer;
+  font-size: \);
+}
+/*STOP SEARCHBOX*/
+/*END INPUTS*/
 /*START HEADER*/
 /*Donc l'entete ici, testé à 1080 de large c'est ok faut une autre config pour ecran moin large*/
 #header {
@@ -296,17 +352,7 @@ div#menu ul li a {
 #searchbars ul li {
     width: 15%;
 }
-form.search_form input {
-    width: 100%;
-    background-color: var(--background2);
-    border: none;
-    box-shadow: var(--box-shadow-inset);
-    color: var(--light-grey);
-    text-align: center;
-    margin: 1em 0em 0.1em 0em;
-    padding: 0.5em 0em;
-    /*! width: 15; */
-}
+
 div#searchbars ul {
     display: flex;
     justify-content: space-around;
