@@ -506,80 +506,69 @@ display: block;
 }
 .lu{
     background-image: url("https://powabanga.github.io/css/icons/category.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-background-size: 100%;
+background-size: contain;
 }
 .non-lu{
     background-image: url("https://powabanga.github.io/css/icons/category-new-message.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-background-size: 100%;
+background-size: contain;
 }
 .read{
     background-image: url("https://powabanga.github.io/css/icons/forum-new-message.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-background-size: 100%;
+background-size: contain;
 }
 .unread{
     background-image: url("https://powabanga.github.io/css/icons/forum.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .unread_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .read_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .unread_locked_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info-new-locked.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .read_locked_sticky{
     background-image: url("https://powabanga.github.io/css/icons/info-locked.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .read_locked{
     background-image: url("https://powabanga.github.io//css/icons/topic-locked.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .read{
     background-image: url("https://powabanga.github.io//css/icons/topic.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 .unread{
     background-image: url("https://powabanga.github.io//css/icons/topic-new.svg");
-    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 }
 
 .forum_post {
