@@ -525,6 +525,12 @@ div#app div#viewport div#connect.window {
   width: 100%;
 }
 /*END MAIN PAGE*/
+/*START TORRENTLIST*/
+.edition_info {
+  background: var(--background-rowb);
+  padding: 0.2em 0em;
+}
+/*END TORRENTLIST*/
 /*Start FORUM*/
 #forums {
 display: block;
