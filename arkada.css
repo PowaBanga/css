@@ -525,17 +525,7 @@ div#app div#viewport div#connect.window {
   width: 100%;
 }
 /*END MAIN PAGE*/
-/*START TORRENTLIST*/
-.edition_info {
-  background: var(--background-rowb);
-  padding: 0.2em 0em;
-}
-.group_torrent td span {
-  position: initial;
-display: inline !important;
-}
 
-/*END TORRENTLIST*/
 /*Start FORUM*/
 #forums {
 display: block;
@@ -815,6 +805,14 @@ blockquote {
   max-width: 90vw;
   box-shadow: var(--box-shadow);
 }
+.edition_info {
+  background: var(--background-rowb);
+  padding: 0.2em 0em;
+}
+.group_torrent td span {
+  position: initial;
+display: inline !important;
+}
 /*END RESULT PAGE*/
 /*START STAFF PAGE*/
 #staff .thin {
@@ -823,7 +821,7 @@ blockquote {
     text-align: left;
     display: block;
 }
-.nobr {
+#staff .nobr {
   white-space: normal;
 }
 /*END STAFF PAGE*/
