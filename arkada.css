@@ -530,6 +530,12 @@ div#app div#viewport div#connect.window {
   background: var(--background-rowb);
   padding: 0.2em 0em;
 }
+span.torrent_info {
+ top: -1.1em;
+  position: initial;
+  margin-bottom: -1em;
+}
+
 /*END TORRENTLIST*/
 /*Start FORUM*/
 #forums {
