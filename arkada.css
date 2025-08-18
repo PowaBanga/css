@@ -343,10 +343,14 @@ div#menu ul li {
 div#menu ul li a {
     width: 100%;
     display: flex;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-messages-head);
     height: 2em;
     align-items: center;
     justify-content: space-around;
+}
+div#menu ul li a:hover {
+  box-shadow: var(--box-shadow-messages-head-revert);
+  border-radius: 0.2em;
 }
 /*END MENUBAR*/
 #searchbars ul li {
