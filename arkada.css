@@ -349,6 +349,8 @@ div#menu ul li a {
     align-items: center;
     justify-content: space-around;
     color: var(--light-grey);
+    background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);
+    text-shadow: 0em 0em 0.7em #000;
 }
 div#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert);
