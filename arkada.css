@@ -28,7 +28,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --box-shadow: 0em 0em 1em black;
     --box-shadow-button-edit-area: 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20, -0.1em -0.1em 0.1em 0.1em inset #00000050;
     --box-shadow-messages-head: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset, 0em 0em 0.3em 0.3em #00000060;
-    --box-shadow-messages-head-revert: 0.1em 0.2em 0.1em 0.1em #00000081 inset, -0.2em -0.2em 0.5em 0.2em #FFFFFF81 inset;
+    --box-shadow-messages-head-revert: 0.2em 0.2em 0.5em 0.2em #00000081 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF20 inset;
     --blue1:  #528ba3;
     --light-blue: #456478;
     --font-size-normal: 1rem;
