@@ -824,7 +824,7 @@ blockquote {
     display: block;
 }
 .nobr {
-  white-space: nowrap;
+  white-space: normal;
 }
 /*END STAFF PAGE*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
