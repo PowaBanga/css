@@ -348,6 +348,7 @@ div#menu ul li a {
     height: 2em;
     align-items: center;
     justify-content: space-around;
+    color: var(--light-grey);
 }
 div#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert);
