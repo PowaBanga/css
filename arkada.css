@@ -761,6 +761,11 @@ blockquote {
   width: 100%;
   height: 100%;
 }
+.lightbox img {
+  max-height: 90vh;
+  max-width: 90vw;
+  box-shadow: var(--box-shadow);
+}
 /*END RESULT PAGE*/
 /*START STAFF PAGE*/
 #staff .thin {
