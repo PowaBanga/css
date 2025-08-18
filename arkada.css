@@ -749,7 +749,19 @@ blockquote {
   width: 100%;
 }
 /* STOP COLLECTIONS*/
-/**/
+/*START RESULT PAGE*/
+.lightbox {
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 0%;
+  z-index: 1000;
+  overflow: auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+/*END RESULT PAGE*/
 /*START STAFF PAGE*/
 #staff .thin {
     width: 80% !important;
