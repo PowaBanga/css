@@ -16,6 +16,16 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
  * By using this stylesheet and it's associated elements, you agree to these Terms of Use and also that these Terms of Use may change at any time, with or without notice.
  Made exclusively for use on What.CD in 2012.
  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --background1: #222;
     --background2: rgba(42, 68, 93, 0.1);
@@ -111,10 +121,6 @@ a:active {
 }
 ul {
     list-style-type: none;
-}
-* {
-    margin: 0;
-    padding: 0;
 }
 body {
     margin: 0;
@@ -274,7 +280,7 @@ td.label {
     width: 80%;
     margin: 0em auto 2em auto;
     box-shadow: var(--box-shadow);
-    background-image: url("https://powabanga.github.io/css/logo_transparent.webp") ;
+    /*background-image: url("https://powabanga.github.io/css/logo_transparent.webp") ;*/
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -327,6 +333,9 @@ ul#userinfo_stats li {
     box-shadow: var(--box-shadow-inset);
     padding: 0em 0em;
     margin-top: 0.6em;
+    background: var(--background1);
+  opacity: 85%;
+
 }
 #userinfo_minor a {
   color: var(--light-grey);
@@ -344,7 +353,8 @@ ul#userinfo_stats li {
   background: var(--background-messages-head);
 }
 #userinfo_minor a:hover {
-  box-shadow: var(--box-shadow-button-edit-area), var(--box-shadow);
+  box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
+  background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);
 }
 
 /*END USERINFO*/
@@ -368,12 +378,13 @@ div#menu ul li a {
     align-items: center;
     justify-content: space-around;
     color: var(--light-grey);
-    background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);
+    /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
     text-shadow: 0em 0em 0.7em #000;
 }
 div#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert);
   border-radius: 0.2em;
+  background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%); 
 }
 /*END MENUBAR*/
 #searchbars ul li {
