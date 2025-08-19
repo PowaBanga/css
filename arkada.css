@@ -286,6 +286,7 @@ td.label {
 #logo {
   position: absolute;
   background: url("https://powabanga.github.io/css/logo_transparent.webp");
+  background-repeat: no-repeat;
   width: 8em;
   height: 2.9em;
   z-index: 42;
@@ -294,6 +295,14 @@ td.label {
   transform: translate(-50%, -50%);
   top: 1.5em;
   background-size: contain;
+}
+@media (max-width: 1230px) {
+#logo {
+  height: 1.8em;
+  z-index: 42;
+  transform: translate(-36%);
+  top: 1.2em;
+  background-repeat: no-repeat;
 }
 /*START USERINFO*/
 div#userinfo {
