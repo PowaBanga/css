@@ -32,7 +32,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --background-messages-head: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
     --background-rowa: #00000010 ;
     --background-rowb: #FFFFFF10 ;
-    --background-radial-white: background: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
+    --background-radial-white: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
     --light-grey: #9A9A9A;
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
     --box-shadow-inset: inset 0em 0em 1em black;
@@ -348,10 +348,11 @@ ul#userinfo_stats li {
     box-shadow: var(--box-shadow-inset);
     padding: 0em 0em;
     margin-top: 0.6em;
-    background: var(--background1);
-  opacity: 85%;
     z-index: 1;
-
+}
+#userinfo_minor li {
+background: var(--background1);
+opacity: 85%;
 }
 #userinfo_minor a {
   color: var(--light-grey);
@@ -545,6 +546,17 @@ div#app div#viewport div#connect.window {
 .sidebar img {
   max-width: none !important;
   width: 100%;
+}
+#index .head {
+  box-shadow: var(--box-shadow-messages-head), var(--box-shadow);
+  padding: 0.4em;
+  margin-bottom: 0.5em;
+}
+#index .head.colhead_dark {
+  margin: 0em;
+}
+#index .news_post .pad {
+  margin-bottom: 0.6em;
 }
 /*END MAIN PAGE*/
 
