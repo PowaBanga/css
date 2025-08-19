@@ -652,7 +652,10 @@ td.avatar {
   box-shadow: var(--box-shadow-messages-head);
 }
 .colhead_dark *{
-  margin: 0.5em;
+  /*margin: 0.5em;*/
+    height: 2em;
+  vertical-align: middle;
+  padding: 0em 0.03em;
 }
 td.body {
   background: var(--backaground-radial-white);
