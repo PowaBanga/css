@@ -292,17 +292,14 @@ td.label {
   z-index: 42;
   background-origin: ;
   left: 50%;
-  transform: translate(-50%, -50%);
-  top: 1.5em;
+  transform: translate(-50%);
   background-size: contain;
 }
 @media (max-width: 1230px) {
 #logo {
   height: 1.8em;
-  z-index: 42;
-  transform: translate(-36%);
+  width: 5.1em;
   top: 1.2em;
-  background-repeat: no-repeat;
 }
 }
 /*START USERINFO*/
