@@ -38,7 +38,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
     --box-shadow-buttons:  -0.1em -0.1em 0.1em 0.1em inset #00000050, 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20;
-    --box-shadow-buttons-hover: 0.2em 0.2em 0.5em 0.2em #00000020 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF80 inset;
+    --box-shadow-buttons-hover: 0.2em 0.2em 0.6em 0.2em #00000080 inset, -0.2em -0.2em 0.2em -0.1em #FFFFFF20 inset;
     --box-shadow-messages-head: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset, 0em 0em 0.3em 0.3em #00000060;
     --box-shadow-messages-head-revert: 0.2em 0.2em 0.5em 0.2em #00000081 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF20 inset;
     --blue1:  #528ba3;
@@ -250,9 +250,11 @@ input[type="radio"]:checked::after {
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-messages-head);
+  border: none;
+  color: var(--light-grey);
 }
 .submit input:hover, #buttons input:hover {
-  box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-messages-head);
+  box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 /*START SEARCHBOX*/
 .submit.ft_submit input {
