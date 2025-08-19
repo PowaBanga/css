@@ -245,7 +245,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #buttons input, input[type="submit"], .linkbox .brackets {
+.submit input, #buttons input, input[type="submit"], .linkbox .brackets, #newthreadtext .brackets {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
@@ -256,10 +256,10 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem;
 }
-.submit input:hover, #buttons input:hover, input[type="submit"]:hover, .linkbox .brackets:hover {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
-.linkbox .brackets::before, .linkbox .brackets::after {
+.linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
   display: none;
 }
 /*START SEARCHBOX*/
@@ -742,7 +742,7 @@ blockquote {
 table#newthreadtext.layout tbody tr td:nth-child(3) {
   position: absolute;
   right: 1%;
-  top: 28em;
+  bottom: 1em;
 }
 .wysibb-text-editor {
   background: none !important;
