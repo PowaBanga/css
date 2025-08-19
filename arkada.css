@@ -61,6 +61,14 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     font-stretch: normal;
     src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Roboto-mono';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url(https://https://powabanga.github.io/css/RobotoMonoNerd.ttf) format('truetype');
+}
+
 /*START USER CLASSES*/
 .class_2{
   color: #444;
@@ -676,6 +684,15 @@ td.avatar {
     height: 2em;
   vertical-align: middle;
   padding: 0em 0.03em;
+}
+.forum_list h3 {
+  box-shadow: var(--box-shadow-messages-head);
+  padding: 0.3em 0.6em;
+  margin: 0.6em 0em 0.2em 0em;
+}
+.donor_icon.tooltip {
+  width: 1.1em;
+  height: 0.9em;
 }
 td.body {
   background: var(--backaground-radial-white);
