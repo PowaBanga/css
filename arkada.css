@@ -254,6 +254,8 @@ input[type="radio"]:checked::after {
   border: none;
   color: var(--light-grey);
   line-height: 3rem;
+  display: inline-block;
+  margin:0.4rem;
 }
 .submit input:hover, #buttons input:hover, input[type="submit"]:hover, .linkbox .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover) !important;
