@@ -38,7 +38,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
     --box-shadow-buttons:  -0.1em -0.1em 0.1em 0.1em inset #00000050, 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20;
-    --box-shadow-buttons-hover:  0.1em 0.1em 0.1em 0.1em inset #00000050, -0.1em -0.1em 0.1em 0.1em inset #FFFFFF20;
+    --box-shadow-buttons-hover: 0.2em 0.2em 0.5em 0.2em #00000020 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF80 inset;
     --box-shadow-messages-head: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset, 0em 0em 0.3em 0.3em #00000060;
     --box-shadow-messages-head-revert: 0.2em 0.2em 0.5em 0.2em #00000081 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF20 inset;
     --blue1:  #528ba3;
@@ -233,12 +233,18 @@ input[type="radio"]:checked::after {
   content: ' ';
   text-shadow: 0 0 black;
 }
+#tags_type1, #tags_type0 {
+  width: 15px;
+}
 .submit.ft_submit input, .submit input {
-  box-shadow: var(--box-shadow-buttons);
+  box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
-  width: auto;
-  padding: 0.4rem;
+  width: auto !important;
+  padding: 0.4rem !important;
   background: var(--background-messages-head);
+}
+.submit input:hover {
+  box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-messages-head);
 }
 /*START SEARCHBOX*/
 .submit.ft_submit input {
@@ -251,7 +257,7 @@ input[type="radio"]:checked::after {
 input#group_results, .layout.cat_list input {
   width: 1.1rem;
   height: 1.1rem;
-  margin-left: 0.1rem;
+  margin-left: 1rem;
 }
 .nobr select, .ft_order select {
   width: auto;
@@ -290,7 +296,6 @@ td.label {
   background-repeat: no-repeat;
   width: 8em;
   height: 2.9em;
-  z-index: 42;
   background-origin: ;
   left: 50%;
   transform: translate(-50%);
@@ -311,7 +316,6 @@ td.label {
 /*START USERINFO*/
 div#userinfo {
     padding-bottom: 1em;
-    z-index: 1;
 }
 #userinfo .brackets::before {
     content: "[";
@@ -323,7 +327,6 @@ div#userinfo {
     order: 1;
     position: relative;
     top: -1.2em;
-    z-index: 1;
 }
 #userinfo_username li {
     display: inline-block;
@@ -333,7 +336,6 @@ div#userinfo {
     position: relative;
     top: -1.2em;
     margin-bottom: -1.2em;
-    z-index: 1;
 }
 #userinfo_major li {
     margin-right: 0.4em;
@@ -345,7 +347,6 @@ div#userinfo {
     top: -2.5em;
     float: right;
     margin-bottom: -2.5em;
-    z-index: 1;
 }
 ul#userinfo_stats li {
     display: inline-block;
@@ -358,7 +359,6 @@ ul#userinfo_stats li {
     box-shadow: var(--box-shadow-inset);
     padding: 0em 0em;
     margin-top: 0.6em;
-    z-index: 1;
 }
 #userinfo_minor li {
 background: var(--background1);
@@ -390,7 +390,6 @@ opacity: 85%;
 div#menu ul {
     display: flex;
     justify-content: space-around;
-    z-index: 1;
     position: relative;
 }
 div#menu ul li {
@@ -420,7 +419,6 @@ div#menu ul li a:hover {
 /*END MENUBAR*/
 #searchbars ul li {
     width: 15%;
-    z-index: 1;
 }
 
 div#searchbars ul {
@@ -841,7 +839,6 @@ blockquote {
   position: fixed;
   top: 10%;
   left: 0%;
-  z-index: 1000;
   overflow: auto;
   padding: 0;
   width: 100%;
