@@ -244,14 +244,14 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit.ft_submit input, .submit input {
+.submit input, #button input {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-messages-head);
 }
-.submit input:hover {
+.submit input:hover, #button input:hover {
   box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-messages-head);
 }
 /*START SEARCHBOX*/
@@ -582,6 +582,7 @@ display: block;
 }
 #forums h2 {
   margin-right: auto;
+  width: 100%
 }
 .forum_list {
     width: 100%;
@@ -723,6 +724,11 @@ blockquote {
     background-color: var(--background-rowb);
 }
 /*START EDIT AREA*/
+table#newthreadtext.layout tbody tr td:nth-child(3) {
+  position: absolute;
+  right: 1%;
+  top: 28em;
+}
 .wysibb-text-editor {
   background: none !important;
 }
