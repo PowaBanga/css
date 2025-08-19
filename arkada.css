@@ -244,14 +244,14 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #button input {
+.submit input, #buttons input {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-messages-head);
 }
-.submit input:hover, #button input:hover {
+.submit input:hover, #buttons input:hover {
   box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-messages-head);
 }
 /*START SEARCHBOX*/
@@ -724,6 +724,12 @@ blockquote {
     background-color: var(--background-rowb);
 }
 /*START EDIT AREA*/
+#newthreadtext {
+  width: 100%;
+}
+#forums .box.pad {
+  width: 100%;
+}
 table#newthreadtext.layout tbody tr td:nth-child(3) {
   position: absolute;
   right: 1%;
