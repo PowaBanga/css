@@ -37,7 +37,8 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
     --box-shadow-inset: inset 0em 0em 1em black;
     --box-shadow: 0em 0em 1em black;
-    --box-shadow-button-edit-area: 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20, -0.1em -0.1em 0.1em 0.1em inset #00000050;
+    --box-shadow-buttons: 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20, -0.1em -0.1em 0.1em 0.1em inset #00000050;
+    --box-shadow-buttons-hover:  -0.1em -0.1em 0.1em 0.1em inset #00000050, 0.1em 0.1em 0.1em 0.1em inset #FFFFFF20;
     --box-shadow-messages-head: 0.1em 0.2em 0.1em 0.1em #FFFFFF20 inset, -0.2em -0.2em 0.5em 0.2em #00000081 inset, 0em 0em 0.3em 0.3em #00000060;
     --box-shadow-messages-head-revert: 0.2em 0.2em 0.5em 0.2em #00000081 inset, -0.1em -0.2em 0.1em 0.1em #FFFFFF20 inset;
     --blue1:  #528ba3;
@@ -233,7 +234,7 @@ input[type="radio"]:checked::after {
   text-shadow: 0 0 black;
 }
 .submit.ft_submit input, .submit input {
-  box-shadow: var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow-buttons);
   cursor: pointer;
   width: auto;
   padding: 0.4rem;
@@ -241,7 +242,7 @@ input[type="radio"]:checked::after {
 }
 /*START SEARCHBOX*/
 .submit.ft_submit input {
-  box-shadow: var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow-buttons);
   cursor: pointer;
   width: auto;
   padding: 0.4rem;
@@ -269,7 +270,7 @@ td.label {
 }
 .filter_torrents .head div font, .filter_torrents .head div span #ft_toggle {
   background: var(--background-messages-head) !important;
-  box-shadow: var(--box-shadow-button-edit-area) !important;
+  box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   font-size: \);
 }
@@ -685,7 +686,7 @@ code {
   padding: 1em;
 }
 blockquote {
-  box-shadow: var(--box-shadow-button-edit-area), var(--box-shadow);
+  box-shadow: var(--box-shadow-buttons), var(--box-shadow);
   width: 95%;
   margin: 0.8em auto;
   padding: 0.5em;
@@ -741,11 +742,11 @@ blockquote {
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
   background: none !important;
   border: none !important;
-  box-shadow: var(--box-shadow-button-edit-area),  var(--box-shadow) !important;
+  box-shadow: var(--box-shadow-buttons),  var(--box-shadow) !important;
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-co  ntainer .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
   background: var(--background1) !important;
-  box-shadow: var(--box-shadow-button-edit-area)  !important;
+  box-shadow: var(--box-shadow-buttons)  !important;
 }
 .wysibb .modesw, .wysibb .wbb-list, .wysibb .wbb-fontsize {
   color: var(--light-grey);
@@ -758,11 +759,11 @@ blockquote {
 
 .wbb-select .option:hover {
   background: none !important;
-  box-shadow: var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow-buttons);
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip {
   border: none !important;
-  box-shadow: var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow-buttons);
   color:var(--light-grey);
 }
 .wbb-list .sc {
@@ -774,7 +775,7 @@ blockquote {
 #wbbmodal .wbbm {
   background: var(--background1);
   border: none;
-  box-shadow: var(--box-shadow), var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
 }
 #wbbmodal {
   font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif !important;
@@ -784,7 +785,7 @@ blockquote {
   background: var(--background-messages-head);
   border: none;
   color: var(--light-grey);
-  box-shadow: var(--box-shadow-button-edit-area);
+  box-shadow: var(--box-shadow-buttons);
   margin: 0em 0.3em 1em 0.3em;
   padding: 0.4em;
   cursor: pointer;
@@ -799,7 +800,7 @@ blockquote {
 }
 .smiley-button.modern {
   background: var(--background-messages-head) !important;
-  box-shadow: var(--box-shadow-button-edit-area) !important;
+  box-shadow: var(--box-shadow-buttons) !important;
   border: none !important;
   font-size: var(--font-size-small) !important;
   font-family: var(--font-family-principal) !important;
