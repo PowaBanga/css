@@ -313,7 +313,7 @@ div#userinfo {
     z-index: 1;
 }
 #userinfo_username li {
-    display: inline;
+    display: inline-block;
     margin-right: 0.3em;
 }
 #userinfo_major {
