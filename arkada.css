@@ -651,7 +651,7 @@ td.avatar {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
 }
-.colhead_dark div {
+.colhead_dark *{
   margin: 0.5em;
 }
 td.body {
