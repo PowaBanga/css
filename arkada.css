@@ -244,7 +244,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #buttons input {
+.submit input, #buttons input, input[type="submit"] {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
@@ -253,7 +253,7 @@ input[type="radio"]:checked::after {
   border: none;
   color: var(--light-grey);
 }
-.submit input:hover, #buttons input:hover {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 /*START SEARCHBOX*/
