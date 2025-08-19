@@ -704,6 +704,9 @@ code {
   position: relative;
   margin: auto;
   padding: 1em;
+  font-family: Roboto-mono;
+  white-space: nowrap;
+  overflow: auto;
 }
 blockquote {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow);
