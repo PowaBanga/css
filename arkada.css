@@ -253,9 +253,13 @@ input[type="radio"]:checked::after {
   background: var(--background-messages-head);
   border: none;
   color: var(--light-grey);
+  line-height: 3rem;
 }
 .submit input:hover, #buttons input:hover, input[type="submit"]:hover, .linkbox .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover) !important;
+}
+.linkbox .brackets::before, .linkbox .brackets::after {
+  display: none;
 }
 /*START SEARCHBOX*/
 .submit.ft_submit input {
