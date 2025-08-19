@@ -301,6 +301,7 @@ td.label {
 /*START USERINFO*/
 div#userinfo {
     padding-bottom: 1em;
+    z-index: 1;
 }
 #userinfo .brackets::before {
     content: "[";
@@ -312,6 +313,7 @@ div#userinfo {
     order: 1;
     position: relative;
     top: -1.2em;
+    z-index: 1;
 }
 #userinfo_username li {
     display: inline;
@@ -321,6 +323,7 @@ div#userinfo {
     position: relative;
     top: -1.2em;
     margin-bottom: -1.2em;
+    z-index: 1;
 }
 #userinfo_major li {
     margin-right: 0.4em;
@@ -332,6 +335,7 @@ div#userinfo {
     top: -2.5em;
     float: right;
     margin-bottom: -2.5em;
+    z-index: 1;
 }
 ul#userinfo_stats li {
     display: inline-block;
@@ -346,6 +350,7 @@ ul#userinfo_stats li {
     margin-top: 0.6em;
     background: var(--background1);
   opacity: 85%;
+    z-index: 1;
 
 }
 #userinfo_minor a {
@@ -374,6 +379,7 @@ ul#userinfo_stats li {
 div#menu ul {
     display: flex;
     justify-content: space-around;
+    z-index: 1;
 }
 div#menu ul li {
     flex: 1;
@@ -400,6 +406,7 @@ div#menu ul li a:hover {
 /*END MENUBAR*/
 #searchbars ul li {
     width: 15%;
+    z-index: 1;
 }
 
 div#searchbars ul {
