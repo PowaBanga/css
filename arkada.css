@@ -253,7 +253,6 @@ input[type="radio"]:checked::after {
   background: var(--background-messages-head);
   border: none;
   color: var(--light-grey);
-  line-height: 3rem;
   display: inline-block;
   margin:0.4rem;
 }
