@@ -701,12 +701,12 @@ tr.colhead_dark td div a:nth-child(5):before {
 tr.colhead_dark td div a:nth-child(5)::after {
   display: none;
 }
-tr.colhead_dark td div a:nth-child(1):before {
+tr.colhead_dark td div a.brackets:nth-child(1):before {
   content: ' ';
   font-family: Roboto-mono;
 }
 
-tr.colhead_dark td div a:nth-child(1)::after {
+tr.colhead_dark td div a.brackets:nth-child(1)::after {
   display: none;
 }
 tr.colhead_dark td div a:nth-child(2):before {
