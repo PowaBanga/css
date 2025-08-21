@@ -685,6 +685,39 @@ td.avatar {
 .forum_post {
   width: 100%;
 }
+tr.colhead_dark td div a:nth-child(6):before {
+  content: ' ';
+  font-family: Roboto-mono;
+}
+tr.colhead_dark td div a:nth-child(6):after {
+  display: none;
+  
+}
+tr.colhead_dark td div a:nth-child(5):before {
+  content: ' ';
+  font-family: Roboto-mono;
+}
+
+tr.colhead_dark td div a:nth-child(5)::after {
+  display: none;
+}
+tr.colhead_dark td div a:nth-child(1):before {
+  content: ' ';
+  font-family: Roboto-mono;
+}
+
+tr.colhead_dark td div a:nth-child(1)::after {
+  display: none;
+}
+tr.colhead_dark td div a:nth-child(2):before {
+  content: '󱈸 ';
+  font-family: Roboto-mono;
+}
+
+tr.colhead_dark td div a:nth-child(2)::after {
+  display: none;
+}
+
 .colhead_dark {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
