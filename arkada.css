@@ -739,6 +739,11 @@ blockquote {
 #forums .box.pad {
   width: 100%;
 }
+/*breadcrumb c'est la ligne du chemin du topic/forum actuel en bas de page*/
+.breadcrumbs {
+  margin: 0em auto 0em 0em;
+  display: block;
+}
 table#newthreadtext.layout tbody tr td:nth-child(3) {
   position: absolute;
   right: 1%;
