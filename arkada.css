@@ -685,33 +685,40 @@ td.avatar {
 .forum_post {
   width: 100%;
 }
+form textarea {
+  width: 99%;
+}
 tr.colhead_dark td div a:nth-child(6):before {
-  content: ' ';
+  content: '';
   font-family: Roboto-mono;
+    margin-right: 0.2rem;
 }
 tr.colhead_dark td div a:nth-child(6):after {
   display: none;
   
 }
 tr.colhead_dark td div a:nth-child(5):before {
-  content: ' ';
+  content: '';
   font-family: Roboto-mono;
+    margin-right: 0.2rem;
 }
 
 tr.colhead_dark td div a:nth-child(5)::after {
   display: none;
 }
 tr.colhead_dark td div a.brackets:nth-child(1):before {
-  content: ' ';
+  content: '';
   font-family: Roboto-mono;
+    margin-right: 0.2rem;
 }
 
 tr.colhead_dark td div a.brackets:nth-child(1)::after {
   display: none;
 }
 tr.colhead_dark td div a:nth-child(2):before {
-  content: '󱈸 ';
+  content: '󱈸';
   font-family: Roboto-mono;
+    margin-right: 0.2rem;
 }
 
 tr.colhead_dark td div a:nth-child(2)::after {
