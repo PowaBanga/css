@@ -687,6 +687,7 @@ td.avatar {
 }
 form textarea {
   width: 99%;
+  margin: 0.5em 0em 0em 0em;
 }
 tr.colhead_dark td div a:nth-child(6):before {
   content: '';
