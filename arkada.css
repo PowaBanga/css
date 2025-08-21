@@ -245,7 +245,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #buttons input, input[type="submit"], .linkbox .brackets, #newthreadtext .brackets {
+.submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
@@ -256,7 +256,7 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem;
 }
-.submit input:hover, #buttons input:hover, input[type="submit"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover  {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"] .linkbox .brackets:hover, #newthreadtext .brackets:hover  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
