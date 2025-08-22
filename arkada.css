@@ -299,10 +299,10 @@ td.label {
 /*STOP SEARCHBOX*/
 /*END INPUTS*/
 /*START HEADER*/
-/*Donc l'entete ici, testé à 1080 de large c'est ok faut une autre config pour ecran moin large*/
+/*Donc l'entete ici, testé à 980 de large c'est ok faut une autre config pour ecran moin large*/
 #header {
-    width: 80%;
-    margin: 0em auto 2em auto;
+    width: 80vw;
+    margin: 0vw auto 2vw auto;
     box-shadow: var(--box-shadow);
     background: var(--background-radial-white);
 }
@@ -488,7 +488,7 @@ tr.torrent td {
     display: flex;
     width: 100% !important;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background: var(--background-radial-white);
 }
 .thin strong {
@@ -497,7 +497,7 @@ tr.torrent td {
 
 .sidebar {
     position: relative;
-    width: 16%;
+    width: 19%;
     order: 2;
     box-shadow: var(--box-shadow-inset);
     margin: 1em 1% 1em 0.5%;
@@ -506,7 +506,7 @@ tr.torrent td {
 .main_column {
     /* left: 0px; */
     position: relative;
-    width: 78%;
+    width: 80%;
     order: 1;
     box-shadow: var(--box-shadow-inset);
     margin: 1em 0.5% 1em 1%;
@@ -522,22 +522,29 @@ body#index div#wrapper div#content br {
 
 
 #content{
-    width: 80%;
+    width: 80vw;
     position: relative;
     /*left: 10%;*/
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
     margin: 0em auto 1em auto;
 }
-/*#content {*/
-    /*position: relative;*/
-    /*width: 80%;*/
-    /*box-shadow: var(--box-shadow);*/
-    /*margin: 0em auto;*/
-/*}*/
+
 
 /* ca c'est pour le top 10 uniquement*/
 .torrent_table.cats.numbering.border {
     width: 100%;
+}
+#disclaimer_container { 
+  display: block;   
+  margin: auto;     
+}
+.center.cats_col {
+  vertical-align: top !important;
+}
+
+.group_image img {
+  height: 12em;
+  width: auto;
 }
 
 
@@ -564,9 +571,9 @@ div#app div#viewport div#connect.window {
     /*! position: sticky; */
     float: right;
 }
-#settings_sections {
-    width: 9%;
-}
+/*#settings_sections {*/
+    /*width: 9%;*/
+/*}*/
 /*END SETTINGS*/
 /*SART MAIN PAGE*/
 .sidebar img {
@@ -675,14 +682,15 @@ background-size: contain;
   width: 100%;
 }
 
-  td.avatar {
-  width: 100px;
-  padding: 0.4em;
+.avatar {
+  width: 100%;
+  padding: 0.1vw;
 }
-td.avatar {
-  width: 100px;
-  padding: 0.4em;
+.avatar .double_avatar {
+  width: 100%;
+  height: auto;
 }
+
 .forum_post {
   width: 100%;
 }
@@ -947,6 +955,11 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 display: inline !important;
 }
 /*END RESULT PAGE*/
+/*START FILE DESCRIPTION*/
+#torrent_details {
+width: 100%;
+}
+/*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
 #staff .thin {
     width: 80% !important;
