@@ -683,11 +683,11 @@ background-size: contain;
 }
 
 .avatar {
-  width: 100%;
+  width: 7.7vw;
   padding: 0.1vw;
 }
 .avatar .double_avatar {
-  width: 100%;
+  width: 7.6vw;
   height: auto;
 }
 
@@ -740,12 +740,12 @@ form textarea {
   box-shadow: var(--box-shadow-messages-head);
   height: 2rem;
 }
-.colhead_dark *{
+/*.colhead_dark *{*/
   /*margin: 0.5em;*/
-    height: 2em;
-  vertical-align: middle;
-  padding: 0em 0.03em;
-}
+    /*height: 2em;*/
+  /*vertical-align: middle;*/
+  /*padding: 0em 0.03em;*/
+/*}*/
 h3 {
   /*box-shadow: var(--box-shadow-messages-head);*/
   /*padding: 0.3em 0.6em;*/
