@@ -500,7 +500,7 @@ tr.torrent td {
     width: 19%;
     order: 2;
     box-shadow: var(--box-shadow-inset);
-    margin: 1em 1% 1em 0.5%;
+    /*margin: 1em 1% 1em 0.5%;*/
 }
 
 .main_column {
@@ -509,8 +509,8 @@ tr.torrent td {
     width: 80%;
     order: 1;
     box-shadow: var(--box-shadow-inset);
-    margin: 1em 0.5% 1em 1%;
-  padding: 1em 0.75%;
+    /*margin: 1em 0.5% 1em 1%;*/
+  /*padding: 1em 0.75%;*/
 }
 
 .group_torrent span, .torrent span {
