@@ -698,44 +698,44 @@ form textarea {
   width: 99%;
   margin: 0.5em 0em 0em 0em;
 }
-tr.colhead_dark td div a:nth-child(6):before {
+.colhead_dark .brackets:nth-child(6):before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-tr.colhead_dark td div a:nth-child(6):after {
+.colhead_dark .brackets:nth-child(6):after {
   display: none;
   
 }
-tr.colhead_dark td div a:nth-child(5):before {
+.colhead_dark .brackets:nth-child(5):before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
 
-tr.colhead_dark td div a:nth-child(5)::after {
+.colhead_dark .brackets:nth-child(5)::after {
   display: none;
 }
-tr.colhead_dark td div a.brackets:nth-child(1):before {
+.colhead_dark .brackets:nth-child(1):before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
 
-tr.colhead_dark td div a.brackets:nth-child(1)::after {
+.colhead_dark .brackets:nth-child(1)::after {
   display: none;
 }
-tr.colhead_dark td div a:nth-child(2):before {
+.colhead_dark .brackets:nth-child(2):before {
   content: '󱈸';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
 
-tr.colhead_dark td div a:nth-child(2)::after {
+.colhead_dark .brackets:nth-child(2)::after {
   display: none;
 }
 
-.colhead_dark {
+.colhead_dark, .colhead {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
 }
@@ -745,11 +745,11 @@ tr.colhead_dark td div a:nth-child(2)::after {
   vertical-align: middle;
   padding: 0em 0.03em;
 }
-.forum_list h3 {
-  box-shadow: var(--box-shadow-messages-head);
-  padding: 0.3em 0.6em;
-  margin: 0.6em 0em 0.2em 0em;
-}
+/*.forum_list h3 {*/
+  /*box-shadow: var(--box-shadow-messages-head);*/
+  /*padding: 0.3em 0.6em;*/
+  /*margin: 0.6em 0em 0.2em 0em;*/
+/*}*/
 .donor_icon.tooltip {
   width: 1.1em;
   height: 0.9em;
