@@ -710,13 +710,13 @@ form textarea {
   display: none;
   
 }
-.colhead_dark .brackets:nth-child(5):before {
+.colhead_dark div:first-child > span + a:before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
 
-.colhead_dark .brackets:nth-child(5)::after {
+.colhead_dark div:first-child > span + a:after {
   display: none;
 }
 .colhead_dark .brackets:nth-child(1):before {
@@ -725,7 +725,7 @@ form textarea {
     margin-right: 0.2rem;
 }
 
-.colhead_dark .brackets:nth-child(1)::after {
+.colhead_dark .brackets:nth-child(1):after {
   display: none;
 }
 .colhead_dark .brackets:nth-child(2):before {
@@ -734,7 +734,7 @@ form textarea {
     margin-right: 0.2rem;
 }
 
-.colhead_dark .brackets:nth-child(2)::after {
+.colhead_dark .brackets:nth-child(2):after {
   display: none;
 }
 .colhead_dark .brackets {
