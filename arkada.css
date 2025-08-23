@@ -434,7 +434,7 @@ div#menu ul li a {
 div#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
   border-radius: 0.5rem;
-  background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);
+  /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
   text-shadow: 0.03rem 0.03rem 0.02rem var(--light-grey);
 }
 /*END MENUBAR*/
