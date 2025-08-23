@@ -466,7 +466,7 @@ div#searchbars ul {
 /*END NOTIFY AREA*/
 .box {
     /* font-size: 10pt; */
-    font-size: var(--font-size-small) !important;
+    font-size: var(--font-size-normal) !important;
 }
 #index .box.news_post {
   font-size: var(--font-size-normal) !important;
@@ -733,6 +733,14 @@ form textarea {
 
 .colhead_dark .brackets:nth-child(2)::after {
   display: none;
+}
+.colhead_dark .brackets {
+box-shadow: var(--box-shadow-buttons);
+padding: 0.4em;
+font-size: var(--font-size-small);
+}
+.colhead_dark .brackets:hover {
+box-shadow: var(--box-shadow-buttons-hover);
 }
 
 .colhead_dark, .colhead {
