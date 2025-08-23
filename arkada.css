@@ -701,12 +701,12 @@ form textarea {
   width: 99%;
   margin: 0.5em 0em 0em 0em;
 }
-.colhead_dark .brackets:nth-child(6):before {
+.colhead_dark div:first-child > span + a + a:before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-.colhead_dark .brackets:nth-child(6):after {
+.colhead_dark div:first-child > span + a + a:after {
   display: none;
   
 }
