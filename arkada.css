@@ -637,7 +637,7 @@ div#app div#viewport div#connect.window {
 #forums {
 display: block;
 }
-.forum_index {
+.forum_index, .staff{
   box-shadow: var(--box-shadow);
   border-radius: 1rem 1rem 0 0;
 }
