@@ -1074,7 +1074,9 @@ width: 100%;
   background: var(--background-buttons-menu);
   box-shadow: var(--box-shadow-buttons);
   padding: 0.3rem;
-  border-radius: 0.6rem 0.6rem 0 0;
+    border-radius: 0 0 0.6rem 0.6rem;
+    height: fit-content;
+    top: 2.2rem;
 }
 .forum_post .colhead_dark .time {
   display: inline-block;
