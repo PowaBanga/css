@@ -593,6 +593,9 @@ tr.torrent_filename_row:nth-child(11) {
 #rules .center {
   color: var(--light-grey) !important;
 }
+.nobr {
+  white-space: unset;
+}
 /*END RULES*/
 /*cette section concerne la page IRC*/
 .box.pad.irc_container {
