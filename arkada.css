@@ -564,15 +564,33 @@ tr.torrent_filename_row:nth-child(11) {
 }
 
 
-/*Page des règles (ho punaise c'est la cata ici, c'est quoi tous ces styles directement écrit dans le html tout à coup ???*/
+/*START RULES*/
 .box.pad.rule_table {
-    background: var(--background2) !important;
-    border-radius: 0px !important;
+  background: unset !important;        
+  box-shadow: var(--box-shadow);   
+    /*border-radius: 0px !important;*/
     color: var(--light-grey) !important;
     margin-bottom: 0px !important;
     padding: 0px !important;
 }
+.rule_table .colhead > td {
+  color: var(--light-grey) !important;
+  border-bottom: none !important;
+}
+#rules .header {
+  background: unset !important;
+  border: ;
+  border-bottom: none !important;
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+  border-radius: 0.5rem;
+  padding-bottom: 1.4rem !important;
+  margin-bottom: 1.8rem !important;
+}
 
+#rules .center {
+  color: var(--light-grey) !important;
+}
+/*END RULES*/
 /*cette section concerne la page IRC*/
 .box.pad.irc_container {
     width: 100%;
@@ -813,11 +831,11 @@ blockquote {
 }
 .rowb {
     background: ;
-    background-color: var(--background-rowa);
+    background-color: var(--background-rowa) !important;
 }
 
 .rowa {
-    background-color: var(--background-rowb);
+    background-color: var(--background-rowb) !important;
 }
 /*START EDIT AREA*/
 #newthreadtext {
