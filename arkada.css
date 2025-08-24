@@ -537,6 +537,15 @@ body#index div#wrapper div#content br {
 }
 
 
+/* Élément | https://hdf.world/torrents.php */
+/*Torrents list*/
+tr.torrent_filename_row:nth-child(11) {
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
+}
+.torrent_table tr.group_torrent {
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
 /* ca c'est pour le top 10 uniquement*/
 .torrent_table.cats.numbering.border {
     width: 100%;
@@ -737,7 +746,9 @@ form textarea {
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-
+#forums .colhead_dark div > a:last-child {
+   display: none ;
+}
 .colhead_dark .brackets:nth-child(2):after {
   display: none;
 }
@@ -752,6 +763,7 @@ form textarea {
 }
 .colhead_dark .brackets:hover {
 box-shadow: var(--box-shadow-buttons-hover);
+/*text-shadow: -0.07rem -0.07rem 0.1rem #00000090, 0.07rem 0.07rem 0.1rem #FFFFFF20;*/
 }
 
 .colhead_dark, .colhead {
