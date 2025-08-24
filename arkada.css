@@ -829,12 +829,12 @@ blockquote {
   margin: 0.8em auto;
   padding: 0.5em;
 }
-.rowb {
+.rowb, .row_b {
     background: ;
     background-color: var(--background-rowa) !important;
 }
 
-.rowa {
+.rowa, .row_a {
     background-color: var(--background-rowb) !important;
 }
 /*START EDIT AREA*/
