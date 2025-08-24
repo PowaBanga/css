@@ -399,12 +399,12 @@ opacity: 85%;
   display: none;
 }
 #userinfo_minor a {
-  box-shadow: var(--box-shadow);
-  background: var(--background-messages-head);
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
 }
 #userinfo_minor a:hover {
-  box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
-  /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
+  box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow), var(--box-shadow-buttons-hover);
+  border-radius: 0.3rem;
+
 }
 
 /*END USERINFO*/
