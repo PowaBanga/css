@@ -792,6 +792,11 @@ box-shadow: var(--box-shadow-buttons-hover);
   box-shadow: var(--box-shadow-messages-head);
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
+  white-space: nowrap;
+}
+.colhead td {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  display: revert;
 }
 .colhead_dark td {
   padding: O.4rem;
