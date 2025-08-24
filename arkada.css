@@ -534,6 +534,9 @@ body#index div#wrapper div#content br {
     /*left: 10%;*/
     /*box-shadow: var(--box-shadow);*/
     margin: 0em auto 1em auto;
+      box-shadow: var(--box-shadow-buttons), var(--box-shadow)!important;;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 
