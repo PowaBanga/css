@@ -637,6 +637,10 @@ div#app div#viewport div#connect.window {
 #forums {
 display: block;
 }
+.forum_index {
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem 1rem 0 0;
+}
 #forums h2 {
   margin-right: auto;
   width: 100%
