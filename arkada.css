@@ -326,11 +326,14 @@ td.label {
   display: block;
 }
 @media (max-width: 1230px) {
-#logo {
-  height: 1.8em;
-  width: 5.1em;
-  top: 1.2em;
-}
+/*#logo {*/
+  /*height: 1.8em;*/
+  /*width: 5.1em;*/
+  /*top: 1.2em;*/
+/*}*/
+  #content, #header {
+    width: 90vw;
+  }
 }
 
 /*START USERINFO*/
