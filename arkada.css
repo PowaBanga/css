@@ -764,7 +764,7 @@ form textarea {
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-#forums .colhead_dark div > a:last-child {
+#forums .colhead_dark div:last-child > a:last-child {
    display: none ;
 }
 .colhead_dark .brackets:nth-child(2):after {
