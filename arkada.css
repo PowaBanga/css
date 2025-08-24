@@ -538,7 +538,14 @@ body#index div#wrapper div#content br {
   padding: 1rem;
   border-radius: 1rem;
 }
-
+#scroll-bottom, #scroll-top {
+  border: none;
+  background: var(--background1);
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+}
+#scroll-buttons{
+  right: 4vw;
+}
 
 /* Élément | https://hdf.world/torrents.php */
 /*Torrents listhe listt*/
