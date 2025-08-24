@@ -987,9 +987,6 @@ width: 100%;
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
 
 @media (max-width: 1040px) {
-.colhead_dark div :nth-child(7) {
-  background: wheat;
-}
 .colhead_dark .time {
   bottom: 100%;
   right: 0;
@@ -1001,14 +998,12 @@ width: 100%;
 .forum_post .colhead_dark .time {
   display: inline-block;
   position: absolute;
-  /*! bottom: 5rem; */
 }
 .forum_post {
   position: relative;
 }
 .forum_post tr:last-child td:last-child {
   max-width: 80%;
-  /*! background: beige; */
   padding-right: 0rem;
   padding-bottom: 2rem;
  }
