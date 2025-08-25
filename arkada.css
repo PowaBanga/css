@@ -484,6 +484,7 @@ div#searchbars ul {
 #index .box.news_post {
   font-size: var(--font-size-normal) !important;
   margin: 0em;
+  box-shadow: var(--box-shadow);
 }
 tr.group_torrent td,
 tr.group td,
@@ -494,6 +495,15 @@ tr.torrent td {
 .header, .linkbox, .search_form {
     width: 100%;
 }
+.head2.head.center {
+  box-shadow: var(--box-shadow);
+}
+
+.sidebar .box {
+  box-shadow: var(--box-shadow);
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
 
 /*Accueil body*/
 /*body#index div#wrapper diAv#content */
@@ -512,7 +522,7 @@ tr.torrent td {
     position: relative;
     width: 19%;
     order: 2;
-    box-shadow: var(--box-shadow-inset);
+    /*box-shadow: var(--box-shadow-inset);*/
     /*margin: 1em 1% 1em 0.5%;*/
 }
 
@@ -521,9 +531,9 @@ tr.torrent td {
     position: relative;
     width: 80%;
     order: 1;
-    box-shadow: var(--box-shadow-inset);
+    /*box-shadow: var(--box-shadow-inset);*/
     /*margin: 1em 0.5% 1em 1%;*/
-  padding: 0.6vw;
+  /*padding: 0.6vw;*/
 }
 
 .group_torrent span, .torrent span {
