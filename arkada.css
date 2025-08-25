@@ -502,7 +502,7 @@ tr.torrent td {
 .sidebar .box {
   box-shadow: var(--box-shadow);
   margin: 0 0.5rem 1rem 0.5rem;
-  white-space: preserve-breaks;
+  white-space: collapse;
 }
 .sidebar .box:nth-child(3){
   display: none;
@@ -685,6 +685,9 @@ div#app div#viewport div#connect.window {
 #news.news_header a {
   color: var(--light-grey);
 }
+#artist_information img, .box_request_desc img, .news_post img, .torrent_description img, .wiki_article img {
+  max-width: 100%;
+}
 /*END MAIN PAGE*/
 
 /*Start FORUM*/
@@ -839,7 +842,7 @@ form textarea {
 .colhead_dark, .colhead {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
-  height: 2rem;
+  /*height: 2rem;*/
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   white-space: nowrap;
 }
@@ -1180,9 +1183,8 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   }
 
   .sidebar .box {
-    flex-shrink: ;
     flex-shrink: 3;
-    height: min-content;
+    /*height: min-content;*/
     width: 23.2%;
     order: unset;
     flex: 1 1 auto;
