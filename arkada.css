@@ -259,7 +259,7 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem;
 }
-.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums  {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
@@ -643,6 +643,7 @@ div#app div#viewport div#connect.window {
 }
 #index .news_post .pad {
   margin-bottom: 0.6em;
+  white-space: pre-wrap;
 }
 
 #news.news_header {
@@ -819,7 +820,7 @@ form textarea {
 .colhead_dark .brackets:nth-child(2):after {
   display: none;
 }
-.colhead_dark .brackets {
+.colhead_dark .brackets, .box.news_post .brackets {
   padding: 0.4em;
   font-size: var(--font-size-small);
   background: var(--background-buttons-menu);
@@ -828,7 +829,7 @@ form textarea {
   color: var(--light-grey);
   height: 2.5rem;
 }
-.colhead_dark .brackets:hover {
+.colhead_dark .brackets:hover, .box.news_post .brackets:hover {
 box-shadow: var(--box-shadow-buttons-hover);
 /*text-shadow: -0.07rem -0.07rem 0.1rem #00000090, 0.07rem 0.07rem 0.1rem #FFFFFF20;*/
 }
