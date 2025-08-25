@@ -248,7 +248,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets {
+.submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
@@ -259,7 +259,7 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem;
 }
-.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover  {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
@@ -267,6 +267,7 @@ input[type="radio"]:checked::after {
 }
 input:focus {
   border: 0.01rem solid #FFFFFF20 !important;
+  outline: 0 !important;
 }
 
 /*START SEARCHBOX*/
@@ -653,7 +654,7 @@ div#app div#viewport div#connect.window {
 }
 #news.news_header a {
   width: 100%;
-  display: ;
+  display: block ;
   height: 100%;
   padding: 0.5rem;
 }#news.news_header {
