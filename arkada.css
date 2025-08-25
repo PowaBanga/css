@@ -254,10 +254,10 @@ input[type="radio"]:checked::after {
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-messages-head) !important;
-  border: none;
-  color: var(--light-grey);
+  border: none !important;
+  color: var(--light-grey) !important;
   display: inline-block;
-  margin:0.4rem;
+  margin:0.4rem !important;
 }
 .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
