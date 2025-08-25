@@ -248,7 +248,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums {
+.submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a {
   box-shadow: var(--box-shadow-buttons) !important;
   cursor: pointer;
   width: auto !important;
@@ -259,7 +259,7 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem;
 }
-.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover  {
+.submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover  {
   box-shadow: var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
@@ -805,7 +805,7 @@ form textarea {
 .colhead_dark div:last-child > a:last-child {
    display: none ;
 }
-.colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before,  {
+.colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before  {
   display: none;
 }
 .colhead_dark .brackets, .box.news_post .brackets {
@@ -942,7 +942,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   border: none !important;
   box-shadow: var(--box-shadow-buttons),  var(--box-shadow) !important;
 }
-.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-co  ntainer .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
   background: var(--background1) !important;
   box-shadow: var(--box-shadow-buttons)  !important;
 }
