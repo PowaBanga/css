@@ -17,58 +17,58 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
  Made exclusively for use on What.CD in 2012.
  */
 *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root{
-    --background1: #222;
-    --background2: rgba(42, 68, 93, 0.1);
-    --background-messages-head: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
-    --background-rowa: #00000010 ;
-    --background-rowb: #FFFFFF10 ;
-    --background-radial-white: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
-    --background-buttons-menu: linear-gradient(180deg, rgba(0, 0, 0, 0.2)0%, rgba(255, 255, 255, 0.05)100%);
-    --light-grey: #9A9A9A;
-    --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
-    --box-shadow-small: 0em 0em 0.3em black;
-    --box-shadow-inset: inset 0em 0em 1em black;
-    --box-shadow: 0em 0em 1em black;
-    --box-shadow-buttons: -0.1em -0.1em 0.1em 0.1em inset #00000050, 0.05em 0.05em 0em 0em inset #FFFFFF20;
-    --box-shadow-buttons-hover: 0.2em 0.2em 0.6em 0.2em #00000080 inset, -0.2em -0.2em 0.2em -0.1em #FFFFFF20 inset;
-    --box-shadow-messages-head: 0.03rem 0.02rem 0.1rem 0.01rem #FFFFFF20 inset, -0.03rem -0.02rem 0.02rem 0rem #00000081 inset, 0rem 0rem 0.03rem 0.15rem #00000060;
-    --box-shadow-messages-head-revert: 0.05rem 0.05rem 0.2rem 0rem #00000081 inset, -0.05em -0.05em 0.1em 0em #FFFFFF20 inset;
-    --blue1:  #528ba3;
-    --light-blue: #456478;
-    --font-size-normal: 1rem;
-    --font-size-small: 0.95rem;
-    --font-family-principal: Roboto;
+  --background1: #222;
+  --background2: rgba(42, 68, 93, 0.1);
+  --background-messages-head: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
+  --background-rowa: #00000010 ;
+  --background-rowb: #FFFFFF10 ;
+  --background-radial-white: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
+  --background-buttons-menu: linear-gradient(180deg, rgba(0, 0, 0, 0.2)0%, rgba(255, 255, 255, 0.05)100%);
+  --light-grey: #9A9A9A;
+  --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+  --box-shadow-small: 0em 0em 0.3em black;
+  --box-shadow-inset: inset 0em 0em 1em black;
+  --box-shadow: 0em 0em 1em black;
+  --box-shadow-buttons: -0.1em -0.1em 0.1em 0.1em inset #00000050, 0.05em 0.05em 0em 0em inset #FFFFFF20;
+  --box-shadow-buttons-hover: 0.2em 0.2em 0.6em 0.2em #00000080 inset, -0.2em -0.2em 0.2em -0.1em #FFFFFF20 inset;
+  --box-shadow-messages-head: 0.03rem 0.02rem 0.1rem 0.01rem #FFFFFF20 inset, -0.03rem -0.02rem 0.02rem 0rem #00000081 inset, 0rem 0rem 0.03rem 0.15rem #00000060;
+  --box-shadow-messages-head-revert: 0.05rem 0.05rem 0.2rem 0rem #00000081 inset, -0.05em -0.05em 0.1em 0em #FFFFFF20 inset;
+  --blue1:  #528ba3;
+  --light-blue: #456478;
+  --font-size-normal: 1rem;
+  --font-size-small: 0.95rem;
+  --font-family-principal: Roboto;
 }
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Roboto-mono';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    src: url(https://powabanga.github.io/css/RobotoMonoNerd.ttf) format('truetype');
+  font-family: 'Roboto-mono';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://powabanga.github.io/css/RobotoMonoNerd.ttf) format('truetype');
 }
 
 /*START USER CLASSES*/
@@ -116,31 +116,31 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 }
 /*STOP USER CLASS*/
 a:link {
-    color: #4CC5F8;
-    text-decoration: none;
+  color: #4CC5F8;
+  text-decoration: none;
 }
 a:visited {
-    color: #70E3FF;
-    text-decoration: none;
+  color: #70E3FF;
+  text-decoration: none;
 }
 a:hover {
-    color: #7EF0FF    ;
-    text-decoration: none;
+  color: #7EF0FF    ;
+  text-decoration: none;
 }
 a:active {
-    color: #A2FFFF;
-    text-decoration: none;
+  color: #A2FFFF;
+  text-decoration: none;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 body {
-    margin: 0;
-    padding: 0;
-    background:  var(--background1);
-    color: var(--light-grey);
-    /*text-shadow: var(--text-shadow);*/
-    font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background:  var(--background1);
+  color: var(--light-grey);
+  /*text-shadow: var(--text-shadow);*/
+  font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 /*!FIXME ok le select est piqué de carbone, il faut l'intégrer correctement au reste de mon code*/
 /*START INPUTS*/
@@ -309,10 +309,10 @@ td.label {
 /*START HEADER*/
 /*Donc l'entete ici, testé à 980 de large c'est ok faut une autre config pour ecran moin large*/
 #header {
-    width: 80vw;
-    margin: 0vw auto 2vw auto;
-    box-shadow: var(--box-shadow);
-    background: var(--background-radial-white);
+  width: 80vw;
+  margin: 0vw auto 2vw auto;
+  box-shadow: var(--box-shadow);
+  background: var(--background-radial-white);
 }
 #logo {
   position: absolute;
@@ -332,11 +332,11 @@ td.label {
   display: block;
 }
 @media (max-width: 1230px) {
-/*#logo {*/
+  /*#logo {*/
   /*height: 1.8em;*/
   /*width: 5.1em;*/
   /*top: 1.2em;*/
-/*}*/
+  /*}*/
   #content, #header {
     width: 90vw;
   }
@@ -344,54 +344,54 @@ td.label {
 
 /*START USERINFO*/
 div#userinfo {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 #userinfo .brackets::before {
-    content: "[";
+  content: "[";
 }
 #userinfo .brackets::after {
-    content: "]";
+  content: "]";
 }
 #userinfo_username {
-    order: 1;
-    position: relative;
-    top: -1.2em;
+  order: 1;
+  position: relative;
+  top: -1.2em;
 }
 #userinfo_username li {
-    display: inline-block;
-    margin-right: 0.3em;
+  display: inline-block;
+  margin-right: 0.3em;
 }
 #userinfo_major {
-    position: relative;
-    top: -1.2em;
-    margin-bottom: -1.2em;
+  position: relative;
+  top: -1.2em;
+  margin-bottom: -1.2em;
 }
 #userinfo_major li {
-    margin-right: 0.4em;
-    display: inline-block;
+  margin-right: 0.4em;
+  display: inline-block;
 }
 #userinfo_stats {
-    position: relative;
-    order: 4;
-    top: -2.5em;
-    float: right;
-    margin-bottom: -2.5em;
+  position: relative;
+  order: 4;
+  top: -2.5em;
+  float: right;
+  margin-bottom: -2.5em;
 }
 ul#userinfo_stats li {
-    display: inline-block;
-    margin-right: 0.3em;
+  display: inline-block;
+  margin-right: 0.3em;
 }
 #userinfo_minor {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: var(--box-shadow-inset);
-    padding: 0em 0em;
-    margin-top: 0.6em;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: var(--box-shadow-inset);
+  padding: 0em 0em;
+  margin-top: 0.6em;
 }
 #userinfo_minor li {
-background: var(--background1);
-opacity: 85%;
+  background: var(--background1);
+  opacity: 85%;
 }
 #userinfo_minor a {
   color: var(--light-grey);
@@ -417,29 +417,29 @@ opacity: 85%;
 /*START MENUBAR*/
 
 div#menu ul {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 div#menu ul li {
-    flex: 1;
-    margin: 0em 0.6em 0em 0.6em;
-    white-space: nowrap;  
+  flex: 1;
+  margin: 0em 0.6em 0em 0.6em;
+  white-space: nowrap;  
   background: var(--background1); 
   opacity: 90%;
 
 }
 div#menu ul li a {
-    width: 100%;
-    display: flex;
-    box-shadow: var(--box-shadow-messages-head), var(--box-shadow);
-    height: 2em;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--light-grey);
-    /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
-    text-shadow: 0em 0em 0.7em #000;
-    background: var(--background-buttons-menu);
+  width: 100%;
+  display: flex;
+  box-shadow: var(--box-shadow-messages-head), var(--box-shadow);
+  height: 2em;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--light-grey);
+  /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
+  text-shadow: 0em 0em 0.7em #000;
+  background: var(--background-buttons-menu);
 }
 div#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
@@ -449,37 +449,37 @@ div#menu ul li a:hover {
 }
 /*END MENUBAR*/
 #searchbars ul li {
-    width: 15%;
+  width: 15%;
 }
 
 div#searchbars ul {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 /*END HEADER*/
 /*START FOOTER*/
 #footer {
-    text-align: center;
+  text-align: center;
 }
 /*END FOOTER*/
 /*START NOTIFY AREA*/
 #noty_bottomRight_layout_container > li {
-    background: var(--background1) !important;
-    border: var(--light-grey) !important;
-    font-size: var(--font-size-normal) !important;
-    color: var(--light-grey) !important;
-    box-shadow: var(--box-shadow) !important;
+  background: var(--background1) !important;
+  border: var(--light-grey) !important;
+  font-size: var(--font-size-normal) !important;
+  color: var(--light-grey) !important;
+  box-shadow: var(--box-shadow) !important;
 }
 .noty_bar div {
-    background-color: inherit !important;
-    border: 0 !important;
-    color: inherit !important;
-    font-size: var(--font-size-normal) !important;
+  background-color: inherit !important;
+  border: 0 !important;
+  color: inherit !important;
+  font-size: var(--font-size-normal) !important;
 }
 /*END NOTIFY AREA*/
 .box {
-    /* font-size: 10pt; */
-    font-size: var(--font-size-normal) !important;
+  /* font-size: 10pt; */
+  font-size: var(--font-size-normal) !important;
 }
 #index .box.news_post {
   font-size: var(--font-size-normal) !important;
@@ -489,11 +489,11 @@ div#searchbars ul {
 tr.group_torrent td,
 tr.group td,
 tr.torrent td {
-    font-size: var(--font-size-small);
+  font-size: var(--font-size-small);
 }
 
 .header, .linkbox, .search_form {
-    width: 100%;
+  width: 100%;
 }
 .head2.head.center {
   box-shadow: var(--box-shadow);
@@ -502,7 +502,7 @@ tr.torrent td {
 .sidebar .box {
   box-shadow: var(--box-shadow);
   margin: 0 0.5rem 1rem 0.5rem;
-  white-space: preserver-breaks;
+  white-space: preserve-breaks;
 }
 .sidebar .box:nth-child(3){
   display: none;
@@ -512,49 +512,49 @@ tr.torrent td {
 /*Accueil body*/
 /*body#index div#wrapper diAv#content */
 .thin {
-    display: flex;
-    width: 100% !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background: var(--background-radial-white);
+  display: flex;
+  width: 100% !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: var(--background-radial-white);
 }
 .thin strong {
-    width: 99%;
+  width: 99%;
 }
 
 .sidebar {
-    position: relative;
-    width: 19%;
-    order: 2;
-    /*box-shadow: var(--box-shadow-inset);*/
-    /*margin: 1em 1% 1em 0.5%;*/
+  position: relative;
+  width: 19%;
+  order: 2;
+  /*box-shadow: var(--box-shadow-inset);*/
+  /*margin: 1em 1% 1em 0.5%;*/
 }
 
 .main_column {
-    /* left: 0px; */
-    position: relative;
-    width: 80%;
-    order: 1;
-    /*box-shadow: var(--box-shadow-inset);*/
-    /*margin: 1em 0.5% 1em 1%;*/
+  /* left: 0px; */
+  position: relative;
+  width: 80%;
+  order: 1;
+  /*box-shadow: var(--box-shadow-inset);*/
+  /*margin: 1em 0.5% 1em 1%;*/
   /*padding: 0.6vw;*/
 }
 
 .group_torrent span, .torrent span {
-    font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-small) !important;
 }
 body#index div#wrapper div#content br {
-    display: none;
+  display: none;
 }
 
 
 #content{
-    width: 80vw;
-    position: relative;
-    /*left: 10%;*/
-    /*box-shadow: var(--box-shadow);*/
-    margin: 0em auto 1em auto;
-      box-shadow: var(--box-shadow-buttons), var(--box-shadow)!important;;
+  width: 80vw;
+  position: relative;
+  /*left: 10%;*/
+  /*box-shadow: var(--box-shadow);*/
+  margin: 0em auto 1em auto;
+  box-shadow: var(--box-shadow-buttons), var(--box-shadow)!important;;
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -578,7 +578,7 @@ tr.torrent_filename_row:nth-child(11) {
 
 /* ca c'est pour le top 10 uniquement*/
 .torrent_table.cats.numbering.border {
-    width: 100%;
+  width: 100%;
 }
 #disclaimer_container { 
   display: block;   
@@ -598,10 +598,10 @@ tr.torrent_filename_row:nth-child(11) {
 .box.pad.rule_table {
   background: unset !important;        
   box-shadow: var(--box-shadow);   
-    /*border-radius: 0px !important;*/
-    color: var(--light-grey) !important;
-    margin-bottom: 0px !important;
-    padding: 0px !important;
+  /*border-radius: 0px !important;*/
+  color: var(--light-grey) !important;
+  margin-bottom: 0px !important;
+  padding: 0px !important;
 }
 .rule_table .colhead > td {
   color: var(--light-grey) !important;
@@ -626,20 +626,20 @@ tr.torrent_filename_row:nth-child(11) {
 /*END RULES*/
 /*cette section concerne la page IRC*/
 .box.pad.irc_container {
-    width: 100%;
+  width: 100%;
 }
 div#app div#viewport div#connect.window {
-    background: #222 !important;
+  background: #222 !important;
 }
 /*Pages spécifiques au fichiers*/
 /*START SETTINGS*/
 #userform .sidebar {
-    box-shadow: none !important;
-    /*! position: sticky; */
-    float: right;
+  box-shadow: none !important;
+  /*! position: sticky; */
+  float: right;
 }
 /*#settings_sections {*/
-    /*width: 9%;*/
+/*width: 9%;*/
 /*}*/
 /*END SETTINGS*/
 /*SART MAIN PAGE*/
@@ -689,7 +689,7 @@ div#app div#viewport div#connect.window {
 
 /*Start FORUM*/
 #forums {
-display: block;
+  display: block;
 }
 .forum_index, .staff{
   box-shadow: var(--box-shadow);
@@ -700,80 +700,80 @@ display: block;
   width: 100%
 }
 .forum_list {
-    width: 100%;
+  width: 100%;
 }
 .forum_index {
-    width: 100%;
+  width: 100%;
 }
 #forum .thin {
   display: block;
   width: 100% !important;
 }
 .lu{
-    background-image: url("https://powabanga.github.io/css/icons/category.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/category.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .non-lu{
-    background-image: url("https://powabanga.github.io/css/icons/category-new-message.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/category-new-message.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .read{
-    background-image: url("https://powabanga.github.io/css/icons/forum-new-message.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/forum-new-message.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .unread{
-    background-image: url("https://powabanga.github.io/css/icons/forum.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/forum.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .unread_sticky{
-    background-image: url("https://powabanga.github.io/css/icons/info.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .read_sticky{
-    background-image: url("https://powabanga.github.io/css/icons/info.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .unread_locked_sticky{
-    background-image: url("https://powabanga.github.io/css/icons/info-new-locked.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/info-new-locked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .read_locked_sticky{
-    background-image: url("https://powabanga.github.io/css/icons/info-locked.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io/css/icons/info-locked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .read_locked{
-    background-image: url("https://powabanga.github.io//css/icons/topic-locked.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io//css/icons/topic-locked.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .read{
-    background-image: url("https://powabanga.github.io//css/icons/topic.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io//css/icons/topic.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .unread{
-    background-image: url("https://powabanga.github.io//css/icons/topic-new.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-image: url("https://powabanga.github.io//css/icons/topic-new.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .forum_post {
@@ -799,25 +799,25 @@ form textarea {
 .colhead_dark div:first-child > span + a + a:before {
   content: '';
   font-family: Roboto-mono;
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 .colhead_dark div:first-child > span + a:before {
   content: '';
   font-family: Roboto-mono;
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 .colhead_dark .brackets:nth-child(1):before {
   content: '';
   font-family: Roboto-mono;
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 .colhead_dark .brackets:nth-child(2):before {
   content: '󱈸';
   font-family: Roboto-mono;
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 .colhead_dark div:last-child > a:last-child {
-   display: none ;
+  display: none ;
 }
 .colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before  {
   display: none;
@@ -832,8 +832,8 @@ form textarea {
   height: 2.5rem;
 }
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover {
-box-shadow: var(--box-shadow-buttons-hover);
-/*text-shadow: -0.07rem -0.07rem 0.1rem #00000090, 0.07rem 0.07rem 0.1rem #FFFFFF20;*/
+  box-shadow: var(--box-shadow-buttons-hover);
+  /*text-shadow: -0.07rem -0.07rem 0.1rem #00000090, 0.07rem 0.07rem 0.1rem #FFFFFF20;*/
 }
 
 .colhead_dark, .colhead {
@@ -852,15 +852,15 @@ box-shadow: var(--box-shadow-buttons-hover);
 }
 
 /*.colhead_dark *{*/
-  /*margin: 0.5em;*/
-    /*height: 2em;*/
-  /*vertical-align: middle;*/
-  /*padding: 0em 0.03em;*/
+/*margin: 0.5em;*/
+/*height: 2em;*/
+/*vertical-align: middle;*/
+/*padding: 0em 0.03em;*/
 /*}*/
 h3 {
   /*box-shadow: var(--box-shadow-messages-head);*/
   /*padding: 0.3em 0.6em;*/
-    margin: 0.6rem 0rem 0.2rem 0.4rem;
+  margin: 0.6rem 0rem 0.2rem 0.4rem;
 }
 .donor_icon.tooltip {
   width: 1.1em;
@@ -887,12 +887,12 @@ blockquote {
   padding: 0.5em;
 }
 .rowb, .row_b {
-    background: ;
-    background-color: var(--background-rowa) !important;
+  background: ;
+  background-color: var(--background-rowa) !important;
 }
 
 .rowa, .row_a {
-    background-color: var(--background-rowb) !important;
+  background-color: var(--background-rowb) !important;
 }
 /*START EDIT AREA*/
 #newthreadtext {
@@ -942,7 +942,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   text-shadow: none !important;
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
-   /*! color: #333; */
+  /*! color: #333; */
   /*! font-family: 'WysiBBiconFont'; */
   /*! font-size: 18px; */
   line-height: 1.4em;
@@ -1030,16 +1030,16 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   padding: 0.3em;
 }
 /*STOP INBOX*/
-  /*START SHOUT*/
+/*START SHOUT*/
 .shoutbox_alt{
-    background: var(--background-rowa) !important;
-  }
+  background: var(--background-rowa) !important;
+}
 .shoutbox_noalt{
-    background: var(--background-rowb) !important;
-  }
-  /*END SHOUT*/
+  background: var(--background-rowb) !important;
+}
+/*END SHOUT*/
 /*START REQUESTS*/
-  
+
 #request_form > div {
   background-color:   unset !important;
   box-shadow: var(--box-shadow) !important;
@@ -1095,20 +1095,20 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .group_torrent td span {
   position: initial;
-display: inline !important;
+  display: inline !important;
 }
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
-width: 100%;
+  width: 100%;
 }
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
 #staff .thin {
-    width: 80% !important;
-    margin: auto;
-    text-align: left;
-    display: block;
+  width: 80% !important;
+  margin: auto;
+  text-align: left;
+  display: block;
 }
 #staff .nobr {
   white-space: normal;
@@ -1117,31 +1117,31 @@ width: 100%;
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
 
 @media (max-width: 1040px) {
-.colhead_dark .time {
-  bottom: 100%;
-  right: 0;
-  background: var(--background-buttons-menu);
-  box-shadow: var(--box-shadow-buttons);
-  padding: 0.3rem;
+  .colhead_dark .time {
+    bottom: 100%;
+    right: 0;
+    background: var(--background-buttons-menu);
+    box-shadow: var(--box-shadow-buttons);
+    padding: 0.3rem;
     border-radius: 0 0 0.6rem 0.6rem;
     height: fit-content;
     top: 2.2rem;
-}
-.forum_post .colhead_dark .time {
-  display: inline-block;
-  position: absolute;
-}
-.forum_post {
-  position: relative;
-}
-.forum_post td.body div {
-  margin-top: 1.8rem;
-}
-.forum_post tr:last-child td:last-child {
-  max-width: 80%;
-  padding-right: 0rem;
-  padding-bottom: 2rem;
- }
+  }
+  .forum_post .colhead_dark .time {
+    display: inline-block;
+    position: absolute;
+  }
+  .forum_post {
+    position: relative;
+  }
+  .forum_post td.body div {
+    margin-top: 1.8rem;
+  }
+  .forum_post tr:last-child td:last-child {
+    max-width: 80%;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media (max-width: 1230px) {
@@ -1156,62 +1156,61 @@ width: 100%;
     width: 99vw;
   }
 
-/* arkada.css | https://powabanga.github.io/css/arkada.css */
+  /* arkada.css | https://powabanga.github.io/css/arkada.css */
 
-.sidebar {
-  /* width: 19%; */
-  /* order: 2; */
-  width: 100%;
-  order: 1;
-  /*box-shadow: var(--box-shadow-inset);*/
-  margin: 1em 1% 1em 0.5%;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: ;
-  justify-content: space-between;
-  align-items: stretch;
-}
+  .sidebar {
+    /* width: 19%; */
+    /* order: 2; */
+    width: 100%;
+    order: 1;
+    /*box-shadow: var(--box-shadow-inset);*/
+    margin: 1em 1% 1em 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: ;
+    justify-content: space-between;
+    align-items: stretch;
+  }
 
-.main_column {
-  /* width: 80%; */
-  /* order: 1; */
-  width: 100%;
-  order: 2;
-}
+  .main_column {
+    /* width: 80%; */
+    /* order: 1; */
+    width: 100%;
+    order: 2;
+  }
 
-.sidebar .box {
-  flex-shrink: ;
-  flex-shrink: 3;
-  height: min-content;
-  width: 23.2%;
-  white-space: nowrap;
-  order: unset;
-  flex: 1 1 auto;
-}
+  .sidebar .box {
+    flex-shrink: ;
+    flex-shrink: 3;
+    height: min-content;
+    width: 23.2%;
+    order: unset;
+    flex: 1 1 auto;
+  }
 
-.sidebar img {
-  /* max-width: none !important; */
-  /* width: 100%; */
-  max-width: 20vw !important;
-  display: ;
-}
+  .sidebar img {
+    /* max-width: none !important; */
+    /* width: 100%; */
+    max-width: 20vw !important;
+    display: ;
+  }
 
-.colhead_dark, .colhead {
-  /* height: 2rem; */
-  /* box-shadow: var(--box-shadow-messages-head); */
-  /* white-space: nowrap; */
-  white-space: normal;
-}
+  .colhead_dark, .colhead {
+    /* height: 2rem; */
+    /* box-shadow: var(--box-shadow-messages-head); */
+    /* white-space: nowrap; */
+    white-space: normal;
+  }
 
-/* Inline | https://hdf.world/index.php */
+  /* Inline | https://hdf.world/index.php */
 
-.sidebar .box img {
-  max-width: 20%;
-}
+  .sidebar .box img {
+    max-width: 20%;
+  }
 
-/* .sidebar .box .center.pad img { */
-.sidebar .box:nth-child(1), .sidebar .box:nth-child(2) {
-  /* max-width: 20%; */
-}
+  /* .sidebar .box .center.pad img { */
+  .sidebar .box:nth-child(1), .sidebar .box:nth-child(2) {
+    /* max-width: 20%; */
+  }
 
 }
