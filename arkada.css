@@ -787,27 +787,15 @@ form textarea {
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-.colhead_dark div:first-child > span + a + a:after {
-  display: none;
-  
-}
 .colhead_dark div:first-child > span + a:before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-
-.colhead_dark div:first-child > span + a:after {
-  display: none;
-}
 .colhead_dark .brackets:nth-child(1):before {
   content: '';
   font-family: Roboto-mono;
     margin-right: 0.2rem;
-}
-
-.colhead_dark .brackets:nth-child(1):after {
-  display: none;
 }
 .colhead_dark .brackets:nth-child(2):before {
   content: '󱈸';
@@ -817,7 +805,7 @@ form textarea {
 .colhead_dark div:last-child > a:last-child {
    display: none ;
 }
-.colhead_dark .brackets:nth-child(2):after {
+.colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before,  {
   display: none;
 }
 .colhead_dark .brackets, .box.news_post .brackets {
