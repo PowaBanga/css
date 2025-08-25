@@ -502,6 +502,10 @@ tr.torrent td {
 .sidebar .box {
   box-shadow: var(--box-shadow);
   margin: 0 0.5rem 1rem 0.5rem;
+  white-space: preserver-breaks;
+}
+.sidebar .box:nth-child(3){
+  display: none;
 }
 
 
@@ -1159,12 +1163,11 @@ width: 100%;
   /* order: 2; */
   width: 100%;
   order: 1;
-  box-shadow: var(--box-shadow-inset);
+  /*box-shadow: var(--box-shadow-inset);*/
   margin: 1em 1% 1em 0.5%;
   display: flex;
   flex-wrap: wrap;
   max-width: ;
-  flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
 }
