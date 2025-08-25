@@ -146,14 +146,15 @@ body {
 /*START INPUTS*/
 form.search_form input {
   width: 100%;
-  background-color: none;
   border: none;
   box-shadow: var(--box-shadow-inset);
   color: var(--light-grey);
   text-align: center;
   margin: 1em 0em 0.1em 0em;
   padding: 0.5em 0em;
-  /*! width: 15; */
+  /*! width: 15; */             
+  background-color: unset;
+
 }
 
 select {
@@ -264,6 +265,10 @@ input[type="radio"]:checked::after {
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
   display: none;
 }
+input:focus {
+  border: 0.01rem solid #FFFFFF20 !important;
+}
+
 /*START SEARCHBOX*/
 .submit.ft_submit input {
   box-shadow: var(--box-shadow-buttons);
@@ -517,7 +522,7 @@ tr.torrent td {
     order: 1;
     box-shadow: var(--box-shadow-inset);
     /*margin: 1em 0.5% 1em 1%;*/
-  /*padding: 1em 0.75%;*/
+  padding: 0.6vw;
 }
 
 .group_torrent span, .torrent span {
@@ -637,6 +642,32 @@ div#app div#viewport div#connect.window {
 }
 #index .news_post .pad {
   margin-bottom: 0.6em;
+}
+
+#news.news_header {
+  padding: 0.5rem;
+  background: var(--background-messages-head);
+  border: none;
+  margin-bottom: 1rem;
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+}
+#news.news_header a {
+  width: 100%;
+  display: ;
+  height: 100%;
+  padding: 0.5rem;
+}#news.news_header {
+  /* padding: 0.5rem; */
+  padding: 0;
+}
+#news.news_header:hover {
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons-hover);
+}
+#news.news_header a:hover {
+  color: var(--light-grey);
+}
+#news.news_header a {
+  color: var(--light-grey);
 }
 /*END MAIN PAGE*/
 
@@ -781,7 +812,7 @@ form textarea {
   font-family: Roboto-mono;
     margin-right: 0.2rem;
 }
-#forums .colhead_dark div:last-child > a:last-child {
+.colhead_dark div:last-child > a:last-child {
    display: none ;
 }
 .colhead_dark .brackets:nth-child(2):after {
