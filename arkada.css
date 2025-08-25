@@ -1151,4 +1151,64 @@ width: 100%;
     /* width: 98vvw !important; */
     width: 99vw;
   }
+
+/* arkada.css | https://powabanga.github.io/css/arkada.css */
+
+.sidebar {
+  /* width: 19%; */
+  /* order: 2; */
+  width: 100%;
+  order: 1;
+  box-shadow: var(--box-shadow-inset);
+  margin: 1em 1% 1em 0.5%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.main_column {
+  /* width: 80%; */
+  /* order: 1; */
+  width: 100%;
+  order: 2;
+}
+
+.sidebar .box {
+  flex-shrink: ;
+  flex-shrink: 3;
+  height: min-content;
+  width: 23.2%;
+  white-space: nowrap;
+  order: unset;
+  flex: 1 1 auto;
+}
+
+.sidebar img {
+  /* max-width: none !important; */
+  /* width: 100%; */
+  max-width: 20vw !important;
+  display: ;
+}
+
+.colhead_dark, .colhead {
+  /* height: 2rem; */
+  /* box-shadow: var(--box-shadow-messages-head); */
+  /* white-space: nowrap; */
+  white-space: normal;
+}
+
+/* Inline | https://hdf.world/index.php */
+
+.sidebar .box img {
+  max-width: 20%;
+}
+
+/* .sidebar .box .center.pad img { */
+.sidebar .box:nth-child(1), .sidebar .box:nth-child(2) {
+  /* max-width: 20%; */
+}
+
 }
