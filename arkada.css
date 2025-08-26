@@ -416,12 +416,12 @@ ul#userinfo_stats li {
 /*END USERINFO*/
 /*START MENUBAR*/
 
-div#menu ul {
+#menu ul {
   display: flex;
   justify-content: space-around;
   position: relative;
 }
-div#menu ul li {
+#menu ul li {
   flex: 1;
   margin: 0em 0.6em 0em 0.6em;
   white-space: nowrap;  
@@ -429,7 +429,7 @@ div#menu ul li {
   opacity: 90%;
 
 }
-div#menu ul li a {
+#menu ul li a {
   width: 100%;
   display: flex;
   box-shadow: var(--box-shadow-messages-head), var(--box-shadow);
@@ -441,7 +441,7 @@ div#menu ul li a {
   text-shadow: 0em 0em 0.7em #000;
   background: var(--background-buttons-menu);
 }
-div#menu ul li a:hover {
+#menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
   border-radius: 0.5rem;
   /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
@@ -1215,4 +1215,83 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     /* max-width: 20%; */
   }
 
+}
+@media (max-width: 600px){
+  /* Menu téléphone*/
+
+  #userinfo {
+    width: min-content;
+    height: min-content;
+    min-width: 2rem;
+    min-height: 2rem;
+  }
+  #userinfo::before{
+    content:'USERINFO';
+  }
+  #userinfo ul {
+    position:static;
+    z-index: 9999;
+    display: none;
+  }
+  #userinfo:hover ul{
+    display: inline-block;
+    width: 90vw;
+  }
+  #userinfo ul li{
+    display: block;
+  }
+  #userinfo li {
+    padding: 0.2rem;
+    background: var(--background1);
+    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+  }
+  #userinfo_minor {
+    /*! margin-top: 2.5rem; */
+  }
+  #userinfo_stats {
+    margin-bottom: unset;
+  }
+  #userinfo_username:before {
+    content: 'USERNAME';
+  }
+  #userinfo_username li#nav_userinfo, #userinfo_username li#nav_userclass, #userinfo_username li#nav_pot, #userinfo_username li#nav_useredit, #userinfo_username li#nav_logout, #userinfo_major #nav_upload, #userinfo_major #nav_invite, #userinfo_major #nav_donate, #userinfo_stats #stats_seeding, #userinfo_stats #stats_leeching, #userinfo_stats #stats_ratio, #userinfo_stats #stats_HitAndRuns, #userinfo_stats #fl_tokens, #userinfo_stats #BonusPoints, #userinfo_minor #nav_inbox, #userinfo_minor #nav_staffinbox, #userinfo_minor #nav_uploaded, #userinfo_minor #nav_bookmarks, #userinfo_minor #nav_notifications, #userinfo_minor #nav_subscriptions, #userinfo_minor #nav_comments, #userinfo_minor #nav_friends, #userinfo_minor #nav_better, #userinfo_stats br {
+    display: none;
+  }
+  #userinfo_username ul::before {
+    display: static;
+  }
+  #userinfo_username:hover li#nav_userinfo, #userinfo_username:hover li#nav_userclass, #userinfo_username:hover li#nav_pot, #userinfo_username:hover li#nav_useredit, #userinfo_username:hover li#nav_logout, #userinfo_major:hover #nav_upload, #userinfo_major:hover #nav_invite, #userinfo_major:hover #nav_donate, #userinfo_stats:hover #stats_seeding, #userinfo_stats:hover #stats_leeching, #userinfo_stats:hover #stats_ratio, #userinfo_stats:hover #stats_HitAndRuns, #userinfo_stats:hover #fl_tokens, #userinfo_stats:hover #BonusPoints, #userinfo_minor:hover #nav_inbox, #userinfo_minor:hover #nav_staffinbox, #userinfo_minor:hover #nav_uploaded, #userinfo_minor:hover #nav_bookmarks, #userinfo_minor:hover #nav_notifications, #userinfo_minor:hover #nav_subscriptions, #userinfo_minor:hover #nav_comments, #userinfo_minor:hover #nav_friends {
+    display: block;
+  }
+  #userinfo_major:before {
+    content: 'MAJOR';
+  }
+  #userinfo_major {
+    margin-bottom: 0;
+  }
+  #userinfo_stats:before {
+    content: 'STATS';
+  }
+
+  #userinfo_minor:before {
+    content: 'MINOR';
+  }
+  #userinfo_minor {
+    box-shadow: unset;
+    margin-top: 0;
+  }
+  #menu:before {
+    content: 'MENU';
+    right: 1.6vw;
+    position: absolute;
+    top: 0rem;
+  }
+  #menu ul {
+    display: none;
+  }
+  ul {
+  }
+  #menu:hover ul {
+    display: block;
+  }
 }
