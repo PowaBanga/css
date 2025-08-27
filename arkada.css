@@ -1224,7 +1224,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     height: min-content;
     min-width: 2rem;
     min-height: 2rem;
-    position: absolute;
+    /*position: absolute;*/
     display: unset;
     box-shadow: unset;
     margin-top: unset;
@@ -1252,15 +1252,15 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   /*! z-index: 9999; */
 }
 #userinfo_major li {
-  top: 7.7rem;
+  top: 4.7rem ;
 }
 #userinfo_stats li {
-  top: 7.9rem;
+  top: 3.3rem;
 }
 #userinfo_minor li {
   opacity: unset;
   background: ;
-  top: 6.1rem;
+  top: 3rem;
 }
 #userinfo:hover {
   margin-bottom: 4rem;
@@ -1308,7 +1308,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     position: absolute;
     text-align: center;
     margin: 0 1vw;
-
+    top: 3.4rem;
   }
   #userinfo_username li#nav_userinfo, #userinfo_username li#nav_userclass, #userinfo_username li#nav_pot, #userinfo_username li#nav_useredit, #userinfo_username li#nav_logout, #userinfo_major #nav_upload, #userinfo_major #nav_invite, #userinfo_major #nav_donate, #userinfo_stats #stats_seeding, #userinfo_stats #stats_leeching, #userinfo_stats #stats_ratio, #userinfo_stats #stats_HitAndRuns, #userinfo_stats #fl_tokens, #userinfo_stats #BonusPoints, #userinfo_minor #nav_inbox, #userinfo_minor #nav_staffinbox, #userinfo_minor #nav_uploaded, #userinfo_minor #nav_bookmarks, #userinfo_minor #nav_notifications, #userinfo_minor #nav_subscriptions, #userinfo_minor #nav_comments, #userinfo_minor #nav_friends, #userinfo_minor #nav_better, #userinfo_stats br {
     display: none;
@@ -1338,7 +1338,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     position: absolute;
     top: 0.2rem;
   }
-  #userinfo_stats:before {
+  #userinfo_stats::before {
     content: '󰴦';
     font-size: 2rem;
     font-family: Roboto-mono;
@@ -1353,7 +1353,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     top: 3.4rem;
   }
 
-  #userinfo_minor:before {
+  #userinfo_minor::before {
     content: '󰭘';
     font-size: 2.5rem;
     font-family: Roboto-mono;
@@ -1363,7 +1363,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     width: 23vw;              
     position: absolute;       
     left: 75vw;               
-    top: 1.7rem;              
+    top: 3.3rem;              
     text-align: center;       
     margin: 0 1vw;    
   }
