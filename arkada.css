@@ -1226,7 +1226,13 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     min-height: 2rem;
   }
   #userinfo::before{
-    content:'USERINFO';
+    content: '';
+    box-shadow: var(--box-shadow-buttons), var(--box-shadow);
+    padding: 0.3rem 1rem;
+    display: block;
+    width: inherit;
+    font-family: Roboto-mono;
+    font-size: 2rem;
   }
   #userinfo ul {
     position:static;
@@ -1252,7 +1258,13 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     margin-bottom: unset;
   }
   #userinfo_username:before {
-    content: 'USERNAME';
+    content: '';
+    font-size: 2rem;
+    font-family: Roboto-mono;
+    box-shadow: var(--box-shadow),var(--box-shadow-buttons);
+    display: block;
+    width: fit-content;
+    padding: 0.5rem 1rem;
   }
   #userinfo_username li#nav_userinfo, #userinfo_username li#nav_userclass, #userinfo_username li#nav_pot, #userinfo_username li#nav_useredit, #userinfo_username li#nav_logout, #userinfo_major #nav_upload, #userinfo_major #nav_invite, #userinfo_major #nav_donate, #userinfo_stats #stats_seeding, #userinfo_stats #stats_leeching, #userinfo_stats #stats_ratio, #userinfo_stats #stats_HitAndRuns, #userinfo_stats #fl_tokens, #userinfo_stats #BonusPoints, #userinfo_minor #nav_inbox, #userinfo_minor #nav_staffinbox, #userinfo_minor #nav_uploaded, #userinfo_minor #nav_bookmarks, #userinfo_minor #nav_notifications, #userinfo_minor #nav_subscriptions, #userinfo_minor #nav_comments, #userinfo_minor #nav_friends, #userinfo_minor #nav_better, #userinfo_stats br {
     display: none;
@@ -1264,17 +1276,35 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     display: block;
   }
   #userinfo_major:before {
-    content: 'MAJOR';
+    content: '󰄔';
+    font-size: 2rem;
+    font-family: Roboto-mono;
+    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+    padding: 0.5rem 1rem;
+    display: block;
+    width: fit-content;
   }
   #userinfo_major {
     margin-bottom: 0;
   }
   #userinfo_stats:before {
-    content: 'STATS';
+    content: '󰴦';
+    font-size: 2rem;
+    font-family: Roboto-mono;
+    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+    padding: 0.5rem 1rem;
+    display: block;
+    width: fit-content;
   }
 
   #userinfo_minor:before {
-    content: 'MINOR';
+    content: '󰭘';
+    font-size: 2.5rem;
+    font-family: Roboto-mono;
+    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+    width: fit-content;
+    display: block;
+    padding: 0.1rem 0.84rem;
   }
   #userinfo_minor {
     box-shadow: unset;
