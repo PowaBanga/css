@@ -343,7 +343,7 @@ td.label {
 }
 
 /*START USERINFO*/
-div#userinfo {
+#userinfo {
   padding-bottom: 1em;
 }
 #userinfo .brackets::before {
@@ -1224,6 +1224,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     height: min-content;
     min-width: 2rem;
     min-height: 2rem;
+    position: absolute;
+    display: unset;
+    box-shadow: unset;
+    margin-top: unset;
   }
   #userinfo::before{
     content: '';
@@ -1232,9 +1236,41 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     display: block;
     width: inherit;
     font-family: Roboto-mono;
-    font-size: 2rem;
+    font-size: 2rem; 
+    margin-bottom: -1.4rem;  
   }
-  #userinfo ul {
+  #userinfo > br {
+  display: none;
+}
+#userinfo_username {
+  position: absolute;
+  top: 3.6em;
+}
+
+#userinfo_username li:nth-child(2) {
+  margin-top: 4rem;
+  /*! z-index: 9999; */
+}
+#userinfo_major li {
+  top: 7.7rem;
+}
+#userinfo_stats li {
+  top: 7.9rem;
+}
+#userinfo_minor li {
+  opacity: unset;
+  background: ;
+  top: 6.1rem;
+}
+#userinfo:hover {
+  margin-bottom: 4rem;
+}
+#userinfo li {
+  background: var(--background1);
+  z-index: 1;
+  position: relative;
+}
+#userinfo ul {
     position:static;
     z-index: 9999;
     display: none;
@@ -1256,6 +1292,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   }
   #userinfo_stats {
     margin-bottom: unset;
+    top: unset;
+    margin-bottom: unset;
+    position: absolute;
+    top: 0.2rem
   }
   #userinfo_username:before {
     content: '';
@@ -1263,8 +1303,12 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     font-family: Roboto-mono;
     box-shadow: var(--box-shadow),var(--box-shadow-buttons);
     display: block;
-    width: fit-content;
     padding: 0.5rem 1rem;
+        width: 23vw;
+    position: absolute;
+    text-align: center;
+    margin: 0 1vw;
+
   }
   #userinfo_username li#nav_userinfo, #userinfo_username li#nav_userclass, #userinfo_username li#nav_pot, #userinfo_username li#nav_useredit, #userinfo_username li#nav_logout, #userinfo_major #nav_upload, #userinfo_major #nav_invite, #userinfo_major #nav_donate, #userinfo_stats #stats_seeding, #userinfo_stats #stats_leeching, #userinfo_stats #stats_ratio, #userinfo_stats #stats_HitAndRuns, #userinfo_stats #fl_tokens, #userinfo_stats #BonusPoints, #userinfo_minor #nav_inbox, #userinfo_minor #nav_staffinbox, #userinfo_minor #nav_uploaded, #userinfo_minor #nav_bookmarks, #userinfo_minor #nav_notifications, #userinfo_minor #nav_subscriptions, #userinfo_minor #nav_comments, #userinfo_minor #nav_friends, #userinfo_minor #nav_better, #userinfo_stats br {
     display: none;
@@ -1281,11 +1325,18 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     font-family: Roboto-mono;
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     padding: 0.5rem 1rem;
-    display: block;
-    width: fit-content;
+    display: block;     
+    width: 23vw;                    
+    position: absolute;             
+    left: 25vw;                     
+    top: 3.4rem;                    
+    text-align: center;             
+    margin: 0 1vw; 
   }
   #userinfo_major {
     margin-bottom: 0;
+    position: absolute;
+    top: 0.2rem;
   }
   #userinfo_stats:before {
     content: '󰴦';
@@ -1294,7 +1345,12 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     padding: 0.5rem 1rem;
     display: block;
-    width: fit-content;
+    width: 23vw;
+    position: absolute;
+    left: 50vw;
+    margin: 0 1vw;
+    text-align: center;
+    top: 3.4rem;
   }
 
   #userinfo_minor:before {
@@ -1302,9 +1358,14 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     font-size: 2.5rem;
     font-family: Roboto-mono;
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    width: fit-content;
     display: block;
     padding: 0.1rem 0.84rem;
+    width: 23vw;              
+    position: absolute;       
+    left: 75vw;               
+    top: 1.7rem;              
+    text-align: center;       
+    margin: 0 1vw;    
   }
   #userinfo_minor {
     box-shadow: unset;
