@@ -357,7 +357,7 @@ td.label {
 #userinfo_username {
   order: 1;
   position: relative;
-  /*! top: -1.2em; */
+  top: -1.2em;
 }
 #userinfo_username li {
   display: inline-block;
@@ -365,7 +365,7 @@ td.label {
 }
 #userinfo_major {
   position: relative;
-  /*! top: -1.2em; */
+  top: -1.2em;
   margin-bottom: -1.2em;
 }
 #userinfo_major li {
@@ -1269,7 +1269,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 
   #userinfo_stats {
     margin-bottom: unset;
-    top: unset;
+    top: -1.2rem;
     margin-bottom: unset;
     position: absolute;
     /*! top: 0.2rem */
@@ -1314,7 +1314,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     padding: 1rem 0;
     background-image: var(--background-buttons-menu);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    top: 5.3rem;
+    top: 10.3rem;
     width: 90vw;
     margin: 0.3rem 5vw;
     border-radius: 0.7rem;
@@ -1339,7 +1339,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     display: block;     
     width: 23vw;                    
     position: absolute;
-    top: 0.9rem;                    
+    top: 5.7rem;                    
     text-align: center;             
     margin: 0 1vw; 
     background: var(--background-buttons-menu);
@@ -1365,6 +1365,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #userinfo_minor {
     box-shadow: unset;
     margin-top: 0;
+    top: -1.2rem;
   }
   #menu:before {
     content: 'MENU';
