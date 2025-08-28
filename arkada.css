@@ -1220,10 +1220,11 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   /* Menu téléphone*/
 
   #userinfo {
-    width: min-content;
+    width: 3.4rem;
     height: min-content;
     min-width: 2rem;
     min-height: 2rem;
+    width:3.4rem;
     /*position: absolute;*/
     display: unset;
     box-shadow: unset;
