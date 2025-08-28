@@ -318,18 +318,20 @@ td.label {
   position: absolute;
   background: url("https://powabanga.github.io/css/logo.png");
   background-repeat: no-repeat;
-  width: 8em;
-  height: 2.9em;
-  background-origin: ;
+  width: 8rem;
+  height: 3.7rem;
   left: 50%;
   transform: translate(-50%);
   background-size: contain;
   z-index: 1;
+  text-align: center;
+  background-position: center;
 }
 #logo a {
-  width: 100%;
+  width: 8rem;
   height: 100%;
   display: block;
+  margin: auto;
 }
 @media (max-width: 1230px) {
   /*#logo {*/
@@ -1218,6 +1220,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 @media (max-width: 600px){
   /* Menu téléphone*/
+  #logo{
+    width: 74vw;
+    z-index: 2;
+  }
 
   #userinfo {
     width: 3.4rem;
@@ -1260,7 +1266,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     /*! top: 0.2rem */
   }
 #userinfo_username li:nth-child(2) {
-  margin-top: auto4.5rem;
+  /*! margin-top: auto4.5rem; */
 }
 #userinfo li {
   /*! top: 4.7rem ; */
@@ -1289,7 +1295,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   }
   #userinfo:hover ul{
     display: inline-block;
-    width: 100vw;
+    width: 25vw;
     margin-bottom: 0.6rem;
   }
   #userinfo ul li{
@@ -1300,6 +1306,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     background: var(--background1);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     top: 4.7rem;
+    width: 100vw;
   }
   #userinfo ul > li, #userinfo br {
   display: none;
