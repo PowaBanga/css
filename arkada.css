@@ -1314,7 +1314,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     padding: 1rem 0;
     background-image: var(--background-buttons-menu);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    top: 10.3rem;
+    top: 9.4rem;
     width: 90vw;
     margin: 0.3rem 5vw;
     border-radius: 0.7rem;
@@ -1339,7 +1339,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     display: block;     
     width: 23vw;                    
     position: absolute;
-    top: 5.7rem;                    
+    top: 5.4rem;                    
     text-align: center;             
     margin: 0 1vw; 
     background: var(--background-buttons-menu);
