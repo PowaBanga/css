@@ -1249,6 +1249,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     position: relative;
     left: 0.4rem;
     border-radius: 0 0 0.7rem 0rem;
+    background-image: var(--background-buttons-menu);
   }
   #userinfo::before:hover{
     box-shadow: var(--box-shadow-buttons-hover) ;
@@ -1311,7 +1312,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   }
   #userinfo li {
     padding: 1rem 0;
-    background: var(--background-buttons-menu);
+    background-image: var(--background-buttons-menu);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     top: 5.3rem;
     width: 90vw;
