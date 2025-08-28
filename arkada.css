@@ -1251,6 +1251,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 #userinfo_username {
   position: absolute;
+  z-index: 2 !important;
   /*! top: 3.6em; */
 }
   
