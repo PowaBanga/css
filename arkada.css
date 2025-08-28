@@ -1246,10 +1246,20 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   position: absolute;
   top: 3.6em;
 }
+  
+  #userinfo_major {
+    position: absolute;
+  }
 
+  #userinfo_stats {
+    margin-bottom: unset;
+    top: unset;
+    margin-bottom: unset;
+    position: absolute;
+    top: 0.2rem
+  }
 #userinfo_username li:nth-child(2) {
-  margin-top: 4rem;
-  /*! z-index: 9999; */
+  margin-top: 5.5rem;
 }
 #userinfo_major li {
   top: 4.7rem ;
@@ -1287,86 +1297,44 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     background: var(--background1);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
   }
-  #userinfo_minor {
-    /*! margin-top: 2.5rem; */
-  }
-  #userinfo_stats {
-    margin-bottom: unset;
-    top: unset;
-    margin-bottom: unset;
-    position: absolute;
-    top: 0.2rem
-  }
-  #userinfo_username:before {
-    content: '';
-    font-size: 2rem;
-    font-family: Roboto-mono;
-    box-shadow: var(--box-shadow),var(--box-shadow-buttons);
-    display: block;
-    padding: 0.5rem 1rem;
-        width: 23vw;
-    position: absolute;
-    text-align: center;
-    margin: 0 1vw;
-    top: 3.4rem;
-  }
-  #userinfo_username li#nav_userinfo, #userinfo_username li#nav_userclass, #userinfo_username li#nav_pot, #userinfo_username li#nav_useredit, #userinfo_username li#nav_logout, #userinfo_major #nav_upload, #userinfo_major #nav_invite, #userinfo_major #nav_donate, #userinfo_stats #stats_seeding, #userinfo_stats #stats_leeching, #userinfo_stats #stats_ratio, #userinfo_stats #stats_HitAndRuns, #userinfo_stats #fl_tokens, #userinfo_stats #BonusPoints, #userinfo_minor #nav_inbox, #userinfo_minor #nav_staffinbox, #userinfo_minor #nav_uploaded, #userinfo_minor #nav_bookmarks, #userinfo_minor #nav_notifications, #userinfo_minor #nav_subscriptions, #userinfo_minor #nav_comments, #userinfo_minor #nav_friends, #userinfo_minor #nav_better, #userinfo_stats br {
-    display: none;
-  }
+  #userinfo ul > li, #userinfo br {
+  display: none;
+}
+#userinfo_username:hover li, #userinfo_major:hover li, #userinfo_stats:hover li, #userinfo_minor:hover li {
+  display: block;
+}
   #userinfo_username ul::before {
     display: static;
   }
-  #userinfo_username:hover li#nav_userinfo, #userinfo_username:hover li#nav_userclass, #userinfo_username:hover li#nav_pot, #userinfo_username:hover li#nav_useredit, #userinfo_username:hover li#nav_logout, #userinfo_major:hover #nav_upload, #userinfo_major:hover #nav_invite, #userinfo_major:hover #nav_donate, #userinfo_stats:hover #stats_seeding, #userinfo_stats:hover #stats_leeching, #userinfo_stats:hover #stats_ratio, #userinfo_stats:hover #stats_HitAndRuns, #userinfo_stats:hover #fl_tokens, #userinfo_stats:hover #BonusPoints, #userinfo_minor:hover #nav_inbox, #userinfo_minor:hover #nav_staffinbox, #userinfo_minor:hover #nav_uploaded, #userinfo_minor:hover #nav_bookmarks, #userinfo_minor:hover #nav_notifications, #userinfo_minor:hover #nav_subscriptions, #userinfo_minor:hover #nav_comments, #userinfo_minor:hover #nav_friends {
-    display: block;
-  }
-  #userinfo_major:before {
-    content: '󰄔';
+  #userinfo_major::before, #userinfo_minor::before, #userinfo_stats::before, #userinfo_username::before {
+    font-size:2rem;
     font-size: 2rem;
     font-family: Roboto-mono;
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     padding: 0.5rem 1rem;
     display: block;     
     width: 23vw;                    
-    position: absolute;             
-    left: 25vw;                     
+    position: absolute;
     top: 3.4rem;                    
     text-align: center;             
     margin: 0 1vw; 
   }
-  #userinfo_major {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0.2rem;
+  #userinfo_username:before {
+    content: '';
+  }
+  #userinfo_major:before {
+    content: '󰄔';        
+    left: 25vw;
+  }
+  #userinfo_minor::before {
+    content: '󰭘';
+    left: 75vw;  
   }
   #userinfo_stats::before {
     content: '󰴦';
-    font-size: 2rem;
-    font-family: Roboto-mono;
-    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    padding: 0.5rem 1rem;
-    display: block;
-    width: 23vw;
-    position: absolute;
     left: 50vw;
-    margin: 0 1vw;
-    text-align: center;
-    top: 3.4rem;
   }
 
-  #userinfo_minor::before {
-    content: '󰭘';
-    font-size: 2.5rem;
-    font-family: Roboto-mono;
-    box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    display: block;
-    padding: 0.1rem 0.84rem;
-    width: 23vw;              
-    position: absolute;       
-    left: 75vw;               
-    top: 3.3rem;              
-    text-align: center;       
-    margin: 0 1vw;    
-  }
   #userinfo_minor {
     box-shadow: unset;
     margin-top: 0;
@@ -1379,8 +1347,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   }
   #menu ul {
     display: none;
-  }
-  ul {
   }
   #menu:hover ul {
     display: block;
