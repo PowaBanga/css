@@ -295,7 +295,7 @@ td.label {
 .filter_torrents .head div {
   position: relative;
   margin: auto;
-  right: 50%;
+  /*! right: 50%; */
   top: 100%;
 }
 .filter_torrents .head div font, .filter_torrents .head div span #ft_toggle {
