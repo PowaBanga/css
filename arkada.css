@@ -1102,6 +1102,13 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   position: initial;
   display: inline !important;
 }
+#torrent_table .nobr, #torrent_table .number_column {
+  vertical-align: middle;
+  text-align: center;
+}
+.torrent_filename_row td {
+  word-wrap: anywhere;
+}
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
@@ -1219,7 +1226,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 
 }
 @media (max-width: 600px){
-  /* Menu téléphone*/
+  /* START MENU*/
   #logo{
     width: 74vw;
     z-index: 2;
@@ -1231,7 +1238,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     min-width: 2rem;
     min-height: 2rem;
     width:3.4rem;
-    /*position: absolute;*/
     display: unset;
     box-shadow: unset;
     margin-top: unset;
@@ -1248,7 +1254,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     top: 0.4rem;
     position: relative;
     left: 0.4rem;
-    border-radius: 0 0 0.7rem 0rem;
+    border-radius: 1rem 0 1rem 0rem;
     background-image: var(--background-buttons-menu);
   }
   #userinfo::before:hover{
@@ -1260,7 +1266,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #userinfo_username {
     position: absolute;
     z-index: 2 !important;
-    /*! top: 3.6em; */
   }
 
   #userinfo_major {
@@ -1272,14 +1277,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     top: -1.2rem;
     margin-bottom: unset;
     position: absolute;
-    /*! top: 0.2rem */
-  }
-  #userinfo_username li:nth-child(2) {
-    /*! margin-top: auto4.5rem; */
-  }
-  #userinfo li {
-    /*! top: 4.7rem ; */
-    /*! padding: 0rem 1rem; */
   }
   #userinfo_stats li {
     top: 3.3rem;
@@ -1288,9 +1285,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     opacity: unset;
     background: ;
     top: 3rem;
-  }
-  #userinfo:hover + #searchbars {
-    /*! top: 29rem; */
   }
   #userinfo li {
     background: var(--background1);
@@ -1379,4 +1373,19 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #menu:hover ul {
     display: block;
   }
+  /*END MENU*/
+  /*START RESuLT PAGE*/
+#torrent_table tr.group td.nobr:nth-child(4), #torrent_table tr.group_torrent td.nobr:nth-child(3) {
+  max-width: 2rem;
+  min-width: 2.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+tr.colhead td {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 1rem;
+  text-overflow: ellipsis;
+}
+  /*END RESULT PAGE*/
 }
