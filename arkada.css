@@ -1369,10 +1369,16 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     top: -1.2rem;
   }
   #menu:before {
-    content: 'MENU';
+    content: '';
     right: 1.6vw;
     position: absolute;
-    top: 0rem;
+    top: 0.4rem;
+    font-family: Roboto-mono;
+    font-size: 2.4rem;
+    box-shadow: var(--box-shadow),var(--box-shadow-buttons);
+    padding: 0rem 1rem 0rem 0.8rem;
+    border-radius: 0rem 1rem 0rem 1rem;
+    background: var(--background-buttons-menu);
   }
   #menu ul {
     display: none;
