@@ -1380,6 +1380,21 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #menu:hover ul {
     display: block;
   }
+  #menu:hover::before {
+    box-shadow: var(--box-shadow-buttons-hover);
+  }
+  #menu ul li a {
+    box-shadow: var(--box-shadow-buttons),var(--box-shadow);
+    border-radius: 1rem;
+    margin: 0.5rem 2vw 0rem 2vw;
+    background-color: var(--background1);
+    width: 90vw;
+    padding: 2rem;
+  }
+  #menu ul {
+    position: absolute;
+    z-index: 2;
+  }
   #userinfo:hover::before {
     box-shadow: var(--box-shadow-buttons-hover);
   }
