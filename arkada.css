@@ -1174,6 +1174,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     width: 99vw;
   }
 
+  .big_info div {
+    white-space: ;
+    display: table-row;
+  }
   /* arkada.css | https://powabanga.github.io/css/arkada.css */
 
   .sidebar {
