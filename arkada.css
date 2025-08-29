@@ -1325,7 +1325,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #userinfo ul > li, #userinfo br {
     display: none;
   }
-  #userinfo_username:hover li, #userinfo_major:hover li, #userinfo_stats:hover li, #userinfo_minor:hover li {
+  #userinfo ul:hover li {
     display: block;
   }
   #userinfo_username ul::before {
@@ -1380,19 +1380,28 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   #menu:hover ul {
     display: block;
   }
+  #userinfo:hover::before {
+    box-shadow: var(--box-shadow-buttons-hover);
+  }
+  #userinfo ul:hover::before {
+    box-shadow: var(--box-shadow-buttons-hover);
+  }
+  #userinfo li:hover {
+    box-shadow: var(--box-shadow-buttons-hover);
+  }
   /*END MENU*/
   /*START RESuLT PAGE*/
-#torrent_table tr.group td.nobr:nth-child(4), #torrent_table tr.group_torrent td.nobr:nth-child(3) {
-  max-width: 2rem;
-  min-width: 2.9rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-tr.colhead td {
-  overflow: hidden;
-  white-space: nowrap;
-  max-width: 1rem;
-  text-overflow: ellipsis;
-}
+  #torrent_table tr.group td.nobr:nth-child(4), #torrent_table tr.group_torrent td.nobr:nth-child(3) {
+    max-width: 2rem;
+    min-width: 2.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  tr.colhead td {
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 1rem;
+    text-overflow: ellipsis;
+  }
   /*END RESULT PAGE*/
 }
