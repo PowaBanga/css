@@ -1079,6 +1079,13 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 /* STOP COLLECTIONS*/
 /*START RESULT PAGE*/
+.widethin {
+  justify-content: space-around;
+}
+.search_form .filter_torrents .head div {
+  display: block !important;
+  margin: 0rem 1rem 0rem 1rem;
+}
 .lightbox {
   text-align: center;
   position: fixed;
