@@ -744,6 +744,12 @@ div#app div#viewport div#connect.window {
   /*! overflow-wrap: break-word; */
 }
 /*END POTFL*/
+/*START JETONS*/
+
+.torrent_table tr.group, .torrent_table tr.torrent {
+  background: unset !important;
+}
+/*END JETONS*/
 /*Start FORUM*/
 #forums {
   display: block;
