@@ -23,7 +23,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   }
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 :root{
@@ -905,13 +905,14 @@ form textarea {
   /*height: 2rem;*/
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   white-space: nowrap;
+  /*! padding: 0.6rem !important; */
 }
 .colhead td {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   display: revert;
 }
-.colhead_dark td {
-  padding: O.4rem;
+.colhead_dark td, .colhead {
+  padding: 0.6rem;
 }
 
 /*.colhead_dark *{*/
