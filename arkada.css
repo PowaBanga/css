@@ -692,10 +692,14 @@ div#app div#viewport div#connect.window {
   box-shadow: var(--box-shadow),var(--box-shadow-buttons);
   color: var(--light-grey) !important;
 }
+
+#store .box.pad {
+  margin: 10px auto 0 auto;
+}
 .pot-progress-section {
-  color: var(--light-grey);
+  color: var(--light-grey) !important;
   background-color: unset !important;
-  box-shadow: var(--box-shadow),var(--box-shadow-buttons);
+  box-shadow: var(--box-shadow),var(--box-shadow-buttons) !important;
 }
 .pot-progress-container {
   background-color: unset !important;
