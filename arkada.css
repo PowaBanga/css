@@ -1229,18 +1229,18 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 
 @media (max-width: 1040px) {
   .colhead_dark .time {
-    bottom: 100%;
-    right: 0;
-    background: var(--background-buttons-menu);
-    box-shadow: var(--box-shadow-buttons);
-    padding: 0.3rem;
-    border-radius: 0 0 0.6rem 0.6rem;
-    height: fit-content;
-    top: 2.2rem;
+    /*! bottom: 100%; */
+    /*! right: 0; */
+    /*! background: var(--background-buttons-menu); */
+    /*! box-shadow: var(--box-shadow-buttons); */
+    /*! padding: 0.3rem; */
+    /*! border-radius: 0 0 0.6rem 0.6rem; */
+    /*! height: fit-content; */
+    /*! top: 2.2rem; */
   }
   .forum_post .colhead_dark .time {
-    display: inline-block;
-    position: absolute;
+    /*! display: inline-block; */
+    /*! position: absolute; */
   }
   .forum_post {
     position: relative;
