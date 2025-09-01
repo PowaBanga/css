@@ -800,6 +800,10 @@ div#app div#viewport div#connect.window {
   display: block;
   width: 100% !important;
 }
+
+.avatar img {
+  width: 100%;
+}
 .lu{
   background-image: url("https://powabanga.github.io/css/icons/category.svg");
   background-repeat: no-repeat;
