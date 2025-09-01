@@ -754,6 +754,30 @@ div#app div#viewport div#connect.window {
   background: unset !important;
 }
 /*END JETONS*/
+/*START DONATE*/
+
+#donate .section {
+  background: none !important;
+  border: none;
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+}
+.green-info {
+  background-color: unset !important;
+  box-shadow: var(--box-shadow),var(--box-shadow-buttons);
+}
+.donation-page .text, .donation-page ul {
+  color: var(--light-grey) !important;
+}
+.donation-page .donation-info, .donation-page .tutorial-info {
+  background-color: unset;
+  color: var(--light-grey);
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+}
+.donation-page .spoiler-toggle, .donation-page .spoiler-toggle:hover {
+  background-color: unset;
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+}
+/*END DONATE*/
 /*Start FORUM*/
 #forums {
   display: block;
