@@ -959,7 +959,8 @@ h3 {
   height: 0.9em;
 }
 td.body {
-  background: var(--backaground-radial-white);
+  background: var(--backaground-radial-white) !important;
+  word-break: break-word;
 }
 code {
   box-shadow: var(--box-shadow-inset);
