@@ -1199,9 +1199,11 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .group_torrent td span {
   position: initial;
-  display: inline !important;
+  display:    inline-table !important;
+  margin-top: unset !important;
+  padding-top: unset !important;
 }
-#torrent_table .nobr, #torrent_table .number_column {
+#torrent_table .nobr, #torrent_table .number_column, .group_torrent td + td {
   vertical-align: middle;
   text-align: center;
 }
@@ -1509,10 +1511,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   /*END MENU*/
   /*START RESuLT PAGE*/
   #torrent_table tr.group td.nobr:nth-child(4), #torrent_table tr.group_torrent td.nobr:nth-child(3) {
-    max-width: 2rem;
-    min-width: 2.9rem;
+    min-width: 1.9rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    max-width: 2rem;
   }
   tr.colhead td {
     overflow: hidden;
