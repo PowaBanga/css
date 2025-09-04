@@ -513,6 +513,7 @@ tr.torrent td {
   flex-wrap: wrap;
   justify-content: space-between;
   background: var(--background-radial-white);
+  overflow-x: auto;
 }
 .thin strong {
   width: 99%;
@@ -1162,6 +1163,30 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 #requests .layout {
   margin: auto;
+}
+
+.layout.filter_table td {
+  display: ruby-base;
+}
+#search_tags {
+  width: auto;
+}
+.filter_table td {
+  vertical-align: top;
+}
+.filter_table tr:last-child td div {
+  /*! background: wheat; */
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.filter_table tr {
+  width: 100%;
+  display: inline-block;
+}
+#request_table {
+  overflow: auto;
+  display: block;
+  width: 90vw;
 }
 /*STOP REQUESTS*/
 /*START COLLECTIONS*/
