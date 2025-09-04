@@ -157,7 +157,7 @@ body {
 }*/
 
 select {
-  color: #9A9A9A;
+  color: var(--light-grey);
   box-shadow: var(--box-shadow-inset);
   border: none;
   /*width: 100%;*/
@@ -249,7 +249,7 @@ input[type="radio"]:checked::after {
   display: none;
 }
 input:focus {
-  border: 0.01rem solid #FFFFFF20 !important;
+  border: none /*0.01rem solid #FFFFFF20*/ !important;
   outline: 0 !important;
 }
 
