@@ -1230,6 +1230,9 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   display: inline-block;
   margin: auto;
 }
+#ft_container td {
+  max-width: 65vw;
+}
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
