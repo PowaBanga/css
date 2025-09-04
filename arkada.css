@@ -1223,6 +1223,9 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 .torrent_filename_row td {
   word-wrap: anywhere;
 }
+.number_column.nobr {
+  max-width: 7vw;
+}
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
