@@ -144,7 +144,7 @@ body {
 }
 /*!FIXME ok le select est piqué de carbone, il faut l'intégrer correctement au reste de mon code*/
 /*START INPUTS*/
-form.search_form input {
+/*form.search_form input {
   width: 100%;
   border: none;
   box-shadow: var(--box-shadow-inset);
@@ -153,9 +153,8 @@ form.search_form input {
   margin: 1em 0em 0.1em 0em;
   padding: 0.5em 0em;
   /*! width: 15; */             
-  background-color: unset;
-
-}
+ /* background-color: unset;
+}*/
 
 select {
   color: #9A9A9A;
