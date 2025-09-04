@@ -1226,6 +1226,10 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 .number_column.nobr {
   max-width: 7vw;
 }
+.layout.cat_list td {
+  display: inline-block;
+  margin: auto;
+}
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
