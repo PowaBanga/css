@@ -1,5 +1,5 @@
-stop dsdsdsdqsqsfqsfqsfdqffqdffdfssdsdsdsd/*
-DarkMonoAlt - Modifié par HBO pour HDF
+/*
+Monocle - Modifié par HBO pour HDF
 Puis modifié par EVOTk pour HDF ^^
 -----------------------------------------------------
 
@@ -1398,7 +1398,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     width: inherit;
     font-family: Roboto-mono;
     font-size: 2rem; 
-    margin: 0rem 0rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
     top: 0.4rem;
     position: relative;
     left: 0.4rem;
