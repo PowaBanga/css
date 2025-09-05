@@ -1177,7 +1177,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   width: 90vw;
 }
 #search_terms input {
-  max-width: 60vw;
+  max-width: 50vw;
 }
 .layout.border .label {
   text-align: right;
