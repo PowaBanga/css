@@ -160,7 +160,7 @@ select {
   color: var(--light-grey) !important;
   box-shadow: var(--box-shadow-inset);
   border: none !important;
-  width: 100% !important;
+  /*! width: 100% !important; */
   overflow: auto;
   background-color: unset !important;
   padding: 0.3rem !important;
@@ -1175,6 +1175,23 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   overflow: auto;
   display: block;
   width: 90vw;
+}
+#search_terms input {
+  max-width: 60vw;
+}
+.layout.border .label {
+  text-align: right;
+  padding-right: 1rem;
+}
+.search_form .layout {
+  margin: auto;
+  width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.search_form .layout tr {
+  width: auto;
 }
 /*STOP REQUESTS*/
 /*START COLLECTIONS*/
