@@ -759,13 +759,36 @@ div#app div#viewport div#connect.window {
   color: var(--light-grey) !important;
 }
 .donation-page .donation-info, .donation-page .tutorial-info {
-  background-color: unset;
-  color: var(--light-grey);
+  background-color: unset !important;
+  color: var(--light-grey) !important;
   box-shadow: var(--box-shadow), var(--box-shadow-buttons);
 }
 .donation-page .spoiler-toggle, .donation-page .spoiler-toggle:hover {
-  background-color: unset;
+  background-color: unset !important;
   box-shadow: var(--box-shadow), var(--box-shadow-buttons);
+  color: var(--light-grey) !important;
+}
+spoiler-content {
+  background: unset !important;
+  color: var(--light-grey);
+  box-shadow: var(--box-shadow-inset) !important;
+  max-width: 90% !important;
+  margin: auto;
+}
+.spoiler-content pre {
+  background: unset !important;
+  border: none !important;
+  /*! color: var(--light-grey) !important; */
+  font-family: Roboto-mono !important;
+}
+.crypto-address {
+  color: var(--light-grey) !important;
+  font-family: Roboto-mono !important;
+  font-style: ;
+  font-weight:  unset !important;
+  white-space:   wrap !important;
+  word-wrap:  unset !important;
+  overflow:  hidden !important;
 }
 /*END DONATE*/
 /*Start FORUM*/
