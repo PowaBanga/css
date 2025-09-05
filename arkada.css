@@ -1,4 +1,4 @@
-/*
+stop dsdsdsdqsqsfqsfqsfdqffqdffdfssdsdsdsd/*
 DarkMonoAlt - Modifié par HBO pour HDF
 Puis modifié par EVOTk pour HDF ^^
 -----------------------------------------------------
@@ -1192,6 +1192,9 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .search_form .layout tr {
   width: auto;
+}
+#include_filled td:last-child, #include_old td:last-child {
+  text-align: left;
 }
 /*STOP REQUESTS*/
 /*START COLLECTIONS*/
