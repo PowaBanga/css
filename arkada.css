@@ -157,13 +157,13 @@ body {
 }*/
 
 select {
-  color: var(--light-grey);
+  color: var(--light-grey) !important;
   box-shadow: var(--box-shadow-inset);
-  border: none;
-  /*width: 100%;*/
+  border: none !important;
+  width: 100% !important;
   overflow: auto;
-  background-color: unset;
-  padding: 0.3rem;
+  background-color: unset !important;
+  padding: 0.3rem !important;
 }
 input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="url"], textarea {
   padding: 5px 10px !important;
@@ -186,7 +186,7 @@ input[type="checkbox"] {
   display: inline-block;
   padding: 0.44rem;
   max-width: 1rem;
-  border: none;
+  border: none !important;
   box-shadow: var(--box-shadow-buttons-hover);
   -webkit-appearance: none;
 }
