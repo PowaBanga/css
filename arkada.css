@@ -501,7 +501,7 @@ tr.torrent td {
   flex-wrap: wrap;
   justify-content: space-between;
   background: var(--background-radial-white);
-  overflow-x: auto;
+  /*overflow-x: auto;*/
 }
 .thin strong {
   width: 99%;
