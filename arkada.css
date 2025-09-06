@@ -1226,6 +1226,22 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   display: inline-flex;
   width: 100%;
 }
+
+#collage #categories div {
+  color: var(--light-grey) !important;
+  background-color:  unset !important;
+  border: none !important;
+  max-height: unset !important;
+  overflow-y: unset !important;
+  display:   unset !important;
+}
+#categories div div {
+  display: inline-block;
+}
+.collage_table {
+  display: block;
+  overflow-x: auto;
+}
 /* STOP COLLECTIONS*/
 /*START RESULT PAGE*/
 .widethin {
