@@ -1301,6 +1301,10 @@ table.layout td:last-child {
 #torrent_details {
   width: 100%;
 }
+#collage #categories div > div {
+  display:  ruby !important;
+  margin-left: 0.4rem;
+}
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
 #staff .thin {
