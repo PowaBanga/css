@@ -1200,7 +1200,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   width: 100%;
   display: inline-block;
 }
-#request_table {
+#request_table, .torrent_table.cats.numbering.border, {
   overflow: auto;
   display: block;
   width: 90vw;
