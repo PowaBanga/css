@@ -327,7 +327,12 @@ td.label {
     width: 90vw;
   }
 }
-
+/*START MP STAFF*/
+.brackets {
+  white-space: break-spaces;
+  text-align: center;
+}
+/*END MP STAFF*/
 /*START USERINFO*/
 #userinfo {
   padding-bottom: 1em;
