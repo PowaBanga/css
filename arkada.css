@@ -329,7 +329,7 @@ td.label {
 }
 /*START MP STAFF*/
 .brackets {
-  white-space: break-spaces;
+  white-space: collapse;
   text-align: center;
 }
 /*END MP STAFF*/
