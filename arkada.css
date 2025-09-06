@@ -1205,7 +1205,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   display: block;
   width: 90vw;
 }
-#search_terms input {
+#search_terms input, .search_form input {
   max-width: 50vw;
 }
 .label {
