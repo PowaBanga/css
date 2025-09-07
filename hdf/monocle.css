@@ -39,7 +39,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   --box-shadow-messages-head: 0.03rem 0.02rem 0.1rem 0.01rem #FFFFFF20 inset, -0.03rem -0.02rem 0.02rem 0rem #00000081 inset, 0rem 0rem 0.03rem 0.15rem #00000060;
   --box-shadow-messages-head-revert: 0.05rem 0.05rem 0.2rem 0rem #00000081 inset, -0.05em -0.05em 0.1em 0em #FFFFFF20 inset;
   --blue1:  #528ba3;
-  --light-blue: #456478;
+  --light-blue: #4a95f7;
   --font-size-normal: 1rem;
   --font-size-small: 0.95rem;
   --font-family-principal: Roboto;
@@ -169,30 +169,37 @@ input[type="text"], input[type="search"], input[type="password"], input[type="em
 }
 input[type="checkbox"]:checked {
   box-shadow: var(--box-shadow-buttons-hover);
-  color: #3b3b3b;
+  color: var(--light-blue);
+  background:  var(--light-grey) !important;
 }
 .search_form input[type="checkbox"], #userform.edit_form input[type="checkbox"] {
   margin: -0.28rem 0.2rem 0 0;
   vertical-align: middle;
-  border: none;
+  /*! border: none; */
+  background: #ffffff25;
+  /*! border-radius: 0.3rem; */
+  /*! border: var(--light-grey); */
 }
 input[type="checkbox"] {
   position: relative;
   display: inline-block;
   padding: 0.44rem;
   max-width: 1rem;
-  border: none !important;
+  border:  solid 0.01rem var(--light-grey) !important;
   box-shadow: var(--box-shadow-buttons-hover);
   -webkit-appearance: none;
+  border-radius: 0.3rem;
 }
 input[type="checkbox"]:checked::after {
   position: absolute;
-  top: -0.13rem;
-  left: 0.03rem;
+  top: -0.2rem;
+  left: -0.05rem;
   color: var(--light-blue);
   content: '\2714\fe0e';
-  font-size: var(--font-size-small);
+  font-size: 1.2rem;
   /*! border: none; */
+  font-weight: bold;
+  text-shadow: 0 0 0.4rem #000, 0 0 0.4rem #000, 0 0 0.4rem #000;
 }
 input[type="radio"]:checked {
   border: none;
@@ -244,7 +251,7 @@ input[type="radio"]:checked::after {
   display: none;
 }
 input:focus {
-  border: none /*0.01rem solid #FFFFFF20*/ !important;
+  /*! border: none /\*0.01rem solid #FFFFFF20*\/ !important; */
   outline: 0 !important;
 }
 
