@@ -222,8 +222,8 @@ input[type="radio"] {
 }
 input[type="radio"]:checked::after {
   position: absolute;
-  top: -0.092rem;
-  left: 0.2rem;
+  top: -0.29rem;
+  left: 0.15rem;
   /*! width: 0.4rem; */
   /*! height: 0.4rem; */
   /*! border-radius: 0.5rem; */
@@ -233,6 +233,7 @@ input[type="radio"]:checked::after {
   text-shadow: 0 0 0.4rem #000, 0 0 0.4rem #000, 0 0 0.4rem #000;
   /*! box-shadow: 0 0 0.7rem #000, 0 0 0.7rem #000, 0 0 0.7rem #000; */
   font-family: Roboto-mono;
+  font-size: 1.03rem;
 }
 #tags_type1, #tags_type0 {
   width: 15px;
