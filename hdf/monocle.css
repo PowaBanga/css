@@ -446,12 +446,22 @@ ul#userinfo_stats li {
 }
 /*END MENUBAR*/
 #searchbars ul li {
-  width: 15%;
+  width: 16%;
 }
 
 div#searchbars ul {
   display: flex;
   justify-content: space-around;
+  width: 90vw;
+  /*! margin: 0vw 2vw; */
+}
+#searchbars {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 0.6vw;
+}
+#searchbars input {
+  width: 100%;
 }
 /*END HEADER*/
 /*START FOOTER*/
