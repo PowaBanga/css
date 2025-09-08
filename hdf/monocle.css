@@ -516,7 +516,7 @@ tr.torrent td {
 }
 
 
-/*Accueil body*/
+/*START MAIN PAGE*/
 /*body#index div#wrapper diAv#content */
 .thin {
   display: flex;
@@ -574,7 +574,12 @@ body#index div#wrapper div#content br {
 #scroll-buttons{
   right: 4vw;
 }
-
+.torrents_container {
+  background: unset !important;
+  border-radius: unset !important;
+  box-shadow: var(--box-shadow), var(--box-shadow-buttons) !important;
+}
+/*END MAIN PAGE*/
 /* Élément | https://hdf.world/torrents.php */
 /*Torrents listhe listt*/
 tr.torrent_filename_row:nth-child(11) {
