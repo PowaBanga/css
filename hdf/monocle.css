@@ -160,12 +160,13 @@ select {
   background-color: unset !important;
   padding: 0.3rem !important;
 }
-input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="url"], textarea {
+input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="url"], textarea, input[type="textShoutbox"] {
   padding: 5px 10px !important;
   border:  unset !important;
   background: unset !important;
   box-shadow: var(--box-shadow-inset);
   color: var(--light-grey) !important;
+  -webkit-box-shadow: var(--box-shadow-inset) !important;
 }
 input[type="checkbox"]:checked {
   box-shadow: var(--box-shadow-buttons-hover);
@@ -1173,6 +1174,9 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .shoutbox_noalt{
   background: var(--background-rowb) !important;
+}
+.shoutbox_messageboxback {
+  background-color: unset !important;
 }
 /*END SHOUT*/
 /*START REQUESTS*/
