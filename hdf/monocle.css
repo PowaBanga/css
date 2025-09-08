@@ -1625,4 +1625,28 @@ table.layout td:last-child {
     text-overflow: ellipsis;
   }
   /*END RESULT PAGE*/
+  /*STAR SETTINGS*/
+  
+.sidebar.settings_sidebar {
+  width: 90vw;
+  position: relative;
+  display: block;
+  float: unset !important;
+}
+#settings_sections {
+  position: relative;
+  width: 100%;
+  margin:auto;
+}
+#settings_sections.fixed {
+  position: relative;
+}
+
+#user .colhead_dark ~ tr td {
+  display: block;
+}
+#user .colhead_dark ~ tr > td {
+  width: 90vw;
+}
+  /*END SETTINGS*/
 }
