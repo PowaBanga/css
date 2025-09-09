@@ -22,14 +22,14 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 }
 
 :root{
-  --background1: #383C4A;
+  --background1: #292C36;
   --background2: rgba(42, 68, 93, 0.1);
   --background-messages-head: linear-gradient(179deg,rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
   --background-rowa: #00000010 ;
   --background-rowb: #FFFFFF10 ;
   --background-radial-white: radial-gradient(circle,rgba(255, 255, 255, 0.02) 20%, rgba(0, 0, 0, 0.02) 90%);
   --background-buttons-menu: linear-gradient(180deg, rgba(0, 0, 0, 0.2)0%, rgba(255, 255, 255, 0.05)100%);
-  --light-grey: #9A9A9A;
+  --light-grey: #C4C4C4;
   --text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
   --box-shadow-small: 0em 0em 0.3em black;
   --box-shadow-inset: inset 0em 0em 1em black;
@@ -459,7 +459,7 @@ div#searchbars ul {
 #searchbars {
   width: 90vw;
   margin: auto;
-  padding-bottom: 0.6vw;
+  padding: 1.4vw 0 0.6vw 0;
 }
 #searchbars input {
   width: 100%;
