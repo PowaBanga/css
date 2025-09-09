@@ -973,13 +973,16 @@ form textarea {
   display: none;
 }
 .colhead_dark .brackets, .box.news_post .brackets {
-  padding: 0.4em;
+  padding: 0.3rem 0.8rem 0.5rem 0.7rem;
   font-size: var(--font-size-small);
   background: var(--background-buttons-menu);
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-small);
   border-radius: 0.8rem;
   color: var(--light-grey);
-  height: 2.5rem;
+  /*! height: 2.5rem; */
+  white-space: pre;
+  margin: 0.23rem;
+  display: inline-block;
 }
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
@@ -989,7 +992,7 @@ form textarea {
 .colhead_dark, .colhead {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
-  /*height: 2rem;*/
+  /*! height: 2rem; */
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   white-space: nowrap;
   /*! padding: 0.6rem !important; */
@@ -999,7 +1002,7 @@ form textarea {
   display: revert;
 }
 .colhead_dark td, .colhead {
-  padding: 0.6rem;
+  padding: 0rem;
 }
 
 /*.colhead_dark *{*/
