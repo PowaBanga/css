@@ -1004,6 +1004,16 @@ form textarea {
 .colhead_dark td, .colhead {
   padding: 0rem;
 }
+.colhead_dark td {
+  display: table-cell;
+}
+.colhead_dark td div:first-child {
+  width: 71%;
+}
+.colhead_dark td div:last-child {
+  width: 29%;
+  text-align: right;
+}
 
 /*.colhead_dark *{*/
 /*margin: 0.5em;*/
