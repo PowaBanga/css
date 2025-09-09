@@ -652,6 +652,15 @@ div#app div#viewport div#connect.window {
   /*! position: sticky; */
   float: right;
 }
+#user .sidebar {
+  width: 35%;
+}
+#user .main_column {
+  width: 65%;
+}
+#settings_sections a {
+  color: var(--light-grey);
+}
 /*#settings_sections {*/
 /*width: 9%;*/
 /*}*/
