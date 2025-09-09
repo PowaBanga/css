@@ -63,7 +63,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url(https://powabanga.github.io/css/hdf/RobotoMonoNerd.ttf) format('truetype');
+  src: url(https://powabanga.github.io/css/hdf/monocle/RobotoMonoNerd.ttf) format('truetype');
 }
 
 /*START USER CLASSES*/
@@ -308,7 +308,7 @@ td.label {
 }
 #logo {
   position: absolute;
-  background: url("https://powabanga.github.io/css/hdf/logo.png");
+  background: url("https://powabanga.github.io/css/hdf/monocle/logo.png");
   background-repeat: no-repeat;
   width: 8rem;
   height: 3.7rem;
@@ -855,67 +855,67 @@ spoiler-content {
   width: 100%;
 }
 .lu{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/category.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/category.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .non-lu{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/category-new-message.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/category-new-message.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .read{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/forum-new-message.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/forum-new-message.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .unread{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/forum.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/forum.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .unread_sticky{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/info.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/info.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .read_sticky{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/info.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/info.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .unread_locked_sticky{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/info-new-locked.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/info-new-locked.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .read_locked_sticky{
-  background-image: url("https://powabanga.github.io/css/hdf/icons/info-locked.svg");
+  background-image: url("https://powabanga.github.io/css/hdf/monocle/icons/info-locked.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .read_locked{
-  background-image: url("https://powabanga.github.io//css/hdf/icons/topic-locked.svg");
+  background-image: url("https://powabanga.github.io//css/hdf/monocle/icons/topic-locked.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .read{
-  background-image: url("https://powabanga.github.io//css/hdf/icons/topic.svg");
+  background-image: url("https://powabanga.github.io//css/hdf/monocle/icons/topic.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .unread{
-  background-image: url("https://powabanga.github.io//css/hdf/icons/topic-new.svg");
+  background-image: url("https://powabanga.github.io//css/hdf/monocle/icons/topic-new.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
