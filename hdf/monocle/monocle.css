@@ -850,7 +850,12 @@ spoiler-content {
   display: block;
   width: 100% !important;
 }
-
+.scale_image {
+  max-width: 100%;
+}
+.forum_post td img {
+  width: 100%;
+}
 .avatar img {
   width: 100%;
 }
