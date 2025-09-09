@@ -1655,7 +1655,7 @@ table.layout td:last-child {
   /*END RESULT PAGE*/
   /*STAR SETTINGS*/
   
-.sidebar.settings_sidebar {
+#user .sidebar.settings_sidebar {
   width: 90vw;
   position: relative;
   display: block;
