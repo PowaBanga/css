@@ -853,9 +853,9 @@ spoiler-content {
 .scale_image {
   max-width: 100% !important;
 }
-/*.forum_post td img {*/
-  /*width: 100%;*/
-/*}*/
+.forum_post td img {
+  /*! width: 100%; */
+}
 .avatar img {
   width: 100%;
 }
@@ -1661,6 +1661,11 @@ table.layout td:last-child {
     text-overflow: ellipsis;
   }
   /*END RESULT PAGE*/
+  /*START FORUM*/
+#reply_box {
+  width: 100%;
+}
+  /*END FORUM*/
   /*STAR SETTINGS*/
   
 #user .sidebar.settings_sidebar {
