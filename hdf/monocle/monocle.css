@@ -1665,6 +1665,15 @@ table.layout td:last-child {
 #reply_box {
   width: 100%;
 }
+.colhead_dark td div {
+  /*! background: darkblue; */
+  display: table-cell;
+  float: unset !important;
+}
+.colhead_dark td div, .colhead td div {
+  vertical-align: middle;
+  margin: 0rem 0rem;
+}
   /*END FORUM*/
   /*STAR SETTINGS*/
   
