@@ -1415,12 +1415,12 @@ table.layout td:last-child {
     position: relative;
   }
   .forum_post td.body div {
-    margin-top: 1.8rem;
+    /*! margin-top: 1.8rem; */
   }
   .forum_post tr:last-child td:last-child {
     max-width: 80%;
     padding-right: 0rem;
-    padding-bottom: 2rem;
+    /*! padding-bottom: 2rem; */
   }
 }
 
