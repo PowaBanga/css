@@ -1059,6 +1059,25 @@ blockquote {
 .rowa, .row_a {
   background-color: var(--background-rowb) !important;
 }
+/*START LIKES ROW*/
+.forum_post tr:last-child {
+  position: relative;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.16) 5%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: var(--box-shadow-buttons);
+}
+.forum_post tr:last-child td:last-child {
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  vertical-align: middle;
+}
+.forum_post tr:last-child td:first-child {
+  position: absolute;
+  min-width: 4rem;
+  max-width: 11vw;
+  top: 50%;
+  transform: translate(0,-50%);
+  left: 0.5rem;
+}
+/*END LIKES ROW*/
 /*START EDIT AREA*/
 #newthreadtext {
   width: 100%;
