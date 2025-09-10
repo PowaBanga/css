@@ -422,6 +422,22 @@ ul#userinfo_stats li {
 }
 
 /*END USERINFO*/
+/*START USERHISTORY*/
+
+#userhistory .avatar {
+  position: relative;
+  top: unset;
+  left: unset;
+  transform: unset;
+}
+#userhistory .body {
+  vertical-align: unset;
+  padding: unset;
+}
+#userhistory .row {
+  background: unset;
+}
+/*END USERHISTORY*/
 /*START MENUBAR*/
 
 #menu ul {
