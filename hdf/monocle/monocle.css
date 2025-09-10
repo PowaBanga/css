@@ -437,6 +437,11 @@ padding: unset;
 background: unset;
 } 
 /*END USERHISTORY*/
+/*START FRIENDS*/
+#friends .box.pad {
+  margin: auto;
+}
+/*END FRIENDS*/
 /*START MENUBAR*/
 
 #menu ul {
