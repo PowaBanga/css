@@ -240,18 +240,19 @@ input[type="radio"]:checked::after {
   width: 15px;
 }
 .contribute-button, .submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a {
-  box-shadow: var(--box-shadow-buttons) !important;
+  box-shadow: var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow) !important;
   cursor: pointer;
   width: auto !important;
   padding: 0.4rem !important;
-  background: var(--background-messages-head) !important;
+  background: var(--background-radial-white) !important;
   border: none !important;
   color: var(--light-grey) !important;
   display: inline-block;
   margin:0.4rem !important;
+  border-radius: 0.4rem;
 }
 .contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover  {
-  box-shadow: var(--box-shadow-buttons-hover) !important;
+  box-shadow:  var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow),var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
   display: none;
