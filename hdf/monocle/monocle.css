@@ -488,7 +488,7 @@ div#searchbars ul {
 #searchbars {
     /*! width: 90vw; */
     margin: auto;
-    padding: 1.4vw 0 0.6vw 0;
+    padding: 1rem 0 0.2rem 0;
 }
 #searchbars input {
     width: 100%;
