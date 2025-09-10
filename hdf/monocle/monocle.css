@@ -1024,7 +1024,7 @@ form textarea {
     padding: 0.3rem 0.8rem 0.5rem 0.7rem;
     font-size: var(--font-size-small);
     background: var(--background-buttons-menu);
-    box-shadow: var(--box-shadow-buttons), var(--box-shadow-small);
+    box-shadow: var(--box-shadow-buttons), var(--box-shadow-small), var(--box-shadow-small), var(--box-shadow-buttons);
     border-radius: 0.8rem;
     color: var(--light-grey);
     /*! height: 2.5rem; */
