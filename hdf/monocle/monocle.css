@@ -158,7 +158,6 @@ select {
     overflow: auto;
     background-color: unset !important;
     box-shadow: var(--box-shadow-buttons), var(--box-shadow-small), var(--box-shadow-buttons);
-    width: 100% !important;
     padding: 0.2rem 0.5rem 0.5rem 0.5rem !important;
     text-align: center;
 }
