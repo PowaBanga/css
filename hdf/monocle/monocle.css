@@ -423,20 +423,19 @@ ul#userinfo_stats li {
 
 /*END USERINFO*/
 /*START USERHISTORY*/
-
-#userhistory .avatar {
-  position: relative;
-  top: unset;
-  left: unset;
-  transform: unset;
-}
-#userhistory .body {
-  vertical-align: unset;
-  padding: unset;
-}
-#userhistory .row {
-  background: unset;
-}
+#userhistory .forum_post tr:last-child td:first-child {
+position: relative;
+top: unset;
+left: unset;
+transform: unset;
+}        
+#userhistory .forum_post tr:last-child td:last-child {
+vertical-align: unset;
+padding: unset;
+}        
+#userhistory .forum_post tr:last-child {
+background: unset;
+} 
 /*END USERHISTORY*/
 /*START MENUBAR*/
 
