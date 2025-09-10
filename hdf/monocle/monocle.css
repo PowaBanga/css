@@ -343,6 +343,13 @@ td.label {
     white-space: collapse;
     text-align: center;
 }
+#staffpm .thin div.header, #staffpm .thin div#inbox {
+display: block;
+margin: auto;
+}
+#staffpm .thin div#compose {
+margin: auto;
+}
 /*END MP STAFF*/
 /*START USERINFO*/
 #userinfo {
