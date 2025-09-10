@@ -1250,6 +1250,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
     border: none !important;
     font-size: var(--font-size-small) !important;
     font-family: var(--font-family-principal) !important;
+    color: var(--light-grey) !important;
 }
 /*END EDIT AREA*/
 /*END FORUM*/
