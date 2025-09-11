@@ -1084,7 +1084,7 @@ code {
   padding: 1em;
   font-family: Roboto-mono;
   white-space: nowrap;
-  overflow: auto;
+  overflow-x: auto;
 }
 blockquote {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow);
@@ -1315,7 +1315,7 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   display: inline-block;
 }
 #request_table, .torrent_table.cats.numbering.border {
-  overflow: auto;
+  overflow-x: auto;
   display: block;
   width: 90vw;
 }
