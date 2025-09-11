@@ -561,11 +561,12 @@ tr.torrent td {
 /*body#index div#wrapper diAv#content */
 .thin {
   display: flex;
-  width: 100% !important;
+  width: 80% !important;
   flex-wrap: wrap;
   justify-content: space-between;
   background: var(--background-radial-white);
   /*overflow-x: auto;*/
+  margin: auto;
 }
 .thin strong {
   width: 99%;
