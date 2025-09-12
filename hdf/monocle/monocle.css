@@ -134,7 +134,6 @@ body {
   padding: 0;
   background:  var(--background1);
   color: var(--light-grey);
-  /*text-shadow: var(--text-shadow);*/
   font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 .scroll-button {
@@ -146,7 +145,6 @@ body {
 select {
   color: var(--light-grey) !important;
   border: none !important;
-  /*! width: 100% !important; */
   overflow: auto;
   background-color: unset !important;
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-small), var(--box-shadow-buttons);
@@ -169,10 +167,7 @@ input[type="checkbox"]:checked {
 .search_form input[type="checkbox"], #userform.edit_form input[type="checkbox"] {
   margin: -0.28rem 0.2rem 0 0;
   vertical-align: middle;
-  /*! border: none; */
   background: #ffffff25;
-  /*! border-radius: 0.3rem; */
-  /*! border: var(--light-grey); */
 }
 input[type="checkbox"] {
   position: relative;
@@ -191,17 +186,12 @@ input[type="checkbox"]:checked::after {
   color: var(--light-blue);
   content: '\2714\fe0e';
   font-size: 1.2rem;
-  /*! border: none; */
   font-weight: bold;
   text-shadow: 0 0 0.4rem #000, 0 0 0.4rem #000, 0 0 0.4rem #000;
 }
 input[type="radio"]:checked {
-  /*! border: none; */
   background: var(--light-grey);
-  /*! box-shadow: var(--box-shadow-buttons-hover); */
   color: var(--light-blue);
-  /*! background-color: var(--light-grey); */
-  /*! text-shadow: 0 0 0.4rem #000, 0 0 0.4rem #000, 0 0 0.4rem #000; */
 }
 input[type="radio"] {
   position: relative;
@@ -221,13 +211,9 @@ input[type="radio"]:checked::after {
   width: 0.6rem;
   height: 0.6rem;
   border-radius: 0.5rem;
-  background: var(--light-blue); /* radial-gradient(circle,rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0) 50%);*/
-  /*! box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); */
+  background: var(--light-blue); 
   content: ' ';
-  /*! text-shadow: 0 0 0.4rem #000, 0 0 0.4rem #000, 0 0 0.4rem #000; */
   box-shadow: 0 0 0.3rem #000, 0 0 0.3rem #000;
-  /*! font-family: Roboto-mono; */
-  /*! font-size: 1.03rem; */
 }
 #tags_type1, #tags_type0 {
   width: 15px;
@@ -252,7 +238,6 @@ input[type="radio"]:checked::after {
   display: none;
 }
 input:focus {
-  /*! border: none /\*0.01rem solid #FFFFFF20*\/ !important; */
   outline: 0 !important;
 }
 
@@ -276,13 +261,11 @@ td.label {
 }
 .layout .inputtext {
   margin: 0em;
-  /*! width: auto; */
   max-width: 60vw;
 }
 .filter_torrents .head div {
   position: relative;
   margin: auto;
-  /*! right: 50%; */
   top: 100%;
 }
 .filter_torrents .head div font, .filter_torrents .head div span #ft_toggle {
@@ -294,7 +277,6 @@ td.label {
 /*STOP SEARCHBOX*/
 /*END INPUTS*/
 /*START HEADER*/
-/*Donc l'entete ici, testé à 980 de large c'est ok faut une autre config pour ecran moin large*/
 #header {
   width: 80vw;
   margin: 0vw auto 2vw auto;
@@ -320,12 +302,7 @@ td.label {
   display: block;
   margin: auto;
 }
-@media (max-width: 1230px) {
-  /*#logo {*/
-  /*height: 1.8em;*/
-  /*width: 5.1em;*/
-  /*top: 1.2em;*/
-  /*}*/
+@media (max-width: 1230px) and (min-width: 1025px) {
   #content, #header {
     width: 90vw;
   }
@@ -457,15 +434,12 @@ ul#userinfo_stats li {
   align-items: center;
   justify-content: space-around;
   color: var(--light-grey);
-  /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
   text-shadow: 0em 0em 0.7em #000;
   background: var(--background-buttons-menu);
 }
 #menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
   border-radius: 0.5rem;
-  /*background: radial-gradient(circle,rgba(0, 0, 0, 0.6) 20%, rgba(255, 255, 255, 0) 100%);*/
-  /*text-shadow: 0.03rem 0.03rem 0.02rem var(--light-grey);*/
 }
 /*END MENUBAR*/
 #searchbars ul li {
@@ -475,11 +449,8 @@ ul#userinfo_stats li {
 div#searchbars ul {
   display: flex;
   justify-content: space-around;
-  /*! width: 90vw; */
-  /*! margin: 0vw 2vw; */
 }
 #searchbars {
-  /*! width: 90vw; */
   margin: auto;
   padding: 1rem 0 0.2rem 0;
 }
@@ -500,7 +471,6 @@ div#searchbars ul {
   box-shadow: var(--box-shadow), var(--box-shadow-messages-head);
   padding: 0.4rem;
   min-width: 13vw;
-  /*! max-height: 27vw !important; */
 }
 .autocomplete-suggestion:hover, .autocomplete-selected {
   background-color: #00000040;
@@ -527,7 +497,6 @@ div#searchbars ul {
 }
 /*END NOTIFY AREA*/
 .box {
-  /* font-size: 10pt; */
   font-size: var(--font-size-normal) !important;
 }
 #index .box.news_post {
@@ -566,7 +535,6 @@ tr.torrent td {
   flex-wrap: wrap;
   justify-content: space-between;
   background: var(--background-radial-white);
-  /*overflow-x: auto;*/
   margin: auto;
 }
 .thin strong {
@@ -577,18 +545,12 @@ tr.torrent td {
   position: relative;
   width: 19%;
   order: 2;
-  /*box-shadow: var(--box-shadow-inset);*/
-  /*margin: 1em 1% 1em 0.5%;*/
 }
 
 .main_column {
-  /* left: 0px; */
   position: relative;
   width: 80%;
   order: 1;
-  /*box-shadow: var(--box-shadow-inset);*/
-  /*margin: 1em 0.5% 1em 1%;*/
-  /*padding: 0.6vw;*/
 }
 
 .group_torrent span, .torrent span {
@@ -602,8 +564,6 @@ body#index div#wrapper div#content br {
 #content{
   width: 80vw;
   position: relative;
-  /*left: 10%;*/
-  /*box-shadow: var(--box-shadow);*/
   margin: 0em auto 1em auto;
   box-shadow: var(--box-shadow-buttons), var(--box-shadow)!important;;
   padding: 1rem;
@@ -654,7 +614,6 @@ tr.torrent_filename_row:nth-child(11) {
 .box.pad.rule_table {
   background: unset !important;        
   box-shadow: var(--box-shadow);   
-  /*border-radius: 0px !important;*/
   color: var(--light-grey) !important;
   margin-bottom: 0px !important;
   padding: 0px !important;
@@ -691,7 +650,6 @@ div#app div#viewport div#connect.window {
 /*START SETTINGS*/
 #userform .sidebar {
   box-shadow: none !important;
-  /*! position: sticky; */
   float: right;
 }
 #user .sidebar {
@@ -703,9 +661,6 @@ div#app div#viewport div#connect.window {
 #settings_sections a {
   color: var(--light-grey);
 }
-/*#settings_sections {*/
-/*width: 9%;*/
-/*}*/
 /*END SETTINGS*/
 /*SART MAIN PAGE*/
 .sidebar img {
@@ -738,7 +693,6 @@ div#app div#viewport div#connect.window {
   height: 100%;
   padding: 0.5rem;
 }#news.news_header {
-  /* padding: 0.5rem; */
   padding: 0;
 }
 #news.news_header:hover {
@@ -810,11 +764,8 @@ div#app div#viewport div#connect.window {
   border-color: unset !important;
 }
 .border tr td:nth-child(3) {
-  /*! max-width: 27vw; */
-  /*! overflow: scroll; */
   word-break: break-word;
   hyphens: auto;
-  /*! overflow-wrap: break-word; */
 }
 /*END POTFL*/
 /*START JETONS*/
@@ -857,7 +808,6 @@ spoiler-content {
 .spoiler-content pre {
   background: unset !important;
   border: none !important;
-  /*! color: var(--light-grey) !important; */
   font-family: Roboto-mono !important;
 }
 .crypto-address {
@@ -894,9 +844,6 @@ spoiler-content {
 }
 .scale_image {
   max-width: 100% !important;
-}
-.forum_post td img {
-  /*! width: 100%; */
 }
 .avatar img {
   width: 100%;
@@ -1021,23 +968,19 @@ form textarea {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-small), var(--box-shadow-small), var(--box-shadow-buttons);
   border-radius: 0.8rem;
   color: var(--light-grey);
-  /*! height: 2.5rem; */
   white-space: pre;
   margin: 0.23rem;
   display: inline-block;
 }
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
-  /*text-shadow: -0.07rem -0.07rem 0.1rem #00000090, 0.07rem 0.07rem 0.1rem #FFFFFF20;*/
 }
 
 .colhead_dark, .colhead {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
-  /*! height: 2rem; */
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   white-space: nowrap;
-  /*! padding: 0.6rem !important; */
 }
 .colhead td {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -1057,15 +1000,7 @@ form textarea {
   text-align: right;
 }
 
-/*.colhead_dark *{*/
-/*margin: 0.5em;*/
-/*height: 2em;*/
-/*vertical-align: middle;*/
-/*padding: 0em 0.03em;*/
-/*}*/
 h3 {
-  /*box-shadow: var(--box-shadow-messages-head);*/
-  /*padding: 0.3em 0.6em;*/
   margin: 0.6rem 0rem 0.2rem 0.4rem;
 }
 .donor_icon.tooltip {
@@ -1105,7 +1040,6 @@ blockquote {
 .forum_post tr:last-child {
   position: relative;
   background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.16) 5%, rgba(255, 255, 255, 0) 100%);
-  /*! box-shadow: var(--box-shadow-buttons); */
 }
 .forum_post tr:last-child td:last-child {
   padding: 0.5rem 0.5rem 0.5rem 3rem;
@@ -1168,13 +1102,8 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   text-shadow: none !important;
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
-  /*! color: #333; */
-  /*! font-family: 'WysiBBiconFont'; */
-  /*! font-size: 18px; */
   line-height: 1.4em;
-  /*! text-shadow: 0px 1px 0px #fff; */
   text-align: center;
-  /*! speak: none; */
 
 }
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover, .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
@@ -1307,7 +1236,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   vertical-align: top;
 }
 .filter_table tr:last-child td div {
-  /*! background: wheat; */
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -1429,7 +1357,6 @@ table.layout td:last-child {
 /*START STAFF PAGE*/
 #staff .thin {
   text-align: left;
-  /*display: block;*/
 }
 #staff .nobr {
   white-space: normal;
@@ -1437,43 +1364,14 @@ table.layout td:last-child {
 /*END STAFF PAGE*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
 
-@media (max-width: 1040px) {
-  .colhead_dark .time {
-    /*! bottom: 100%; */
-    /*! right: 0; */
-    /*! background: var(--background-buttons-menu); */
-    /*! box-shadow: var(--box-shadow-buttons); */
-    /*! padding: 0.3rem; */
-    /*! border-radius: 0 0 0.6rem 0.6rem; */
-    /*! height: fit-content; */
-    /*! top: 2.2rem; */
-  }
-  .forum_post .colhead_dark .time {
-    /*! display: inline-block; */
-    /*! position: absolute; */
-  }
-  .forum_post {
-    position: relative;
-  }
-  .forum_post td.body div {
-    /*! margin-top: 1.8rem; */
-  }
-  .forum_post tr:last-child td:last-child {
-    max-width: 80%;
-    padding-right: 0rem;
-    /*! padding-bottom: 2rem; */
-  }
-}
 
 @media (max-width: 1230px) {
   #content, #header {
     width: 90vw;
   }
 }
-@media (max-width: 1024px) {
-  /* #content { */
+@media (max-width: 1024px) and (min-width: 600px) {
   #content, #header {
-    /* width: 98vvw !important; */
     width: 99vw;
   }
 
@@ -1481,14 +1379,9 @@ table.layout td:last-child {
     white-space: ;
     display: table-row;
   }
-  /* arkada.css | https://powabanga.github.io/css/hdf/arkada.css */
-
   .sidebar {
-    /* width: 19%; */
-    /* order: 2; */
     width: 100%;
     order: 1;
-    /*box-shadow: var(--box-shadow-inset);*/
     margin: 1em 1% 1em 0.5%;
     display: flex;
     flex-wrap: wrap;
@@ -1498,45 +1391,37 @@ table.layout td:last-child {
   }
 
   .main_column {
-    /* width: 80%; */
-    /* order: 1; */
     width: 100%;
     order: 2;
   }
 
   .sidebar .box {
     flex-shrink: 3;
-    /*height: min-content;*/
     width: 23.2%;
     order: unset;
     flex: 1 1 auto;
   }
 
   .sidebar img {
-    /* max-width: none !important; */
-    /* width: 100%; */
     max-width: 20vw !important;
     display: ;
   }
 
   .colhead_dark, .colhead {
-    /* height: 2rem; */
-    /* box-shadow: var(--box-shadow-messages-head); */
-    /* white-space: nowrap; */
     white-space: normal;
   }
-
-  /* Inline | https://hdf.world/index.php */
-
   .sidebar .box img {
     max-width: 20%;
   }
 
-  /* .sidebar .box .center.pad img { */
-  .sidebar .box:nth-child(1), .sidebar .box:nth-child(2) {
-    /* max-width: 20%; */
+/*thanks row in forum*/
+  .forum_post {
+    position: relative;
   }
-
+  .forum_post tr:last-child td:last-child {
+    max-width: 80%;
+    padding-right: 0rem;
+  }
 }
 @media (max-width: 600px){
   /* START MENU*/
@@ -1739,7 +1624,6 @@ table.layout td:last-child {
     width: 100%;
   }
   .colhead_dark td div {
-    /*! background: darkblue; */
     display: table-cell;
     float: unset !important;
   }
