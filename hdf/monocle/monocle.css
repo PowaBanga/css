@@ -109,6 +109,18 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 .class_32{
   color: #F0E68C;
 }
+@media (prefers-color-scheme: light) {
+    :root{
+  --background1: #CBC8C6;
+  --light-grey: #3E3A3A;
+  }
+}
+@media (prefers-color-scheme: dark) {
+   :root{
+  --background1: #292C36;
+  --light-grey: #C4C4C4;
+  }
+}
 /*STOP USER CLASS*/
 a:link {
   color: #4CC5F8;
@@ -224,7 +236,7 @@ input[type="radio"]:checked::after {
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-radial-white) !important;
-  border: none !important;
+  border:  0.1rem solid var(--light-blue) !important;
   color: var(--light-grey) !important;
   display: inline-block;
   margin:0.4rem !important;
