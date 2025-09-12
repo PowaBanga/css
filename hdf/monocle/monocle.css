@@ -1428,10 +1428,8 @@ table.layout td:last-child {
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
 #staff .thin {
-  width: 80% !important;
-  margin: auto;
   text-align: left;
-  display: block;
+  /*display: block;*/
 }
 #staff .nobr {
   white-space: normal;
