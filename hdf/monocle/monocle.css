@@ -314,6 +314,11 @@ td.label {
   display: block;
   margin: auto;
 }
+@media (min-width: 1231px){
+  .thin {
+    width: 80%
+  }
+}
 @media (max-width: 1230px) and (min-width: 1025px) {
   #content, #header {
     width: 90vw;
@@ -543,7 +548,7 @@ tr.torrent td {
 /*body#index div#wrapper diAv#content */
 .thin {
   display: flex;
-  width: 80% !important;
+  /*! width: 80% !important; */
   flex-wrap: wrap;
   justify-content: space-between;
   background: var(--background-radial-white);
@@ -552,7 +557,6 @@ tr.torrent td {
 .thin strong {
   width: 99%;
 }
-
 .sidebar {
   position: relative;
   width: 19%;
@@ -992,7 +996,8 @@ form textarea {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
   border-radius: 0.5rem 0.5rem 0rem 0rem;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-all;
 }
 .colhead td {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -1382,16 +1387,8 @@ table.layout td:last-child {
     width: 90vw;
   }
 }
-@media (max-width: 1024px) and (min-width: 600px) {
-  #content, #header {
-    width: 99vw;
-  }
-
-  .big_info div {
-    white-space: ;
-    display: table-row;
-  }
-  .sidebar {
+@media (max-width: 1024px){
+    .sidebar {
     width: 100%;
     order: 1;
     margin: 1em 1% 1em 0.5%;
@@ -1401,26 +1398,29 @@ table.layout td:last-child {
     justify-content: space-between;
     align-items: stretch;
   }
-
-  .main_column {
-    width: 100%;
-    order: 2;
-  }
-
   .sidebar .box {
     flex-shrink: 3;
     width: 23.2%;
     order: unset;
     flex: 1 1 auto;
   }
+  .main_column {
+    width: 100%;
+    order: 2;
+  }
+  #content, #header {
+    width: 99vw;
+  }
+}
+@media (max-width: 1024px) and (min-width: 600px) {
 
+  .big_info div {
+    white-space: ;
+    display: table-row;
+  }
   .sidebar img {
     max-width: 20vw !important;
     display: ;
-  }
-
-  .colhead_dark, .colhead {
-    white-space: normal;
   }
   .sidebar .box img {
     max-width: 20%;
@@ -1617,6 +1617,11 @@ table.layout td:last-child {
     box-shadow: var(--box-shadow-buttons-hover);
   }
   /*END MENU*/
+/*START EVERYWHERE*/
+  #content {
+    padding: 0;
+  }
+  /*END EVERYWHERE*/
   /*START RESuLT PAGE*/
   #torrent_table tr.group td.nobr:nth-child(4), #torrent_table tr.group_torrent td.nobr:nth-child(3) {
     min-width: 1.9rem;
