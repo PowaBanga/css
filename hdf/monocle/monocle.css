@@ -243,6 +243,7 @@ input[type="radio"]:checked::after {
   display: inline-block;
   margin:0.4rem !important;
   border-radius: 0.4rem;
+  white-space: normal;
 }
 .contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover, .button-primary:hover  {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow-small),var(--box-shadow-buttons-hover) !important;
