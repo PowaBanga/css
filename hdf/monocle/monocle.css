@@ -233,7 +233,7 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.contribute-button, .submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a, .button-primary {
+.contribute-button, .submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a, .button-primary, input[type=file]::file-selector-button, button  {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow-small), var(--box-shadow-small) !important;
   cursor: pointer;
   width: auto !important;
@@ -246,7 +246,7 @@ input[type="radio"]:checked::after {
   border-radius: 0.4rem;
   white-space: normal;
 }
-.contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover, .button-primary:hover  {
+.contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover, .button-primary:hover, input[type=file]::file-selector-button:hover, button:hover   {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow-small),var(--box-shadow-buttons-hover) !important;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
