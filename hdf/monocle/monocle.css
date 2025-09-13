@@ -138,6 +138,9 @@ a:active {
   color: #A2FFFF;
   text-decoration: none;
 }
+table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover, .action_button:hover {
+  color: var(--light-grey);
+}
 ul {
   list-style-type: none;
 }
@@ -1335,7 +1338,6 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: darkblue;
 }
 .edition_info {
   background: var(--background-rowb);
