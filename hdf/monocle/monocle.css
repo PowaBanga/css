@@ -236,7 +236,7 @@ input[type="radio"]:checked::after {
   width: auto !important;
   padding: 0.4rem !important;
   background: var(--background-radial-white) !important;
-  border:  0.1rem solid var(--light-blue) !important;
+  border:  0.03rem solid var(--light-blue) !important;
   color: var(--light-grey) !important;
   display: inline-block;
   margin:0.4rem !important;
