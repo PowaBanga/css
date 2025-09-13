@@ -987,6 +987,7 @@ form textarea {
   white-space: pre;
   margin: 0.23rem;
   display: inline-block;
+  border: solid 0.06rem var(--light-blue);
 }
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
@@ -1031,10 +1032,10 @@ td.body {
 code {
   box-shadow: var(--box-shadow-inset);
   display: block;
-  width: 68vw;
+  width: 52vw;
   position: relative;
   margin: 1vw;
-  padding: 1em;
+  padding: 1vw;
   font-family: Roboto-mono;
   white-space: nowrap;
   overflow-x: auto;
@@ -1330,6 +1331,11 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   max-height: 90vh;
   max-width: 90vw;
   box-shadow: var(--box-shadow);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: darkblue;
 }
 .edition_info {
   background: var(--background-rowb);
