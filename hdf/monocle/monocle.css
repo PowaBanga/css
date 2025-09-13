@@ -1321,6 +1321,17 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 .collage_table {
   display: block;
   overflow-x: auto;
+  /*! width: 100%; */
+}
+#collage #categories div > div span {
+  display: none !important;
+}
+.collage_table tbody {
+  width: 100%;
+  display: inline-table;
+}
+.collage_table .colhead ~ tr td:nth-child(3), .collage_table .colhead ~ tr td:nth-child(4), .collage_table .colhead ~ tr td:nth-child(5), .collage_table .colhead ~ tr td:nth-child(6) {
+  text-align: center;
 }
 /* STOP COLLECTIONS*/
 /*START RESULT PAGE*/
