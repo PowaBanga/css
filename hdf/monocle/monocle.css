@@ -1628,6 +1628,10 @@ table.layout td:last-child {
     text-align: left;
     background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 18%, rgba(255, 255, 255, 0) 100%);
   }
+  
+#searchbars {
+  padding: 4rem 0 0.2rem 0;
+  }
   #userinfo {
     width: 3.4rem;
     height: min-content;
@@ -1649,7 +1653,7 @@ table.layout td:last-child {
   }
   #userinfo_username {
     position: absolute;
-    z-index: 2 !important;
+    /*! z-index: 2 !important; */
   }
 
   #userinfo_major {
@@ -1677,13 +1681,14 @@ table.layout td:last-child {
   }
   #userinfo ul {
     position:absolute;
-    z-index: 1;
+    /*! z-index: 1; */
     /*! display: none; */
   }
   #userinfo:hover ul{
     display: inline-block;
-    width: 25vw;
+    width: 0rem;
     margin-bottom: 0.6rem;
+    height: ;
   }
   #userinfo ul li{
     display: block;
@@ -1692,9 +1697,9 @@ table.layout td:last-child {
     padding: 1rem 0;
     background-image: var(--background-buttons-menu);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    top: 9.4rem;
-    width: 90vw;
-    margin: 0.3rem 5vw;
+    top: 4.7rem;
+    width: 40vw;
+    margin: 0.3rem 1vw;
     border-radius: 0.7rem;
     background-color: var(--background1);
     text-align: center;
@@ -1710,34 +1715,34 @@ table.layout td:last-child {
   }
   #userinfo ul::before {
     font-size:2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: Roboto-mono;
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
     padding: 0.5rem 1rem;
     display: block;     
-    width: 23vw;                    
+    width: 3.2rem;                    
     position: absolute;
-    top: 5.4rem;                    
+    top: 1.4rem;                    
     text-align: center;             
     margin: 0 1vw; 
     background: var(--background-buttons-menu);
     background-color: var(--background1);
-    border-radius: 2rem;
+    border-radius: 1rem 0;
   }
   #userinfo_username:before {
     content: '';
   }
   #userinfo_major:before {
     content: '󰄔';        
-    left: 25vw;
+    left: 4rem;
   }
   #userinfo_minor::before {
     content: '󰭘';
-    left: 75vw;  
+    left: 12rem;  
   }
   #userinfo_stats::before {
     content: '󰴦';
-    left: 50vw;
+    left: 8rem;
   }
 
   #userinfo_minor {
@@ -1795,9 +1800,6 @@ table.layout td:last-child {
     width: 74vw;
     z-index: 2;
   } 
-#searchbars {
-  padding: 4rem 0 0.2rem 0 !important;
-}
   #user .label.tooltip {
     text-align: left;
     background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 18%, rgba(255, 255, 255, 0) 100%);
