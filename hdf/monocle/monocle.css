@@ -110,15 +110,15 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   color: #F0E68C;
 }
 @media (prefers-color-scheme: light) {
-    :root{
-  --background1: #CBC8C6;
-  --light-grey: #3E3A3A;
+  :root{
+    --background1: #CBC8C6;
+    --light-grey: #3E3A3A;
   }
 }
 @media (prefers-color-scheme: dark) {
-   :root{
-  --background1: #292C36;
-  --light-grey: #C4C4C4;
+  :root{
+    --background1: #292C36;
+    --light-grey: #C4C4C4;
   }
 }
 /*STOP USER CLASS*/
@@ -629,6 +629,41 @@ body#index div#wrapper div#content br {
 }
 #upload .textarea-container .submit_div + div {
   background:  #FFFFFF20 !important;
+}
+
+/*menu deroulan des genres... !FIXME j'en ai pas fini avec ce truc*/
+
+#jAutochecklist_wrapper_genre {
+  color: var(--light-grey);
+  height: 1.6rem;
+  font-size: var(--font-size-normal);
+  background: unset;
+  margin: 0.7rem 0rem;
+}
+.jAutochecklist_dropdown_wrapper {
+  /*! border: 0.04rem solid var(--light-grey); */
+  border: unset;
+  box-shadow: var(--box-shadow), var(--box-shadow-small) inset, var(--box-shadow-messages-head);
+  background: unset;
+}
+.jAutochecklist_remove_all {
+  background: unset;
+  /*! height: 1rem; */
+  /*! width: 1rem; */
+  top: -0.05rem;
+  /*! right: 1.5rem; */
+  /*! display: none !important; */
+  text-shadow: 0 0 0.05rem #ffffff;
+}
+.jAutochecklist_remove_all::before {
+  content: 'x';
+  display: block;
+}
+.jAutochecklist_remove_all:hover {
+  text-shadow: 0 0 0.05rem var(--light-blue);
+}
+.jAutochecklist_arrow, .jAutochecklist_arrow:hover {
+  background: unset;
 }
 /*END UPLOAD*/
 /* Élément | https://hdf.world/torrents.php */
@@ -1436,7 +1471,7 @@ table.layout td:last-child {
   }
 }
 @media (max-width: 1024px){
-    .sidebar {
+  .sidebar {
     width: 100%;
     order: 1;
     margin: 1em 1% 1em 0.5%;
@@ -1474,7 +1509,7 @@ table.layout td:last-child {
     max-width: 20%;
   }
 
-/*thanks row in forum*/
+  /*thanks row in forum*/
   .forum_post {
     position: relative;
   }
@@ -1665,7 +1700,7 @@ table.layout td:last-child {
     box-shadow: var(--box-shadow-buttons-hover);
   }
   /*END MENU*/
-/*START EVERYWHERE*/
+  /*START EVERYWHERE*/
   #content {
     padding: 0;
   }
