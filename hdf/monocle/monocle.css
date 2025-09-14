@@ -613,6 +613,24 @@ body#index div#wrapper div#content br {
   align-self: center;
 }
 /*END MAIN PAGE*/
+/*START UPLOAD*/
+#upload #content .box.pad {
+  width: 100% !important;
+  /*! margin: 1rem !important; */
+}
+#upload input,#upload select {
+  max-width: 50vw;
+}
+#upload .layout.border td {
+  display: block;
+}
+#upload .layout.border td {
+  text-align: center;
+}
+#upload .textarea-container .submit_div + div {
+  background:  #FFFFFF20 !important;
+}
+/*END UPLOAD*/
 /* Élément | https://hdf.world/torrents.php */
 /*Torrents listhe listt*/
 tr.torrent_filename_row:nth-child(11) {
