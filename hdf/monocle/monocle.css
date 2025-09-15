@@ -1239,6 +1239,12 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 #wbbmodal {
   font: var(--font-size-normal) 'Roboto', 'Trebuchet MS', "Arial", sans-serif !important;
 }
+.bottom-resize-line {
+  background: #ffffff10;
+}
+.bottom-resize-line:hover {
+  background: #ffffff20;
+}
 .preview_button:hover {
   background-color: unset;
 }
