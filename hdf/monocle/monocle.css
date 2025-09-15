@@ -43,6 +43,8 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   --font-size-normal: 1rem;
   --font-size-small: 0.95rem;
   --font-family-principal: Roboto;
+  --lighter: #FFFFFF ;
+  --darker: #000000;
 }
 @font-face {
   font-family: 'Roboto';
@@ -1195,9 +1197,9 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .wysibb-toolbar {
 }
-.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+/*.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
   color: #c2bfbf !important;
-}
+}*/
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
   color: var(--light-grey) !important;
   font-size: 1.7em !important;
