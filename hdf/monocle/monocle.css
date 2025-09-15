@@ -318,17 +318,27 @@ td.label {
   display: block;
   margin: auto;
 }
-@media (min-width: 1231px){
+@media (min-width: 1921px){
   .thin {
     width: 80%
   }
 }
-@media (max-width: 1384px) and (min-width: 1107px) {
-  #content, #header {
-    width: 1107px !important;
+@media (max-width: 1920px) and (min-width: 1550px){
+    #content, #header {
+    width: 1537px !important;
   }
 }
-@media (max-width: 1106px) {
+@media (max-width: 1920px) and (min-width: 1250px){
+    .thin{
+    width: 1204px;
+  }
+}
+@media (max-width: 1550px) and (min-width: 1250px) {
+  #content, #header {
+    width: 99% !important;
+  }
+}
+@media (max-width: 1249px) {
   #content, #header {
     width: 99% !important;;
   }
