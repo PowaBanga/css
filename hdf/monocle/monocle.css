@@ -1468,6 +1468,9 @@ table.layout td:last-child {
 #staff .nobr {
   white-space: normal;
 }
+#staff table, #staff strong, #staff .box.pad {
+  width: 100%;
+}
 /*END STAFF PAGE*/
 /*#FIXME #lightbox a mettre en stycki car s'affiche en bas de page*/
 
