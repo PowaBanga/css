@@ -122,15 +122,15 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   :root{
     --background1: #CBC8C6;
     --text-color: #3E3A3A;a:link {
-      color: #4CC5F8;
+      color: #0074A5;
       text-decoration: none;
     }
     a:visited {
-      color: #70E3FF;
+      color: #388FC2;
       text-decoration: none;
     }
     a:hover {
-      color: #7EF0FF    ;
+      color: #002E58;
       text-decoration: none;
     }
     a:active {
