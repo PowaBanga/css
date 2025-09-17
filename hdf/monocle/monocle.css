@@ -1739,10 +1739,12 @@ max-width: 20%;
   position:absolute;
   /*! z-index: 1; */
   /*! display: none; */
+  top: 3.6rem;
+  z-index: 1;
 }
 #userinfo:hover ul{
   display: inline-block;
-  width: 0rem;
+  /*! width: 0rem; */
   margin-bottom: 0.6rem;
   height: ;
 }
@@ -1753,7 +1755,7 @@ max-width: 20%;
   padding: 1rem 0;
   background-image: var(--background-buttons-menu);
   box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-  top: 4.7rem;
+  top: 0.1rem;
   width: 40vw;
   margin: 0.3rem 1vw;
   border-radius: 0.7rem;
@@ -1778,7 +1780,7 @@ max-width: 20%;
   display: block;     
   width: 3.2rem;                    
   position: absolute;
-  top: 1.4rem;                    
+  top: -3.2rem;                    
   text-align: center;             
   margin: 0 1vw; 
   background: var(--background-buttons-menu);
@@ -1869,6 +1871,7 @@ max-width: 20%;
     display: unset;
     box-shadow: unset;
     margin-top: unset;
+    /*! top: 2rem; */
   }
   #userinfo::before{
     content: '';
@@ -1995,7 +1998,7 @@ max-width: 20%;
     position: absolute;
     top: 0.4rem;
     font-family: Roboto-mono;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     box-shadow: var(--box-shadow),var(--box-shadow-buttons);
     padding: 0rem 1rem 0rem 0.8rem;
     border-radius: 0rem 1rem 0rem 1rem;
