@@ -1863,26 +1863,27 @@ max-width: 20%;
     background: linear-gradient(90deg, var(--color-transparent) 0%, var(--color-darker-lvl4) 18%,var(--color-transparent) 100%);
   }
   #userinfo {
-    width: 3.4rem;
+    width: 100%;
     height: min-content;
-    min-width: 2rem;
-    min-height: 2rem;
+    min-width: 4rem;
+    min-height: 6rem;
     width:3.4rem;
-    display: unset;
+    display: block;
     box-shadow: unset;
     margin-top: unset;
-    /*! top: 2rem; */
+    position: initial;
+    top: 3.7rem;
   }
   #userinfo::before{
     content: '';
     box-shadow: var(--box-shadow-buttons), var(--box-shadow);
     padding: 0.3rem 1rem;
     display: block;
-    width: inherit;
+    width: fit-content;
     font-family: Roboto-mono;
     font-size: 2rem; 
     margin: 0rem 0rem 1rem 0rem;
-    top: 0.4rem;
+    top: -3.3rem;
     position: relative;
     left: 0.4rem;
     border-radius: 1rem 0 1rem 0rem;
@@ -1897,6 +1898,7 @@ max-width: 20%;
   #userinfo_username {
     position: absolute;
     z-index: 2 !important;
+    top: -5.8rem ;
   }
 
   #userinfo_major {
@@ -1924,12 +1926,13 @@ max-width: 20%;
   }
   #userinfo ul {
     position:absolute;
-    z-index: 1;
+    z-index: 2;
     display: none;
+    top: 3.5rem;
+    width: 100vw;
   }
   #userinfo:hover ul{
     display: inline-block;
-    width: 25vw;
     margin-bottom: 0.6rem;
   }
   #userinfo ul li{
@@ -1939,7 +1942,7 @@ max-width: 20%;
     padding: 1rem 0;
     background-image: var(--background-buttons-menu);
     box-shadow: var(--box-shadow), var(--box-shadow-buttons);
-    top: 9.4rem;
+    top: 0.6rem;
     width: 90vw;
     margin: 0.3rem 5vw;
     border-radius: 0.7rem;
@@ -1964,7 +1967,7 @@ max-width: 20%;
     display: block;     
     width: 23vw;                    
     position: absolute;
-    top: 5.4rem;                    
+    top: -3.2rem;                    
     text-align: center;             
     margin: 0 1vw; 
     background: var(--background-buttons-menu);
