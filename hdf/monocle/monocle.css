@@ -1870,9 +1870,14 @@ max-width: 20%;
     display: block;
     box-shadow: unset;
     margin-top: unset;
-    position: relative;
+    position: absolute;
     top: 3.7rem;
+    display: table-column-group;
   }
+  #searchbars {                                                                                                         
+ padding: 4rem 0 0.2rem 0;
+}
+
   #userinfo::before{
     content: '';
     box-shadow: var(--box-shadow-buttons), var(--box-shadow);
