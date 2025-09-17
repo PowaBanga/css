@@ -1867,11 +1867,10 @@ max-width: 20%;
     height: min-content;
     min-width: 4rem;
     min-height: 6rem;
-    width:3.4rem;
     display: block;
     box-shadow: unset;
     margin-top: unset;
-    position: initial;
+    position: relative;
     top: 3.7rem;
   }
   #userinfo::before{
