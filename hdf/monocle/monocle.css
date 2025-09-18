@@ -1558,6 +1558,13 @@ width: 90vw;
   width: 99vw;
   }*/
 }
+@media (max-width: 1000px) {
+  
+#userinfo a {
+  box-shadow: unset !important;
+  background: unset;
+}
+}
 @media (max-width: 1000px) and (min-width: 600px) {
 
 .big_info div {
@@ -2025,6 +2032,10 @@ max-width: 20%;
   }
   #menu ul {
     display: none;
+    top: 3.5rem;
+  }
+  #menu ul li {
+    background: unset;
   }
   #menu:hover ul {
     display: block;
