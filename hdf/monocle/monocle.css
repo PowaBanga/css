@@ -139,10 +139,10 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     }
   }
   #menu ul li a {
-  text-shadow: 0em 0em 0.7em var(--color-lighter);
+    text-shadow: 0em 0em 0.7em var(--color-lighter);
   }
   #userinfo_minor a {
-  text-shadow: 0px 0em 0.5em var(--color-lighter);
+    text-shadow: 0px 0em 0.5em var(--color-lighter);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -166,10 +166,10 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     }
   }
   #menu ul li a {
-  text-shadow: 0em 0em 0.7em var(--color-darker);
+    text-shadow: 0em 0em 0.7em var(--color-darker);
   }
   #userinfo_minor a {
-  text-shadow: 0px 0em 0.5em var(--color-darker);
+    text-shadow: 0px 0em 0.5em var(--color-darker);
   }
 }
 /*STOP USER CLASS*/
@@ -1560,26 +1560,26 @@ width: 90vw;
 }
 @media (max-width: 1000px) and (min-width: 600px) {
 
-.big_info div {
-white-space: ;
-display: table-row;
-}
-.sidebar img {
-max-width: 20vw !important;
-display: ;
-}
-.sidebar .box img {
-max-width: 20%;
-}
+  .big_info div {
+    white-space: ;
+    display: table-row;
+  }
+  .sidebar img {
+    max-width: 20vw !important;
+    display: ;
+  }
+  .sidebar .box img {
+    max-width: 20%;
+  }
 
-/*thanks row in forum*/
-.forum_post {
-  position: relative;
-}
-.forum_post tr:last-child td:last-child {
-  max-width: 80%;
-  padding-right: 0rem;
-}
+  /*thanks row in forum*/
+  .forum_post {
+    position: relative;
+  }
+  .forum_post tr:last-child td:last-child {
+    max-width: 80%;
+    padding-right: 0rem;
+  }
 }
 @media (max-width: 1000px) and (min-width:601px) {
 
@@ -1872,11 +1872,10 @@ max-width: 20%;
     margin-top: unset;
     position: absolute;
     top: 3.7rem;
-    display: table-column-group;
   }
   #searchbars {                                                                                                         
- padding: 4rem 0 0.2rem 0;
-}
+    padding: 4rem 0 0.2rem 0;
+  }
 
   #userinfo::before{
     content: '';
@@ -1895,6 +1894,9 @@ max-width: 20%;
   }
   #userinfo::before:hover{
     box-shadow: var(--box-shadow-buttons-hover) ;
+  }
+  #userinfo:hover ul {
+    display: inline-block;
   }
   #userinfo > br {
     display: none;
