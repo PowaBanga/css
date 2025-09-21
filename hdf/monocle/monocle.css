@@ -1057,6 +1057,11 @@ spoiler-content {
   background: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Arrow_green2_en.svg') no-repeat center center;
   margin-left: 5px;
 }
+.last_read a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 .forum_post {
   width: 100%;
