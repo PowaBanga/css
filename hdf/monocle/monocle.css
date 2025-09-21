@@ -376,10 +376,16 @@ td.label {
   #content, #header {
     width: 99% !important;
   }
+  #index .thin {
+  width: 100% !important;
+  }
 }
 @media (max-width: 1249px) {
   #content, #header {
     width: 99% !important;;
+  }
+  #index .thin {
+  width: 100% !important;
   }
 }
 
