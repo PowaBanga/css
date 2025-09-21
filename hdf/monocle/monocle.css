@@ -1550,6 +1550,10 @@ width: 90vw;
     order: unset;
     flex: 1 1 auto;
   }
+  #user .sidebar .box{
+    width: unset;
+  }
+  
   .main_column {
     width: 100%;
     order: 2;
