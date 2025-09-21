@@ -121,8 +121,10 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 @media (prefers-color-scheme: light) {
   :root{
     --background1: #CBC8C6;
-    --text-color: #3E3A3A;a:link {
-      color: #0074A5;
+    --text-color: #3E3A3A;
+    a:link {
+      /*color: #0074A5;*/
+      color: #7289DA;
       text-decoration: none;
     }
     a:visited {
@@ -148,9 +150,12 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 @media (prefers-color-scheme: dark) {
   :root{
     --background1: #292C36;
-    --text-color: #C4C4C4;a:link {
-      color: #4CC5F8;
+    --text-color: #C4C4C4;
+    a:link {
+      /*! color: #4CC5F8; */
+      /*! color:#7289DA; */
       text-decoration: none;
+      color: var(--accent-color);
     }
     a:visited {
       color: #70E3FF;
