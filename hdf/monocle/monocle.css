@@ -1416,10 +1416,15 @@ color: #c2bfbf !important;
   width: 100%;
   display: inline-block;
 }
-#request_table, .torrent_table.cats.numbering.border {
+#request_table {
   overflow-x: auto;
   display: block;
   width: 90vw;
+}
+.torrent_table.cats.numbering.border {
+  overflow-x: auto;
+  display: block;
+  /*! width: 90vw; */
 }
 #search_terms input, .search_form input {
   max-width: 50vw;
