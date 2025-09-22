@@ -363,6 +363,9 @@ td.label {
   .thin {
     width: 80%
   }
+  #index .thin {
+  width: 100% !important;
+  }
 }
 @media (max-width: 1920px) and (min-width: 1550px){
   #content, #header {
