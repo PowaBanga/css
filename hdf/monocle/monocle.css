@@ -39,7 +39,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   --font-family-principal: Roboto;
   --background1: #292C36;
   --text-color: #C4C4C4;
-  --accent-color: #4a95f7;
+  --accent-color: #7fb0ef;
   --color-lighter:      #FFFFFF ;
   --color-lighter-lvl1: #ffffff10;
   --color-lighter-lvl2: #ffffff20;
@@ -158,12 +158,12 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
       color: var(--accent-color);
     }
     a:visited {
-      color: #70E3FF;
-      text-decoration: none;
+      color: var(--accent-color);
     }
     a:hover {
-      color: #7EF0FF    ;
+      color: var(--accent-color);
       text-decoration: none;
+      text-shadow: 0 0 0.01rem #fff, 0 0 0.5rem #000;
     }
     a:active {
       color: #A2FFFF;
@@ -180,7 +180,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 /*STOP USER CLASS*/
 
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover, .action_button:hover {
-  color: var(--text-color);
+  /*! color: var(--text-color); */
 }
 ul {
   list-style-type: none;
