@@ -1566,6 +1566,9 @@ table.layout td:last-child {
   display: block;
   margin: auto;
 }
+.additional_add_artists {
+  float: unset !important;
+}
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
 #staff .thin {
