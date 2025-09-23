@@ -178,9 +178,9 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   }
 }
 /*STOP USER CLASS*/
-
-table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover, .action_button:hover {
-  /*! color: var(--text-color); */
+/*c'est les boutonsde message dans les forum icu*/
+table tbody a:hover, .box a:hover, .action_button:hover, table tbody a, .box a, .action_button {
+  color: var(--text-color) !important;;
 }
 ul {
   list-style-type: none;
