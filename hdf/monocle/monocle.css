@@ -39,7 +39,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   --font-family-principal: Roboto;
   --background1: #292C36;
   --text-color: #C4C4C4;
-  --accent-color: #7fb0ef;
+  --accent-color: #6cadff;
   --color-lighter:      #FFFFFF ;
   --color-lighter-lvl1: #ffffff10;
   --color-lighter-lvl2: #ffffff20;
@@ -163,7 +163,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     a:hover {
       color: var(--accent-color);
       text-decoration: none;
-      text-shadow: 0 0 0.01rem #fff, 0 0 0.5rem #000;
+      text-shadow: 0 0 0.03rem var(--accent-color), 0 0 0.03rem var(--text-color);
     }
     a:active {
       color: #A2FFFF;
@@ -359,15 +359,15 @@ td.label {
   display: block;
   margin: auto;
 }
-@media (min-width: 1921px){
+/*@media (min-width: 1921px){
   .thin {
     width: 80%
   }
   #index .thin {
   width: 100% !important;
   }
-}
-@media (max-width: 1920px) and (min-width: 1550px){
+}*/
+@media /*(max-width: 1920px) and */(min-width: 1550px){
   #content, #header {
     width: 1537px !important;
   }
