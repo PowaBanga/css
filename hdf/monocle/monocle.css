@@ -1142,7 +1142,9 @@ form textarea {
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover, .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
 }
-
+.brackets::before, .brackets::after {
+  display: none;
+}
 .colhead_dark, .colhead {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
@@ -1546,6 +1548,23 @@ table.layout td:last-child {
 #collage #categories div > div {
   display:  ruby !important;
   margin-left: 0.4rem;
+}
+#cast td {
+  width: max-content;
+  text-align: center;
+}
+#cast tbody tr {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+#cast {
+  width: 100%;
+}
+#cast td * {
+  display: block;
+  margin: auto;
 }
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
