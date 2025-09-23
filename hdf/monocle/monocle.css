@@ -414,6 +414,7 @@ td.label {
 #userinfo {
   padding-bottom: 1em;
 }
+
 #userinfo .brackets::before {
   content: "[";
 }
@@ -1126,19 +1127,19 @@ form textarea {
 .colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before  {
   display: none;
 }
-.colhead_dark .brackets, .box.news_post .brackets {
+.colhead_dark .brackets, .box.news_post .brackets, .brackets {
   padding: 0.3rem 0.8rem 0.5rem 0.7rem;
   font-size: var(--font-size-small);
   background: var(--background-buttons-menu);
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-small), var(--box-shadow-small), var(--box-shadow-buttons);
   border-radius: 0.8rem;
   color: var(--text-color);
-  white-space: pre;
+  white-space: collapse;
   margin: 0.23rem;
   display: inline-block;
   border: solid 0.06rem var(--accent-color);
 }
-.colhead_dark .brackets:hover, .box.news_post .brackets:hover {
+.colhead_dark .brackets:hover, .box.news_post .brackets:hover, .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
 }
 
