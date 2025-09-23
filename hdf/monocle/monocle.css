@@ -1320,8 +1320,8 @@ color: #c2bfbf !important;
 .bottom-resize-line {
   background: var(--color-lighter-lvl1);
 }
-.bottom-resize-line:hover {
-  background: var(--color-lighter-lvl2);
+.bottom-resize-line:hover, .bottom-resize-line.drag {
+  background: var(--color-lighter-lvl2) !important;;
 }
 .preview_button:hover {
   background-color: unset;
