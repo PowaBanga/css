@@ -122,7 +122,8 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   :root{
     --background1: #CBC8C6;
     --text-color: #3E3A3A;
-    a:link {
+    --accent-color: #003E82;
+      a:link {
       /*color: #0074A5;*/
       color: #7289DA;
       text-decoration: none;
@@ -139,7 +140,7 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
       color: #A2FFFF;
       text-decoration: none;
     }
-  }
+}
   #menu ul li a {
   text-shadow: 0em 0em 0.7em var(--color-lighter);
   }
@@ -1145,7 +1146,7 @@ form textarea {
 .brackets::before, .brackets::after {
   display: none;
 }
-.colhead_dark, .colhead {
+.colhead_dark, .colhead, .head {
   background: var(--background-messages-head);
   box-shadow: var(--box-shadow-messages-head);
   border-radius: 0.5rem 0.5rem 0rem 0rem;
@@ -1568,6 +1569,27 @@ table.layout td:last-child {
 }
 .additional_add_artists {
   float: unset !important;
+}
+.sidebar .head::after{  
+  content: "";
+  clear: both;
+  display: table;
+}
+.stats li {
+  color: var(--text-color);
+  padding: 5px;
+  text-shadow: 1px 1px 0.2rem #00000040;
+}
+.stats strong {
+  color: var(--accent-color);
+}
+.edition_info strong {
+  color: var(--accent-color);
+  font-size: var(--font-size-normal);
+  font-weight: unset;
+}
+.edition_info {
+  border-left: 0.2rem solid var(--accent-color);
 }
 /*END FILE DESCRIPTION*/
 /*START STAFF PAGE*/
