@@ -1646,6 +1646,12 @@ width: 90vw;
   box-shadow: unset !important;
   background: unset;
 }
+  #menu ul li{
+    background: unset;
+  }
+  #menu ul {
+    top: 3.5rem;
+  }
 }
 @media (max-width: 1000px) and (min-width: 600px) {
 
@@ -2114,7 +2120,7 @@ max-width: 20%;
   }
   #menu ul {
     display: none;
-    top: 3.5rem;
+    /*! top: 3.5rem; */
   }
   #menu ul li {
     background: unset;
