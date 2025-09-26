@@ -501,6 +501,12 @@ ul#userinfo_stats li {
     left: 15.1rem !important;
     width: 20.7rem;
   }
+  
+.donation-tooltip {
+  transform: unset !important;
+  left: unset !important;
+  right: -3.6%;
+}
 }
 @media (max-width: 1249px) {
   #content, #header {
@@ -649,6 +655,18 @@ ul#userinfo_stats li {
 #menu ul li a:hover {
   box-shadow: var(--box-shadow-messages-head-revert), var(--box-shadow);
   border-radius: 0.5rem;
+}
+.donation-tooltip {
+  background: var(--background1) !important;
+  border: 1px solid #32CD32;
+  border-radius: 0.6rem !important;
+  padding: 0.45rem !important;
+  width:   max-content !important;
+  box-shadow: var(--box-shadow-small), var(--box-shadow-small), var(--box-shadow-buttons);
+}
+.donation-tooltip div:last-child {
+  color: var(--text-color) !important;
+  font-size:  0.8rem !important;
 }
 /*END MENUBAR*/
 #searchbars ul li {
