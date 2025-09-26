@@ -347,8 +347,8 @@ td.label {
   background-repeat: no-repeat;
   width: 8rem;
   height: 3.7rem;
-  left: 50%;
-  transform: translate(-50%);
+  /*! left: 50%; */
+  /*! transform: translate(-50%); */
   background-size: contain;
   z-index: 1;
   text-align: center;
@@ -389,6 +389,9 @@ td.label {
   width: 100% !important;
   }
 }
+@media (max-width: 1330px) {
+  
+}
 @media (max-width: 1249px) {
   #content, #header {
     width: 99% !important;;
@@ -426,15 +429,18 @@ td.label {
   order: 1;
   position: relative;
   top: -1.2em;
+  text-align: right;
 }
 #userinfo_username li {
   display: inline-block;
   margin-right: 0.3em;
 }
 #userinfo_major {
-  position: relative;
-  top: -1.2em;
-  margin-bottom: -1.2em;
+  position: absolute;
+  top: 0em;
+  margin-bottom: 0rem;
+  left: 50%;
+  transform: translate(-50%);
 }
 #userinfo_major li {
   margin-right: 0.4em;
@@ -443,9 +449,10 @@ td.label {
 #userinfo_stats {
   position: relative;
   order: 4;
-  top: -2.5em;
-  float: right;
+  top: -3.2em;
+  float: left;
   margin-bottom: -2.5em;
+  left: 8.1rem;
 }
 ul#userinfo_stats li {
   display: inline-block;
@@ -457,7 +464,7 @@ ul#userinfo_stats li {
   justify-content: space-around;
   box-shadow: var(--box-shadow-inset);
   padding: 0em 0em;
-  margin-top: 0.6em;
+  margin-top: 0em;
 }
 #userinfo_minor li {
   background: var(--background1);
