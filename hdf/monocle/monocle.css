@@ -936,7 +936,7 @@ tr.torrent_filename_row:nth-child(11) {
 }
 /*!FIXME*/
 div#app div#viewport div#connect.window {
-  background: #222 !important;
+  background: red !important;
 }
 /*Pages spécifiques au fichiers*/
 /*START SETTINGS*/
@@ -1262,9 +1262,6 @@ form textarea {
   margin-right: 0.2rem;
   display: inline-block;
 }
-.colhead_dark .brackets {
-  white-space: nowrap !important;
-}
 .colhead_dark div:last-child > a:last-child {
   display: none ;
 }
@@ -1295,6 +1292,7 @@ form textarea {
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   white-space: normal;
   word-break: break-all;
+  padding: 0.4rem;
 }
 .colhead td {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
@@ -1368,6 +1366,12 @@ blockquote {
   left: 0.5rem;
 }
 /*END LIKES ROW*/
+/*START WIKI*/
+.box .body {
+  padding: 0.4rem;
+  white-space: wrap;
+}
+/*END WIKI*/
 /*START EDIT AREA*/
 #newthreadtext {
   width: 100%;
@@ -1722,7 +1726,7 @@ table.layout td:last-child {
   float: unset !important;
 }
 .sidebar .head::after{  
-  content: "";
+  content: " ";
   clear: both;
   display: table;
 }
@@ -1795,6 +1799,14 @@ width: 90vw;
   /*#content, #header {
   width: 99vw;
   }*/
+  #wiki .sidebar {
+    display: block;
+  }
+  #wiki .sidebar .box {
+    width: max-content;
+    max-width: 95%;
+    margin: 0 auto 1.4rem auto;
+  }
 }
 @media (max-width: 1000px) {
 #logo {
