@@ -1112,7 +1112,7 @@ spoiler-content {
   overflow:  hidden !important;
 }
 /*END DONATE*/
-/*Start FORUM*/
+/*START FORUM*/
 #forums {
   display: block;
 }
@@ -1242,21 +1242,25 @@ form textarea {
   content: '';
   font-family: Roboto-mono;
   margin-right: 0.2rem;
+  display: inline-block;
 }
 .colhead_dark div:first-child > span + a:before {
   content: '';
   font-family: Roboto-mono;
   margin-right: 0.2rem;
+  display: inline-block;
 }
 .colhead_dark .brackets:nth-child(1):before {
   content: '';
   font-family: Roboto-mono;
   margin-right: 0.2rem;
+  display: inline-block;
 }
 .colhead_dark .brackets:nth-child(2):before {
   content: '󱈸';
   font-family: Roboto-mono;
   margin-right: 0.2rem;
+  display: inline-block;
 }
 .colhead_dark div:last-child > a:last-child {
   display: none ;
