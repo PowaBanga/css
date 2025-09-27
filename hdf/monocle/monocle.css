@@ -1841,6 +1841,9 @@ top: 3.5rem;
   position: relative;
   top: -1.2em;
   text-align: right;
+  /*! right: 0%; */
+  /*! left: 100%; */
+  margin-left: auto;
 }
 #userinfo_username li {
   display: inline-block;
