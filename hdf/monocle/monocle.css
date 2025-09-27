@@ -1677,6 +1677,9 @@ color: #c2bfbf !important;
 table.layout td:last-child {
   text-align: left;
 }
+.group_info.clear {
+  display: inherit;
+}
 /*END RESULT PAGE*/
 /*START FILE DESCRIPTION*/
 #torrent_details {
