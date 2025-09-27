@@ -1262,6 +1262,9 @@ form textarea {
   margin-right: 0.2rem;
   display: inline-block;
 }
+.colhead_dark .brackets {
+  white-space: nowrap;
+}
 .colhead_dark div:last-child > a:last-child {
   display: none ;
 }
