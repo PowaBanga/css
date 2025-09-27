@@ -1263,7 +1263,7 @@ form textarea {
   display: inline-block;
 }
 .colhead_dark .brackets {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 .colhead_dark div:last-child > a:last-child {
   display: none ;
