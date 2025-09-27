@@ -1880,6 +1880,7 @@ ul#userinfo_stats li {
   padding: 0em 0em;
   margin-top: 0em;
   width: 100%;
+  z-index: -1;
 }
 #userinfo_minor li {
   background: var(--background1);
