@@ -669,6 +669,24 @@ ul#userinfo_stats li {
   color: var(--text-color) !important;
   font-size:  0.8rem !important;
 }
+
+#nav_userinfo:hover + #nav_userclass span.hidden.userclass, #nav_userinfo:hover + #nav_userclass {
+  display: inline;
+}
+#userinfo_username #nav_userclass {
+  display: none ;
+  box-shadow: var(--box-shadow),var(--box-shadow-small), var(--box-shadow-buttons);
+  position: absolute;
+  right: 89.5%;
+  transform: translate(50%);
+  top: 3.4rem;
+  color: var(--accent-color);
+  background: var(--background1);
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  border: solid 0.03rem var(--accent-color);
+  /*! text-shadow: 0.1rem 0.1rem 0.5rem var(--text-color); */
+}
 /*END MENUBAR*/
 #searchbars ul li {
   width: 16%;
@@ -1844,6 +1862,9 @@ top: 3.5rem;
   /*! right: 0%; */
   /*! left: 100%; */
   margin-left: auto;
+  display: block;
+  margin-left: auto;
+  width: max-content;
 }
 #userinfo_username li {
   display: inline-block;
@@ -1880,7 +1901,7 @@ ul#userinfo_stats li {
   padding: 0em 0em;
   margin-top: 0em;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 #userinfo_minor li {
   background: var(--background1);
