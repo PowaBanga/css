@@ -1866,6 +1866,16 @@ background: unset;
 #menu ul {
 top: 3.5rem;
 }
+  #nav_userclass {
+  right: unset !important;
+  transform: unset !important;
+  position: relative !important;
+  top: unset !important;
+  /*! display: block !important; */
+}
+  #nav_userinfo:hover + #nav_userclass {
+  display: block;
+}
 }
 @media (min-width: 1000px){
   /*START USERINFO*/
