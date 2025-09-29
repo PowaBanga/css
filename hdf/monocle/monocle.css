@@ -838,6 +838,31 @@ body#index div#wrapper div#content br {
 #news ~ div .head > * {
   align-self: center;
 }
+.torrent-nav-controls {
+  position: relative;
+  right: unset;
+  top: unset;
+  transform: unset;
+  z-index: unset;
+  float: right;
+}
+.torrent-nav-controls span {
+  display: inline-block;
+  width: 2rem;
+  color: var(--accent-color);
+  border: solid 0.03rem var(--accent-color);
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0rem 0.2rem 0rem auto;
+  box-shadow: var(--box-shadow-buttons), var(--box-shadow-small);
+}
+.torrent-nav-controls span:hover {
+  background: unset !important;
+  border-color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
+  box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-small) !important;
+}
 /*END MAIN PAGE*/
 /*START UPLOAD*/
 #upload #content .box.pad {
