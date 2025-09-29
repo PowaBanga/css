@@ -196,6 +196,7 @@ body {
 }
 .scroll-button {
   color: var(--text-color);
+  background: var(--background1) !important;
 }
 .scroll-button:hover {
   color: var(--text-color);
@@ -862,6 +863,10 @@ body#index div#wrapper div#content br {
   border-color: var(--accent-color) !important;
   color: var(--accent-color) !important;
   box-shadow: var(--box-shadow-buttons-hover), var(--box-shadow-small) !important;
+}
+
+#nav_better {
+  display: none !important;
 }
 /*END MAIN PAGE*/
 /*START UPLOAD*/
@@ -1814,42 +1819,6 @@ table.layout td:last-child {
 width: 90vw;
 }
 }*/
-@media (max-width: 1024px){
-  .sidebar {
-    width: 100%;
-    order: 1;
-    margin: 1em 1% 1em 0.5%;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: ;
-    justify-content: space-between;
-    align-items: stretch;
-  }
-  .sidebar .box {
-    flex-shrink: 3;
-    width: 23.2%;
-    order: unset;
-    flex: 1 1 auto;
-  }
-  #user .sidebar .box{
-    width: unset;
-  }
-
-  .main_column {
-    width: 100%;
-    order: 2;
-  }
-  /*#content, #header {
-  width: 99vw;
-  }*/
-  #wiki .sidebar {
-    display: block;
-  }
-  #wiki .sidebar .box {
-    width: max-content;
-    max-width: 95%;
-    margin: 0 auto 1.4rem auto;
-  }
 }
 @media (max-width: 1000px) {
 #logo {
