@@ -1890,6 +1890,7 @@ top: 3.5rem;
   display: block;
   margin-left: auto;
   width: max-content;
+  z-index: 1;
 }
 #userinfo_username li {
   display: inline-block;
@@ -1901,6 +1902,7 @@ top: 3.5rem;
   margin-bottom: 0rem;
   left: 50%;
   transform: translate(-50%);
+  z-index: 1;
 }
 #userinfo_major li {
   margin-right: 0.4em;
