@@ -77,49 +77,64 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
 }
 
 /*START USER CLASSES*/
+/*Novice*/
 .class_2{
   color: #444;
 }
+/*Membre*/
 .class_3{
   color: #96ca2d;
 }
+/*Elite*/
 .class_5{
   color: #93c47d;
 }
-.class_28{
-  color: rgba(0, 0, 255, 0.75);
-}
-.class_11{
-  color: #1e84cc;
-}
-.class_15{
-  color: rgba(255, 0, 0, 0.75);
-}
-.class_1{
-  color: #980000;
-}
-.class_23{
-  color: rgba(212, 0, 255, 0.75);
-}
+/*Uploadeur*/
 .class_22{
   color: #38761d;
 }
-.class_20{
-  color: rgba(17, 237, 149, 0.75);
+/*Team/Releaseur*/
+.class_23{
+  color: rgba(212, 0, 255, 0.75);
 }
+/*Customer*/
 .class_29{
   color: #853894;
 }
-.class_30{
-  color: rgba(255, 50, 29, 0.75);
-}
+/*Archiviste*/
 .class_33{
   color: #DAA520;
 }
+/*Celebrité*/
 .class_32{
   color: #F0E68C;
 }
-@media (prefers-color-scheme: light) {
+/*Soutien*/
+.class_20{
+  color: rgba(17, 237, 149, 0.75);
+}
+
+/*Modo Forum*/
+.class_28{
+  color: rgba(0, 0, 255, 0.75);
+}
+/*Modo tracke*/
+.class_11{
+  color: #1e84cc;
+}
+/*Modo Leader*/
+.class_30{
+  color: rgba(255, 50, 29, 0.75);
+}
+
+/*Sysop*/
+.class_15{
+  color: rgba(255, 0, 0, 0.75);
+}
+/*Admin*/
+.class_1{
+  color: #980000;
+}@media (prefers-color-scheme: light) {
   :root{
     --background1: #CBC8C6;
     --text-color: #3E3A3A;
