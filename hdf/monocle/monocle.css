@@ -1882,6 +1882,19 @@ top: 3.5rem;
   #nav_userinfo:hover + #nav_userclass {
   display: block;
 }
+  .donation-tooltip {
+  position: relative !important;
+  border: unset !important;
+  box-shadow: unset;
+  background: unset !important;
+  width: 100% !important;
+  top: unset !important;
+  left: unset !important;
+  transform: unset !important;
+}
+.donation-tooltip:hover {
+  animation: unset !important;
+}
 }
 @media (min-width: 1000px){
   /*START USERINFO*/
