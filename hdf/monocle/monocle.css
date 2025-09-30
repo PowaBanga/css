@@ -1891,6 +1891,7 @@ top: 3.5rem;
   top: unset !important;
   left: unset !important;
   transform: unset !important;
+  display: block !important;
 }
 .donation-tooltip:hover {
   animation: unset !important;
