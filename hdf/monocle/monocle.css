@@ -1840,10 +1840,10 @@ width: 90vw;
     order: 1;
     margin: 1em 1% 1em 0.5%;
     display: grid;
-    flex-wrap: wrap;
-    max-width: ;
-    justify-content: space-between;
-    align-items: stretch;
+    /*! flex-wrap: wrap; */
+    /*! max-width: ; */
+    /*! justify-content: space-between; */
+    align-items: center;
     grid-template-columns: auto auto auto;
     gap: 1rem;
     grid-template-rows: auto auto auto;
@@ -1854,7 +1854,15 @@ width: 90vw;
     order: unset;
     flex: 1 1 auto;
   }
-  
+  #index .sidebar .box img{
+    min-width: 100%;
+     
+    height:  auto !important;
+  }
+  #index .sidebar .box{
+    height: fit-content;
+    /*! align-content: flex-end; */
+  }
 #index .sidebar .box {
   width: 100%;
 }
