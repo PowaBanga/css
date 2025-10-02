@@ -886,6 +886,11 @@ body#index div#wrapper div#content br {
 #nav_better {
   display: none !important;
 }
+#index .head2.head.center::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*END MAIN PAGE*/
 /*START UPLOAD*/
 #upload #content .box.pad {
