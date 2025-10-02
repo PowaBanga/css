@@ -1460,6 +1460,8 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
 }
 .wysibb-body {
   color: var(--text-color) !important;
+  visibility: visible !important;
+  text-align: left !important;
 }
 .wysibb {
   background: var(--background1) !important;
