@@ -1871,7 +1871,7 @@ width: 90vw;
     height: fit-content;
     /*! align-content: flex-end; */
   }
-#index .sidebar .box {
+.sidebar .box {
   width: 100%;
 }
 #index .sidebar .box:nth-child(9) {
@@ -1907,6 +1907,24 @@ width: 90vw;
     max-width: 95%;
     margin: 0 auto 1.4rem auto;
   }
+  #torrents .sidebar .box:nth-child(1){
+  /*! background: darkmagenta; */
+  grid-row: 1 / span 3;
+  width: fit-content ;
+}
+#torrents .sidebar .box:nth-child(2){
+  /*! background: darkolivegreen; */
+  grid-row: 1 / span 3;
+}
+#torrents .sidebar .box:nth-child(5) {
+  /*! background: darkgoldenrod; */
+  order: 5;
+  grid-column: 3 ;
+}
+#torrents .sidebar .box:nth-child(8){
+  /*! background: darkcyan ; */
+  grid-column: 3 ;
+}
 }
 /*}*/
 @media (max-width: 1000px) {
@@ -2331,6 +2349,38 @@ max-width: 20%;
   box-shadow: var(--box-shadow-buttons-hover);
 }
 /*END MENU*/
+}
+@media (max-width: 630px){
+    #torrents .sidebar{
+    grid-template-columns: auto auto;
+      width: 96%;
+  }
+  #torrents .sidebar .box:nth-child(1){
+  /*! background: darkmagenta; */
+  grid-row: 1 / span 2;
+  width: fit-content ;
+    order: 0;
+    
+}
+#torrents .sidebar .box:nth-child(2){
+  /*! background: darkolivegreen; */
+  grid-row: 1 ;
+}
+#torrents .sidebar .box:nth-child(5) {
+  /*! background: darkgoldenrod; */
+  order: 3;
+  grid-column: 1 / span 2 ;
+}
+#torrents .sidebar .box:nth-child(8){
+  /*! background: darkcyan ; */
+  grid-column: 2 ;
+  order: 0 ;
+}
+  #torrents .sidebar .box:nth-child(4){
+    /*! background: darkorange ; */
+    grid-column: 1 /span 2;
+    order: 4;
+  }
 }
 @media (max-width: 600px){
   /* START MENU*/
