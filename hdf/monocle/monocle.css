@@ -141,17 +141,18 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     --text-color: #3E3A3A;
     --accent-color: #003E82;
     a:link {
-      /*color: #0074A5;*/
-      color: #7289DA;
+      /*! color: #4CC5F8; */
+      /*! color:#7289DA; */
       text-decoration: none;
+      color: var(--accent-color);
     }
     a:visited {
-      color: #388FC2;
-      text-decoration: none;
+      color: var(--accent-color);
     }
     a:hover {
-      color: #002E58;
+      color: var(--accent-color);
       text-decoration: none;
+      text-shadow: 0 0 0.03rem var(--accent-color), 0 0 0.03rem var(--text-color);
     }
     a:active {
       color: #A2FFFF;
@@ -378,6 +379,13 @@ td.label {
   height: 100%;
   display: block;
   margin: auto;
+}
+
+#user .colhead_dark {
+  white-space: nowrap;
+}
+#user .request_table {
+  overflow: auto;
 }
 /*@media (min-width: 1921px){
 .thin {
@@ -1011,6 +1019,13 @@ div#app div#viewport div#connect.window {
   background: red !important;
 }
 /*Pages spécifiques au fichiers*/
+/*START USER*/
+#user .head::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*END USER*/
 /*START SETTINGS*/
 #userform .sidebar {
   box-shadow: none !important;
