@@ -109,62 +109,62 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   }
   /*START USER CLASSES*/
   /*Novice*/
-  .class_2, .yxoutoalc .pad > span:nth-child(5){
-    color: #726f6f !important;
+  .class_2, .ytbolgiaj .pad > span:nth-child(5){
+    color: #7f7f7f !important;
   }
   /*Membre*/
-  .class_3, .yxoutoalc .pad > span:nth-child(21){
-    color: #96ca2d !important;
+  .class_3, .ytbolgiaj .pad > span:nth-child(21){
+    color: #4c6e08 !important;
   }
   /*Elite*/
-  .class_5, .yxoutoalc .pad > span:nth-child(37){
-    color: #93c47d !important;;
+  .class_5, .ytbolgiaj .pad > span:nth-child(37){
+    color: #3b923c !important;;
   }
   /*Uploadeur*/
-  .class_22, .yxoutoalc .pad > span:nth-child(40){
-    color: #62c338 !important;
+  .class_22, .ytbolgiaj .pad > span:nth-child(40){
+    color: #206105 !important;
   }
   /*Team/Releaseur*/
-  .class_23, .yxoutoalc .pad > span:nth-child(61){
+  .class_23, .ytbolgiaj .pad > span:nth-child(61){
     color: rgba(230, 174, 241, 0.75) !important;
   }
   /*Customer*/
-  .class_29, .yxoutoalc .pad > span:nth-child(76){
+  .class_29, .ytbolgiaj .pad > span:nth-child(76){
     color: #b873c5 !important;
   }
   /*Archiviste*/
-  .class_33, .yxoutoalc .pad span:nth-child(91) ~ font > span:nth-child(3), .yxoutoalc .pad span:nth-child(91) ~ font > span ~ font span{
-    color: #DAA520 !important;
+  .class_33, .ytbolgiaj .pad span:nth-child(91) ~ font > span:nth-child(3), .ytbolgiaj .pad span:nth-child(91) ~ font > span ~ font span{
+    color: #927402 !important;
   }
   /*Celebrité*/
-  .class_32, .yxoutoalc .pad span:nth-child(91) ~ font > span ~ span{
-    color: #F0E68C !important;
+  .class_32, .ytbolgiaj .pad span:nth-child(91) ~ font > span ~ span{
+    color: #A79608 !important;
   }
   /*Soutien*/
-  .class_20, .yxoutoalc .pad > span:nth-child(96){
-    color: rgba(17, 237, 149, 0.75) !important;
+  .class_20, .ytbolgiaj .pad > span:nth-child(96){
+    color: rgba(9, 124, 78, 0.75) !important;
   }
 
   /*Modo Forum*/
-  .class_28, .yxoutoalc .pad > span:nth-child(106){
-    color: rgb(82, 127, 235) !important;
+  .class_28, .ytbolgiaj .pad > span:nth-child(106){
+    color: rgb(26, 91, 245) !important;
   }
   /*Modo tracke*/
-  .class_11, .yxoutoalc .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
-    color: #5b9ece !important;
+  .class_11, .ytbolgiaj .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
+    color: #2a6e9f !important;
   }
   /*Modo Leader*/
-  .class_30, .yxoutoalc .pad > span:nth-child(115){
+  .class_30, .ytbolgiaj .pad > span:nth-child(115){
     color: rgb(227, 139, 130);
   }
 
   /*Sysop*/
-  .class_15, .yxoutoalc .pad > span:nth-child(118){
-    color: rgb(244, 101, 101) !important;
+  .class_15, .ytbolgiaj .pad > span:nth-child(118){
+    color: rgb(205, 80, 80) !important;
   }
   /*Admin*/
-  .class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
-    color: #ce4848 !important;
+  .class_1, .ytbolgiaj .pad span:nth-child(118) ~ font > span{
+    color: #891d1d !important;
   }
 }
 @media (prefers-color-scheme: dark) {
