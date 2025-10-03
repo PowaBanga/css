@@ -390,6 +390,12 @@ td.label {
 #forums .colhead_dark {
   word-break: break-word;
 }
+#requests .colhead_dark {
+  white-space: nowrap;
+}
+#requests .colhead_dark td {
+  padding: 0.5rem 0.2rem;
+}
 /*@media (min-width: 1921px){
 .thin {
 width: 80%
