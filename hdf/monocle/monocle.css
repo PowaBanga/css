@@ -1901,6 +1901,22 @@ width: 90vw;
     width: unset;
   }
 
+#user .sidebar {
+  width: 100%;
+
+  /*! display: grid; */
+  flex-wrap: wrap;
+}
+#recent_snatches tr:nth-child(2) td, #recent_snatches tr:nth-child(3) td{
+  display: inline-block;
+}
+#recent_snatches tr:nth-child(2), #recent_snatches tr:nth-child(3){
+  display: contents;
+}
+#user .main_column {
+  width: 96%;
+  margin: auto ;
+}
   .main_column {
     width: 100%;
     order: 2;
