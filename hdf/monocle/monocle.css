@@ -108,64 +108,64 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     text-shadow: 0px 0em 0.5em var(--color-lighter);
   }
   /*START USER CLASSES*/
-/*Novice*/
-.class_2, .yxoutoalc .pad > span:nth-child(5){
-  color: #726f6f !important;
-}
-/*Membre*/
-.class_3, .yxoutoalc .pad > span:nth-child(21){
-  color: #96ca2d !important;
-}
-/*Elite*/
-.class_5, .yxoutoalc .pad > span:nth-child(37){
-  color: #93c47d !important;;
-}
-/*Uploadeur*/
-.class_22, .yxoutoalc .pad > span:nth-child(40){
-  color: #62c338 !important;
-}
-/*Team/Releaseur*/
-.class_23, .yxoutoalc .pad > span:nth-child(61){
-  color: rgba(230, 174, 241, 0.75) !important;
-}
-/*Customer*/
-.class_29, .yxoutoalc .pad > span:nth-child(76){
-  color: #b873c5 !important;
-}
-/*Archiviste*/
-.class_33, .yxoutoalc .pad span:nth-child(91) ~ font > span:nth-child(3), .yxoutoalc .pad span:nth-child(91) ~ font > span ~ font span{
-  color: #DAA520 !important;
-}
-/*Celebrité*/
-.class_32, .yxoutoalc .pad span:nth-child(91) ~ font > span ~ span{
-  color: #F0E68C !important;
-}
-/*Soutien*/
-.class_20, .yxoutoalc .pad > span:nth-child(96){
-  color: rgba(17, 237, 149, 0.75) !important;
-}
+  /*Novice*/
+  .class_2, .yxoutoalc .pad > span:nth-child(5){
+    color: #726f6f !important;
+  }
+  /*Membre*/
+  .class_3, .yxoutoalc .pad > span:nth-child(21){
+    color: #96ca2d !important;
+  }
+  /*Elite*/
+  .class_5, .yxoutoalc .pad > span:nth-child(37){
+    color: #93c47d !important;;
+  }
+  /*Uploadeur*/
+  .class_22, .yxoutoalc .pad > span:nth-child(40){
+    color: #62c338 !important;
+  }
+  /*Team/Releaseur*/
+  .class_23, .yxoutoalc .pad > span:nth-child(61){
+    color: rgba(230, 174, 241, 0.75) !important;
+  }
+  /*Customer*/
+  .class_29, .yxoutoalc .pad > span:nth-child(76){
+    color: #b873c5 !important;
+  }
+  /*Archiviste*/
+  .class_33, .yxoutoalc .pad span:nth-child(91) ~ font > span:nth-child(3), .yxoutoalc .pad span:nth-child(91) ~ font > span ~ font span{
+    color: #DAA520 !important;
+  }
+  /*Celebrité*/
+  .class_32, .yxoutoalc .pad span:nth-child(91) ~ font > span ~ span{
+    color: #F0E68C !important;
+  }
+  /*Soutien*/
+  .class_20, .yxoutoalc .pad > span:nth-child(96){
+    color: rgba(17, 237, 149, 0.75) !important;
+  }
 
-/*Modo Forum*/
-.class_28, .yxoutoalc .pad > span:nth-child(106){
-  color: rgb(82, 127, 235) !important;
-}
-/*Modo tracke*/
-.class_11, .yxoutoalc .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
-  color: #5b9ece !important;
-}
-/*Modo Leader*/
-.class_30, .yxoutoalc .pad > span:nth-child(115){
-  color: rgb(227, 139, 130);
-}
+  /*Modo Forum*/
+  .class_28, .yxoutoalc .pad > span:nth-child(106){
+    color: rgb(82, 127, 235) !important;
+  }
+  /*Modo tracke*/
+  .class_11, .yxoutoalc .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
+    color: #5b9ece !important;
+  }
+  /*Modo Leader*/
+  .class_30, .yxoutoalc .pad > span:nth-child(115){
+    color: rgb(227, 139, 130);
+  }
 
-/*Sysop*/
-.class_15, .yxoutoalc .pad > span:nth-child(118){
-  color: rgb(244, 101, 101) !important;
-}
-/*Admin*/
-.class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
-  color: #ce4848 !important;
-}
+  /*Sysop*/
+  .class_15, .yxoutoalc .pad > span:nth-child(118){
+    color: rgb(244, 101, 101) !important;
+  }
+  /*Admin*/
+  .class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
+    color: #ce4848 !important;
+  }
 }
 @media (prefers-color-scheme: dark) {
   :root{
@@ -197,64 +197,64 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
     text-shadow: 0px 0em 0.5em var(--color-darker);
   }
   /*START USER CLASSES*/
-/*Novice*/
-.class_2, .yxoutoalc .pad > span:nth-child(5){
-  color: #726f6f !important;
-}
-/*Membre*/
-.class_3, .yxoutoalc .pad > span:nth-child(21){
-  color: #96ca2d !important;
-}
-/*Elite*/
-.class_5, .yxoutoalc .pad > span:nth-child(37){
-  color: #93c47d !important;;
-}
-/*Uploadeur*/
-.class_22, .yxoutoalc .pad > span:nth-child(40){
-  color: #62c338 !important;
-}
-/*Team/Releaseur*/
-.class_23, .yxoutoalc .pad > span:nth-child(61){
-  color: rgba(230, 174, 241, 0.75) !important;
-}
-/*Customer*/
-.class_29, .yxoutoalc .pad > span:nth-child(76){
-  color: #b873c5 !important;
-}
-/*Archiviste*/
-.class_33, .yxoutoalc .pad span:nth-child(91) ~ font > span:nth-child(3), .yxoutoalc .pad span:nth-child(91) ~ font > span ~ font span{
-  color: #DAA520 !important;
-}
-/*Celebrité*/
-.class_32, .yxoutoalc .pad span:nth-child(91) ~ font > span ~ span{
-  color: #F0E68C !important;
-}
-/*Soutien*/
-.class_20, .yxoutoalc .pad > span:nth-child(96){
-  color: rgba(17, 237, 149, 0.75) !important;
-}
+  /*Novice*/
+  .class_2, .yxoutoalc .pad > span:nth-child(5){
+    color: #726f6f !important;
+  }
+  /*Membre*/
+  .class_3, .yxoutoalc .pad > span:nth-child(21){
+    color: #96ca2d !important;
+  }
+  /*Elite*/
+  .class_5, .yxoutoalc .pad > span:nth-child(37){
+    color: #93c47d !important;;
+  }
+  /*Uploadeur*/
+  .class_22, .yxoutoalc .pad > span:nth-child(40){
+    color: #62c338 !important;
+  }
+  /*Team/Releaseur*/
+  .class_23, .yxoutoalc .pad > span:nth-child(61){
+    color: rgba(230, 174, 241, 0.75) !important;
+  }
+  /*Customer*/
+  .class_29, .yxoutoalc .pad > span:nth-child(76){
+    color: #b873c5 !important;
+  }
+  /*Archiviste*/
+  .class_33, .yxoutoalc .pad span:nth-child(91) ~ font > span:nth-child(3), .yxoutoalc .pad span:nth-child(91) ~ font > span ~ font span{
+    color: #DAA520 !important;
+  }
+  /*Celebrité*/
+  .class_32, .yxoutoalc .pad span:nth-child(91) ~ font > span ~ span{
+    color: #F0E68C !important;
+  }
+  /*Soutien*/
+  .class_20, .yxoutoalc .pad > span:nth-child(96){
+    color: rgba(17, 237, 149, 0.75) !important;
+  }
 
-/*Modo Forum*/
-.class_28, .yxoutoalc .pad > span:nth-child(106){
-  color: rgb(82, 127, 235) !important;
-}
-/*Modo tracke*/
-.class_11, .yxoutoalc .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
-  color: #5b9ece !important;
-}
-/*Modo Leader*/
-.class_30, .yxoutoalc .pad > span:nth-child(115){
-  color: rgb(227, 139, 130);
-}
+  /*Modo Forum*/
+  .class_28, .yxoutoalc .pad > span:nth-child(106){
+    color: rgb(82, 127, 235) !important;
+  }
+  /*Modo tracke*/
+  .class_11, .yxoutoalc .pad > span:nth-child(111), .yxoutoalc .pad > span:nth-child(112){
+    color: #5b9ece !important;
+  }
+  /*Modo Leader*/
+  .class_30, .yxoutoalc .pad > span:nth-child(115){
+    color: rgb(227, 139, 130);
+  }
 
-/*Sysop*/
-.class_15, .yxoutoalc .pad > span:nth-child(118){
-  color: rgb(244, 101, 101) !important;
-}
-/*Admin*/
-.class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
-  color: #ce4848 !important;
-}
+  /*Sysop*/
+  .class_15, .yxoutoalc .pad > span:nth-child(118){
+    color: rgb(244, 101, 101) !important;
+  }
+  /*Admin*/
+  .class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
+    color: #ce4848 !important;
+  }
 }
 /*STOP USER CLASS*/
 /*c'est les boutonsde message dans les forum icu*/
@@ -1985,22 +1985,22 @@ width: 90vw;
     width: unset;
   }
 
-#user .sidebar {
-  width: 100%;
+  #user .sidebar {
+    width: 100%;
 
-  /*! display: grid; */
-  flex-wrap: wrap;
-}
-#recent_snatches tr:nth-child(2) td, #recent_snatches tr:nth-child(3) td{
-  display: inline-block;
-}
-#recent_snatches tr:nth-child(2), #recent_snatches tr:nth-child(3){
-  display: contents;
-}
-#user .main_column {
-  width: 96%;
-  margin: auto ;
-}
+    /*! display: grid; */
+    flex-wrap: wrap;
+  }
+  #recent_snatches tr:nth-child(2) td, #recent_snatches tr:nth-child(3) td{
+    display: inline-block;
+  }
+  #recent_snatches tr:nth-child(2), #recent_snatches tr:nth-child(3){
+    display: contents;
+  }
+  #user .main_column {
+    width: 96%;
+    margin: auto ;
+  }
   .main_column {
     width: 100%;
     order: 2;
