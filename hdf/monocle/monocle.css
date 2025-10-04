@@ -469,6 +469,15 @@ td.label {
   border-radius: 0.4rem;
   box-shadow: var(--box-shadow-small);
 }
+.torrent_filename_row {
+  color: #3CAD2C !important;
+}
+.torrent_filename_row td {
+  color: var(--text-color) !important;
+}
+#ft_toggle, #ft_advanced_text font, #ft_basic_link font {
+  color: var(--accent-color) !important;
+}
 /*@media (min-width: 1921px){
 .thin {
 width: 80%
