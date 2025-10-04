@@ -43,9 +43,9 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   --color-lighter:      #FFFFFF ;
   --color-lighter-lvl1: #ffffff10;
   --color-lighter-lvl2: #ffffff20;
-  --color-lighter-lvl3: #ffffff20;
-  --color-lighter-lvl4: #ffffff20;
-  --color-lighter-lvl5: #ffffff20;
+  --color-lighter-lvl3: #ffffff30;
+  --color-lighter-lvl4: #ffffff40;
+  --color-lighter-lvl5: #ffffff50;
   --color-darker:       #000000;
   --color-darker-lvl1:  #00000005;
   --color-darker-lvl2:  #00000015;
@@ -166,6 +166,10 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   .class_1, .ytbolgiaj .pad span:nth-child(118) ~ font > span{
     color: #891d1d !important;
   }
+  
+  #torrent_table .recent-torrent {
+    background-color: var(--color-lighter-lvl5) !important; 
+  }
 }
 @media (prefers-color-scheme: dark) {
   :root{
@@ -254,6 +258,10 @@ Distributed under the Creative Commons BY-NC-ND 3.0 License:
   /*Admin*/
   .class_1, .yxoutoalc .pad span:nth-child(118) ~ font > span{
     color: #ce4848 !important;
+  }
+  #torrent_table .recent-torrent {
+    /*! background-color: var(--color-lighter-lvl1) !important; */ 
+    /*! box-shadow: var(--box-shadow-small); */
   }
 }
 /*STOP USER CLASS*/
@@ -455,6 +463,11 @@ td.label {
 }
 #requests .colhead_dark td {
   padding: 0.5rem 0.2rem;
+}
+#torrent_table .recent-torrent {
+  color: var(--text-color); 
+  border-radius: 0.4rem;
+  box-shadow: var(--box-shadow-small);
 }
 /*@media (min-width: 1921px){
 .thin {
