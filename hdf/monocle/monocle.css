@@ -487,6 +487,9 @@ width: 100% !important;
 }
 }*/
 @media /*(max-width: 1920px) and */(min-width: 1550px){
+  code {
+    width: 60vw;
+  }
   #content, #header {
     width: 1537px !important;
   }
@@ -577,11 +580,20 @@ width: 100% !important;
   }
 }
 @media (max-width: 1550px) and (min-width: 1250px) {
+  code {
+    width: 79vw;
+  }
   #content, #header {
     width: 99% !important;
   }
   #index .thin {
     width: 100% !important;
+  }
+}
+@media (max-width: 1250px) {
+  
+  code {
+    width: 85vw ;
   }
 }
 @media (max-width: 1330px) and (min-width: 1000px) {
@@ -1504,7 +1516,7 @@ td.body {
 code {
   box-shadow: var(--box-shadow-inset);
   display: block;
-  width: 52vw;
+  /*! width: 52vw; */
   position: relative;
   margin: 1vw;
   padding: 1vw;
