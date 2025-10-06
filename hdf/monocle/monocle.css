@@ -1523,6 +1523,7 @@ code {
   font-family: Roboto-mono;
   white-space: nowrap;
   overflow-x: auto;
+  max-width: 98%;
 }
 blockquote {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow);
