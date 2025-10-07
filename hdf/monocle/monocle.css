@@ -1487,6 +1487,7 @@ form textarea {
 .colhead td {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   display: revert;
+  white-space: nowrap;
 }
 .colhead_dark td, .colhead {
   padding: 0rem;
