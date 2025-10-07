@@ -478,6 +478,18 @@ td.label {
 #ft_toggle, #ft_advanced_text font, #ft_basic_link font {
   color: var(--accent-color) !important;
 }
+
+#newthreadpreview .avatar {
+  position: relative;
+  top: unset;
+  min-width: unset;
+  max-width: unset;
+  transform: unset;
+  left: unset;
+}
+#newthreadpreview .body {
+  padding: unset;
+}
 /*@media (min-width: 1921px){
 .thin {
 width: 80%
