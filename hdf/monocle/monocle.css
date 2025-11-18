@@ -1922,6 +1922,13 @@ color: #c2bfbf !important;
 }
 /* STOP COLLECTIONS*/
 /*START RESULT PAGE*/
+.db-links-container.align-right {
+  position: relative;
+  top: unset;
+  right: unset;
+  float: right;
+  margin-left: 0.5rem;
+}
 .widethin {
   justify-content: space-around;
 }
