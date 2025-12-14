@@ -2470,6 +2470,24 @@ width: 90vw;
   display: inline-block;
   position: relative;
 }
+.premenu-links-group {
+  position: absolute;
+  top: 1rem;
+  width: 33rem;
+  right: 0.3rem;
+  text-align: right;
+  float: right;
+}
+#nav_advent_container {
+  position: absolute;
+  transform: translate(-81%,70%);
+}
+#nav_advent_container a {
+  font-size: 2.5rem;
+  animation: adventPulse 2s infinite ease-in-out;
+  animation-play-state: running;
+  transition: transform 0.2s ease;
+}
 .dropdown-submenu {
 }
 .premenu-links-group li.nav-dropdown ul li {
