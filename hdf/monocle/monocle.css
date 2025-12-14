@@ -453,17 +453,26 @@ td.label {
   top: 0.1rem;
   position: relative;
 }
-#premenu-links-group {
-  position: absolute;
-  top: 2.4rem;
+.premenu-links-group li.nav-dropdown ul {
+  display: none;
 }
-.premenu-links-group {
+.premenu-links-group li.nav-dropdown:hover ul {
+  display: block;
   position: absolute;
-  top: 1rem;
-  width: 33rem;
-  right: 0.3rem;
-  text-align: right;
-  /*! float: right; */
+  background-color: var(--background1);
+  box-shadow: var(--box-shadow-buttons), var(--box-shadow);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+.premenu-links-group li.nav-dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-submenu {
+}
+.premenu-links-group li.nav-dropdown ul li {
+  padding: 0.1rem;
 }
 #menu.menu-bar {
   position: relative;
