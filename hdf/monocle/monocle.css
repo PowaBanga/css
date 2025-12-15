@@ -386,6 +386,14 @@ input:focus {
   outline: 0 !important;
 }
 
+#index .thin > div.box {
+  order: 3;
+}
+#activeUsersList .user-item {
+  box-shadow: var(--box-shadow-buttons),var(--box-shadow-small),var(--box-shadow-messages-head) !important;
+  background: var(--background-buttons-menu) !important;
+  font-size: var(--font-size-small) !important;
+}
 /*START SEARCHBOX*/
 .submit.ft_submit input {
   box-shadow: var(--box-shadow-buttons);
@@ -2924,14 +2932,6 @@ width: 90vw;
     font-size: var(--font-size-small) !important;
     background: var(--background-buttons-menu),var(--background-buttons-menu) !important;
   }
-  #index .thin > div.box {
-  order: 3;
-}
-#activeUsersList .user-item {
-  box-shadow: var(--box-shadow-buttons),var(--box-shadow-small),var(--box-shadow-messages-head) !important;
-  background: var(--background-buttons-menu) !important;
-  font-size: var(--font-size-small) !important;
-}
   /*END INDEX*/
   /*START EVERYWHERE*/
   #content {
