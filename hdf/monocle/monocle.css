@@ -2920,13 +2920,18 @@ width: 90vw;
   #index .sidebar{
     width: 95%;
   }
-  #index .thin div.box {
-  order: 3;
-  }
   .user-item {
     font-size: var(--font-size-small) !important;
     background: var(--background-buttons-menu),var(--background-buttons-menu) !important;
   }
+  #index .thin > div.box {
+  order: 3;
+}
+#activeUsersList .user-item {
+  box-shadow: var(--box-shadow-buttons),var(--box-shadow-small),var(--box-shadow-messages-head) !important;
+  background: var(--background-buttons-menu) !important;
+  font-size: var(--font-size-small) !important;
+}
   /*END INDEX*/
   /*START EVERYWHERE*/
   #content {
