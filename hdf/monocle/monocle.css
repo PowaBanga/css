@@ -508,7 +508,7 @@ td.label {
   margin-bottom: 1rem;
 }
 #header .header-content-limiter #head {
-  margin-bottom: 5.5rem;
+  margin-bottom: -1.6rem;
 }
 .user-stats-ratio {
   /*! width: 28rem; */
@@ -607,11 +607,11 @@ td.label {
   position: absolute ;
   top: 1.1rem;
   width: 100%;
-  padding: 0rem 3.7rem;
+  padding: 0rem 3.7rem 0rem 1109px;
   text-align: right ;
   /*! float: right; */
   font-size: var(--font-size-small);
-  height: 4rem;
+  height: 2.5rem;
 }
 
 .premenu-links-group li.nav-dropdown ul li {
