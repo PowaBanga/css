@@ -538,6 +538,7 @@ td.label {
   /*! text-align: right; */
   /*! float: right; */
   font-size: var(--font-size-small);
+  z-index: 1;
 }
 .user-name-class span.userclass {
   /*! display: none; */
@@ -578,6 +579,17 @@ td.label {
   top: 1rem;
   position: relative;
   width: max-content;
+}
+/*Advent Page*/
+.advent-header {
+  width: 100%;
+}
+.alertbar {
+  margin: 0 12vw !important;
+  width: 100%;
+}
+.box.pad.advent-calendar-main {
+  width: 100%;
 }
 /*END FIX*/
 #header {
