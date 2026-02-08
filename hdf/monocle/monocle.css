@@ -534,7 +534,7 @@ td.label {
   /*! text-align: right; */
   top: -1.3rem;
   /*! width: 39rem; */
-  margin: auto 69% auto 8rem;
+  margin: auto 60% auto 8rem;
   /*! text-align: right; */
   /*! float: right; */
   font-size: var(--font-size-small);
@@ -629,7 +629,7 @@ td.label {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow);
   padding: 0.2rem 0.4rem;
   border-radius: 0.4rem;
-  z-index: 1;
+  z-index: 3;
 }
 .premenu-links-group li.nav-dropdown {
   display: inline-block;
@@ -642,7 +642,7 @@ td.label {
   position: absolute ;
   top: 2.1rem;
   width: 100%;
-  padding: 0rem 3.7rem 0 66%;
+  padding: 0rem 3.7rem 0rem 66%;
   text-align: right ;
   /*! float: right; */
   font-size: var(--font-size-small);
@@ -815,27 +815,7 @@ width: 100% !important;
     width: 1506px;
   }
 }
-@media (max-width: 1550px) and (min-width: 1250px) {
-  code {
-    width: 79vw;
-  }
-  #content, #header {
-    width: 99% !important;
-  }
-  #index .thin {
-    width: 100% !important;
-  }
-}
-@media (max-width: 1250px) {
-  
-  code {
-    width: 85vw ;
-  }
-}
-@media (max-width: 1330px) and (min-width: 1000px) {
 
-
-}
 @media (max-width: 1249px) {
   #content, #header {
     width: 99% !important;;
@@ -1153,6 +1133,7 @@ body#index div#wrapper div#content br {
 }
 #scroll-buttons{
   right: 4vw;
+  z-index: 2 !important;
 }
 .torrents_container {
   background: unset !important;
