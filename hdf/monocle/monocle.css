@@ -1922,7 +1922,7 @@ color: #c2bfbf !important;
   margin: 0 auto 3rem auto !important;
   position: relative;
   display: block;
-  width: 80vw;
+  width: 100%;
   text-align: center;
 }
 #request_form > div ul {
