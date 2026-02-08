@@ -533,8 +533,8 @@ td.label {
   position: relative;
   /*! text-align: right; */
   top: -1.3rem;
-  width: 17rem;
-  margin: auto auto auto 8rem;
+  /*! width: 39rem; */
+  margin: auto 69% auto 8rem;
   /*! text-align: right; */
   /*! float: right; */
   font-size: var(--font-size-small);
@@ -642,7 +642,7 @@ td.label {
   position: absolute ;
   top: 2.1rem;
   width: 100%;
-  padding: 0rem 3.7rem 0rem 1109px;
+  padding: 0rem 3.7rem 0 66%;
   text-align: right ;
   /*! float: right; */
   font-size: var(--font-size-small);
@@ -834,44 +834,7 @@ width: 100% !important;
 }
 @media (max-width: 1330px) and (min-width: 1000px) {
 
-  #userinfo_major {
-    position: relative !important;
-    top: -1.2em !important;
-    left: unset !important;
-    transform: unset !important;
-    float: right;
-  }
-  #userinfo_minor {
-    position: absolute !important;
-    margin-top: 1.8em !important;
-    /*! width: 100%; */
-  }
-  #menu {
-    top: 0rem;
-    position: relative;
-    width: 100%;
-    margin: 4.2rem auto 0rem auto;
-  }
-  #userinfo_username{
 
-  }
-  #logo {
-    position: absolute;
-    width: 15.5rem;
-    height: 5.2rem;
-    top: 0.1rem;
-  }
-  #userinfo_stats {
-    top: -3.5em !important;
-    left: 15.1rem !important;
-    width: 20.7rem;
-  }
-
-  .donation-tooltip {
-    transform: unset !important;
-    left: unset !important;
-    right: -3.6%;
-  }
 }
 @media (max-width: 1249px) {
   #content, #header {
