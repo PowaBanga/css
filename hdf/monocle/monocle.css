@@ -621,6 +621,7 @@ td.label {
 }
 .premenu-links-group li.nav-dropdown ul {
   display: none;
+  text-align: center;
 }
 .premenu-links-group li.nav-dropdown:hover ul {
   display: block;
@@ -1027,6 +1028,9 @@ div#searchbars ul {
 }
 #searchbars input {
   width: 100%;
+}
+#searchbars .search_form {
+  padding: 0 0.3rem 0 0.3rem;
 }
 .autocomplete-suggestion {
   color: var(--text-color);
