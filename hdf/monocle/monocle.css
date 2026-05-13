@@ -362,10 +362,10 @@ input[type="radio"]:checked::after {
 #tags_type1, #tags_type0 {
   width: 15px;
 }
-.contribute-button, .submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a, .button-primary, input[type=file]::file-selector-button, button  {
+.toast-tuck-btn, .toast-btn, .contribute-button, .submit input, #buttons input, input[type="submit"], input[type="button"], .linkbox .brackets, #newthreadtext .brackets, #load-more-forums, #index .sidebar .pad div a, .button-primary, input[type=file]::file-selector-button, button  {
   box-shadow: var(--box-shadow-buttons), var(--box-shadow-messages-head),var(--box-shadow) !important;
   cursor: pointer;
-  width: auto !important;
+  width: auto !important;quotes:  
   padding: 0.4rem !important;
   background: var(--background-radial-white) !important;
   border:  0.06rem solid var(--accent-color) !important;
@@ -375,9 +375,15 @@ input[type="radio"]:checked::after {
   border-radius: 0.4rem !important;
   white-space: normal;
   font-size: var(--font-size-normal) !important;
+  opacity: 1 !important;
 }
-.contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover, .button-primary:hover, input[type=file]::file-selector-button:hover, button:hover   {
+.toast-tuck-btn:hover, .toast-btn:hover,.contribute-button:hover, .submit input:hover, #buttons input:hover, input[type="submit"]:hover, input[type="button"]:hover, .linkbox .brackets:hover, #newthreadtext .brackets:hover, #load-more-forums:hover, #index .sidebar .pad div a:hover, .button-primary:hover, input[type=file]::file-selector-button:hover, button:hover   {
   box-shadow: var(--box-shadow-small), var(--box-shadow-messages-head),var(--box-shadow-small),var(--box-shadow-buttons-hover) !important;
+}
+#gazelle-toast-container {
+  /*! margin: 1rem !important; */
+  gap: 1rem;
+  bottom: 1rem;
 }
 .linkbox .brackets::before, .linkbox .brackets::after, #newthreadtext .brackets::before, #newthreadtext .brackets::after   {
   display: none;
@@ -1659,7 +1665,7 @@ form textarea {
 .colhead_dark div:first-child > span + a:after, .colhead_dark div:first-child > span + a + a:after, .colhead_dark .brackets:nth-child(1):after , .colhead_dark .brackets:nth-child(2):after, .box.news_post .brackets:after, .box.news_post .brackets:before  {
   display: none;
 }
-.colhead_dark .brackets, .box.news_post .brackets, .brackets {
+ .toast-btn, .colhead_dark .brackets, .box.news_post .brackets, .brackets {
   padding: 0.3rem 0.8rem 0.5rem 0.7rem;
   font-size: var(--font-size-small);
   background: var(--background-buttons-menu);
@@ -1671,8 +1677,16 @@ form textarea {
   display: inline-block;
   border: solid 0.06rem var(--accent-color);
 }
+.gazelle-toast.toast-info.toast-glow,.gazelle-toast.toast-success.toast-visible {
+  background-color: var(--background1);
+  /*! border-color: ; */
+  border-width: 0px;
+  box-shadow: var(--box-shadow),var(--box-shadow),var(--box-shadow-buttons);
+  opacity: 96%;
+  color: var(--text-color);
 .colhead_dark .brackets:hover, .box.news_post .brackets:hover, .brackets:hover {
   box-shadow: var(--box-shadow-buttons-hover);
+  margin-block: 0.2rem !important;
 }
 .brackets::before, .brackets::after {
   display: none;
