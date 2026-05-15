@@ -1780,14 +1780,50 @@ blockquote {
 }
 /*END WIKI*/
 /*START EDIT AREA*/
-#newthreadtext {
+
+.wysibb {
+  border: 0px;
+  background: var(--background1);
+  font-size: 1rem;
+}
+.wysibb-toolbar {
+  border-bottom: 0px !important;
+  position: relative;
+  padding: 0 4.4rem 0 0 !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container {
+  border-right: 0px;
+}
+.wysibb .wysibb-toolbar {
+  background-color: var(--background-rowb);
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+  color: var(--text-color);
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+  text-shadow: 0px 1px 0px var(--background-buttons-menu);
+}
+.wysibb .modesw, .wysibb .wbb-list, .wysibb .wbb-fontsize {
+  color: var(--text-color);
+}
+.wysibb-text-editor {
+  background-color: var(--background1);
+  box-shadow: var(--box-shadow-inset);
+}
+#reply_box {
+  width: 100%;
+}
+.wysibb-body {
+  color: var(--text-color);
+}
+  /*#newthreadtext {
   width: 100%;
 }
 #forums .box.pad {
   width: 100%;
-}
+}*/
 /*breadcrumb c'est la ligne du chemin du topic/forum actuel en bas de page*/
-.breadcrumbs {
+/*.breadcrumbs {
   margin: 0em auto 0em 0em;
   display: block;
 }
@@ -1819,11 +1855,11 @@ table#newthreadtext.layout tbody tr td:nth-child(3) {
   border: none !important;
 }
 .wysibb-toolbar {
-}
+}*/
 /*.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
 color: #c2bfbf !important;
 }*/
-.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
+/*.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
   color: var(--text-color) !important;
   font-size: 1.7em !important;
   text-shadow: none !important;
@@ -1907,7 +1943,7 @@ color: #c2bfbf !important;
   font-size: var(--font-size-small) !important;
   font-family: var(--font-family-principal) !important;
   color: var(--text-color) !important;
-}
+}*/
 /*END EDIT AREA*/
 /*END FORUM*/
 /*START INBOX*/
